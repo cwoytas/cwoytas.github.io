@@ -1,4 +1,9 @@
-html {}
+@font-face {
+    font-family: emoji;
+    src: local('Apple Color Emoji'), local('Android Emoji'), local('Segoe UI'), local(EmojiSymbols), local(Symbola), url('font/Symbola-Emoji.eot?#iefix') format('embedded-opentype'), url('font/Symbola-Emoji.woff') format('woff'), url('font/Symbola-Emoji.ttf') format('truetype');
+    /* Emoji unicode blocks */
+    unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
+}
 
 #Style,
 #Style2,
@@ -24,13 +29,6 @@ html {}
     visibility: hidden;
 }
 
-@font-face {
-    font-family: emoji;
-    src: local('Apple Color Emoji'), local('Android Emoji'), local('Segoe UI'), local(EmojiSymbols), local(Symbola), url('font/Symbola-Emoji.eot?#iefix') format('embedded-opentype'), url('font/Symbola-Emoji.woff') format('woff'), url('font/Symbola-Emoji.ttf') format('truetype');
-    /* Emoji unicode blocks */
-    unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
-}
-
 body {
     background: #fff;
     color: #000000;
@@ -38,7 +36,19 @@ body {
     height: 100vw;
     margin: 0;
 }
+/*about paragraph*/
 
+.aRight {
+    position: absolute;
+    right: 0vw;
+    top: 5vh;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 32px;
+    padding-right: 10vw;
+    width: 30vw;
+}
+/*BIG MAIN TITLE*/
 h1 {
     padding-top: 100px;
     padding-bottom: 60px;
@@ -55,16 +65,12 @@ h1 a {
     text-decoration: none;
     
 }
-
+/*MENU LIST*/
 h2 {
     margin-top: 0px;
     font-weight: 400;
     font-size: 14px;
     line-height: 36px;
-}
-
-h2 ul {
-    padding-left: 15vh;
 }
 
 h2 a:hover {
@@ -74,34 +80,32 @@ h2 a:visited {
     color: #0000EE;
 }
 
+h2 ul {
+    padding-left: 15vh;
+}
+/*NOT SURE*/
 h3 {
     margin-top: 0px;
     font-size: 16px;
     line-height: 36px;
 }
-
-h4 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    color: #000000;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 42px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
+h3 ul {
+    padding-top: 30vh;
+    padding-left: 15vh;
+    font-weight: 400;
 }
 
-h4 a {
-    text-decoration: none;
+h3 ul a {
+    color: #0000EE;
 }
 
+/*MENU LIST HEADERS*/
 h7 {
     line-height: 42px;
     font-size: 12px;
     font-weight: 400;
 }
-
+/*BACK BUTTON*/
 .back {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -113,20 +117,26 @@ h7 {
     position: fixed;
     top: 40px;
     left: -10px;
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
-
-.emoji {
+.back a {
+    text-decoration: none;
+}
+/*LIST EMOJIS*/
+.emojiL {
     font-size: 14px;
     font-family: emoji;
     letter-spacing: 4px;
     padding-right: 15px;
-}
-
-.emoji2 {
-    font-size: 14px;
-    font-family: emoji;
-    letter-spacing: 4px;
-    padding-left: 15px;
 }
 
 #Style_emoji,
@@ -138,10 +148,15 @@ h7 {
 #Style7_emoji,
 #Style8_emoji,
 #Style9_emoji {
+    font-size: 14px;
+    font-family: emoji;
     letter-spacing: 4px;
     padding-left: 15px;
 }
-
+/*LIST HOVER CURSORS*/
+.about:hover {
+    cursor: url('../assets/cursors/pointer-emoji.png'), auto;
+}
 .house:hover {
     cursor: url('../assets/cursors/big-hand.png'), auto;
 }
@@ -149,8 +164,12 @@ h7 {
 .netronome:hover {
     cursor: url('../assets/cursors/rock-emoji.png'), auto;
 }
-.loosies:hover {
-    cursor: url('../assets/cursors/pointer-emoji.png'), auto;
+.intern:hover {
+    cursor: url('../assets/cursors/eyes.png'), auto;
+}
+.capstone:hover {
+    cursor: url('../assets/cursors/inspect.png'), auto;
+    text-decoration-color: black;
 }
 .history:hover {
     cursor: url('../assets/cursors/kimoji.png'), auto;
@@ -158,30 +177,47 @@ h7 {
     text-decoration-color: #0000ee;
     color: #0000ee;
 }
-
-.about:hover {
-    cursor: url('../assets/cursors/pointer-emoji.png'), auto;
-}
-.random:hover {}
-
 .farmhand:hover {
     cursor: url('../assets/cursors/nope.png'), auto;
     text-decoration: line-through;
     text-decoration-color: #0000ee;
     color: #0000ee;
 }
+.loosies:hover {
+    cursor: url('../assets/cursors/pointer-emoji.png'), auto;
+}
+/******HOVER STATE IMAGES******/
 
-.capstone:hover {
-    cursor: url('../assets/cursors/inspect.png'), auto;
-    text-decoration-color: black;
+/*about*/
+
+.headshot {
+    position: absolute;
+    z-index: 3;
+    bottom: 5vh;
+    right: 5vw;
+    height: auto;
+    width: 20vw;
 }
 
-.intern:hover {
-    cursor: url('../assets/cursors/eyes.png'), auto;
+.contactcard {
+    position: absolute;
+    z-index: 1;
+    top: 10vh;
+    right: 20vw;
+    height: auto;
+    width: 35vw;
 }
 
+.email {
+    position: absolute;
+    z-index: 4;
+    bottom: -30vh;
+    left: 0vw;
+    height: auto;
+    width: 60vw;
+}
 
-/*house pictures*/
+/*house*/
 
 .hand {
     position: absolute;
@@ -221,7 +257,7 @@ h7 {
 }
 
 
-/*netronome pictures*/
+/*netronome*/
 
 .info-arch {
     position: absolute;
@@ -259,6 +295,79 @@ h7 {
     width: 65vw;
 }
 
+/*intern*/
+
+.pw3 {
+    position: absolute;
+    z-index: 25;
+    bottom: 30vh;
+    right: 8vw;
+    height: 45vh;
+    width: auto;
+}
+.pw2 {
+    position: absolute;
+    z-index: 50;
+    top: 0vh;
+    right: 0vw;
+    height: 36vh;
+    width: auto;
+}
+.hovering {
+    position: absolute;
+    z-index: 1;
+    top: 5vh;
+    right: 40vw;
+    width: 15vw;
+    height: auto;
+    
+}
+.maps {
+    position: absolute;
+    z-index: -10;
+    bottom: 1vh;
+    right: 2vw;
+    height: auto;
+    width: 70vw;
+}
+
+/*capstone*/
+
+.pitch {
+    position: absolute;
+    z-index: 3;
+    bottom: 10vh;
+    right: 8vw;
+    width: 35vw;
+    height: auto;
+}
+
+.textblock {
+    position: absolute;
+    z-index: 10;
+    bottom: 8vh;
+    left: 40vw;
+    width: 10vw;
+    height: auto;
+}
+
+.users {
+    position: absolute;
+    z-index: 4;
+    top: 1vw;
+    left: 35vw;
+    width: 22vw;
+    height: auto;
+}
+
+.watch {
+    position: absolute;
+    z-index: 1;
+    top: 0vh;
+    right: 0vw;
+    width: 50vw;
+    height: auto;
+}
 
 /*history*/
 
@@ -314,46 +423,6 @@ ul {
     padding-left: 0px;
 }
 
-
-/*capstone*/
-
-.pitch {
-    position: absolute;
-    z-index: 3;
-    bottom: 10vh;
-    right: 8vw;
-    width: 35vw;
-    height: auto;
-}
-
-.textblock {
-    position: absolute;
-    z-index: 10;
-    bottom: 8vh;
-    left: 40vw;
-    width: 10vw;
-    height: auto;
-}
-
-.users {
-    position: absolute;
-    z-index: 4;
-    top: 1vw;
-    left: 35vw;
-    width: 22vw;
-    height: auto;
-}
-
-.watch {
-    position: absolute;
-    z-index: 1;
-    top: 0vh;
-    right: 0vw;
-    width: 50vw;
-    height: auto;
-}
-
-
 /*farmhand*/
 
 .farm {
@@ -375,92 +444,3 @@ ul {
 }
 
 
-/*about*/
-
-.headshot {
-    position: absolute;
-    z-index: 3;
-    bottom: 5vh;
-    right: 5vw;
-    height: auto;
-    width: 20vw;
-}
-
-/*intern*/
-
-.pw3 {
-    position: absolute;
-    z-index: 25;
-    bottom: 30vh;
-    right: 8vw;
-    height: 45vh;
-    width: auto;
-}
-.pw2 {
-    position: absolute;
-    z-index: 50;
-    top: 0vh;
-    right: 0vw;
-    height: 36vh;
-    width: auto;
-}
-.hovering {
-    position: absolute;
-    z-index: 1;
-    top: 5vh;
-    right: 40vw;
-    width: 15vw;
-    height: auto;
-    
-}
-.maps {
-    position: absolute;
-    z-index: -10;
-    bottom: 1vh;
-    right: 2vw;
-    height: auto;
-    width: 70vw;
-}
-/*contact*/
-
-.contactcard {
-    position: absolute;
-    z-index: 1;
-    top: 10vh;
-    right: 20vw;
-    height: auto;
-    width: 35vw;
-}
-
-.email {
-    position: absolute;
-    z-index: 4;
-    bottom: -30vh;
-    left: 0vw;
-    height: auto;
-    width: 60vw;
-}
-
-h9 {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 32px;
-}
-
-.aRight {
-    position: absolute;
-    right: 0vw;
-    top: 5vh;
-    padding-right: 10vw;
-    width: 30vw;
-}
-
-h3 ul {
-    padding-top: 30vh;
-    padding-left: 15vh;
-    font-weight: 400;
-}
-
-h3 ul a {
-    color: #0000EE;
-}
