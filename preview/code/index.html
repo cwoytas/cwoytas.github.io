@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>@c0ltDawg</title>
+    <meta name="description" content="Colton Woytas Design Portfolio">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<style>
+    html {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        cursor: url('assets/cursors/pointer-emoji.png'), auto;
+    }
+    #Style3_li, #Style6_li {
+        padding-bottom: 12px;
+    }
+</style>
+<script language="Javascript">
+    function ShowPicture(id, Source) {
+        if (Source == "1") {
+            if (document.layers) document.layers['' + id + ''].visibility = "show"
+            else if (document.all) document.all['' + id + ''].style.visibility = "visible"
+            else if (document.getElementById) document.getElementById('' + id + '').style.visibility = "visible"
+        } else
+        if (Source == "0") {
+            if (document.layers) document.layers['' + id + ''].visibility = "hide"
+            else if (document.all) document.all['' + id + ''].style.visibility = "hidden"
+            else if (document.getElementById) document.getElementById('' + id + '').style.visibility = "hidden"
+        }
+        hideTitles(id, Source);
+        hideEmojis(id, Source);
+    }
+/*
+    function hideTitles(id, Source) {
+        if (Source == "1") {
+            document.getElementById('Style_li').style.visibility = "hidden";
+            document.getElementById('Style2_li').style.visibility = "hidden";
+            document.getElementById('Style3_li').style.visibility = "hidden";
+            document.getElementById('Style4_li').style.visibility = "hidden";
+            document.getElementById('Style5_li').style.visibility = "hidden";
+            document.getElementById('Style6_li').style.visibility = "hidden";
+            document.getElementById(id + '_li').style.visibility = "visible";
+        } else {
+            document.getElementById('Style_li').style.visibility = "visible";
+            document.getElementById('Style2_li').style.visibility = "visible";
+            document.getElementById('Style3_li').style.visibility = "visible";
+            document.getElementById('Style4_li').style.visibility = "visible";
+            document.getElementById('Style5_li').style.visibility = "visible";
+            document.getElementById('Style5_li').style.visibility = "visible";
+            document.getElementById('Style5_li').style.visibility = "visible";
+            document.getElementById('Style6_li').style.visibility = "visible";
+        }
+    }
+ */
+    
+        function hideTitles(id, Source)
+        {
+             if (Source=="1")
+            {
+                document.getElementById('Style_li').style.opacity = ".4";
+                document.getElementById('Style2_li').style.opacity = ".4";             
+                document.getElementById('Style3_li').style.opacity = ".4";             
+                document.getElementById('Style4_li').style.opacity = ".4";             
+                document.getElementById('Style5_li').style.opacity = ".4";
+                document.getElementById('Style6_li').style.opacity = ".4";
+                document.getElementById('Style7_li').style.opacity = ".4";
+                document.getElementById('Style8_li').style.opacity = ".4";
+                document.getElementById('Style9_li').style.opacity = ".4";
+                document.getElementById(id + '_li').style.opacity = "1";  
+            }
+            else
+            {
+                document.getElementById('Style_li').style.opacity = "1";             
+                document.getElementById('Style2_li').style.opacity = "1";             
+                document.getElementById('Style3_li').style.opacity = "1";             
+                document.getElementById('Style4_li').style.opacity = "1";             
+                document.getElementById('Style5_li').style.opacity = "1";
+                document.getElementById('Style6_li').style.opacity = "1";
+                document.getElementById('Style7_li').style.opacity = "1";
+                document.getElementById('Style8_li').style.opacity = "1";
+                document.getElementById('Style9_li').style.opacity = "1";
+            }
+        }
+       
+    function hideEmojis(id, Source) {
+        if (Source == "1") {
+            document.getElementById('Style_emoji').style.visibility = "hidden";
+            document.getElementById('Style2_emoji').style.visibility = "hidden";
+            document.getElementById('Style3_emoji').style.visibility = "hidden";
+            document.getElementById('Style4_emoji').style.visibility = "hidden";
+            document.getElementById('Style5_emoji').style.visibility = "hidden";
+            document.getElementById('Style6_emoji').style.visibility = "hidden";
+            document.getElementById('Style7_emoji').style.visibility = "hidden";
+            document.getElementById('Style8_emoji').style.visibility = "hidden";
+            document.getElementById('Style9_emoji').style.visibility = "hidden";
+            document.getElementById(id + '_emoji').style.visibility = "visible";
+        } else {
+            document.getElementById('Style_emoji').style.visibility = "hidden";
+            document.getElementById('Style2_emoji').style.visibility = "hidden";
+            document.getElementById('Style3_emoji').style.visibility = "hidden";
+            document.getElementById('Style4_emoji').style.visibility = "hidden";
+            document.getElementById('Style5_emoji').style.visibility = "hidden";
+            document.getElementById('Style6_emoji').style.visibility = "hidden";
+            document.getElementById('Style7_emoji').style.visibility = "hidden";
+            document.getElementById('Style8_emoji').style.visibility = "hidden";
+            document.getElementById('Style9_emoji').style.visibility = "hidden";
+        }
+    }
+</script>
+
+<body>
+    <h1><a href="about.html" class="about" onMouseOver="ShowPicture('Style10',1)" onMouseOut="ShowPicture('Style10',0)">Colton Woytas</a></h1>
+    <h2>   
+            <ul>
+                <h7>CURRENT</h7>
+                <li id="Style_li">
+                <span class="emoji">🔥</span><a href="house.html" class="house" onMouseOver="ShowPicture('Style',1)" onMouseOut="ShowPicture('Style',0)">Naturally adjusting home comfort relative to how you feel</a><span id="Style_emoji">🔥</span>
+                </li>
+                
+                <li id="Style2_li">
+                <span class="emoji">🎵</span><a href="netronome.html" class="netronome" onMouseOver="ShowPicture('Style2',1)" onMouseOut="ShowPicture('Style2',0)">Making beats based on the frequency of internet events</a><span id="Style2_emoji">🎵</span>
+                </li>
+                
+                
+                <li id="Style3_li">
+                <span class="emoji">🌲</span><a href="intern.html" class="intern" onMouseOver="ShowPicture('Style3',1)" onMouseOut="ShowPicture('Style3',0)">Overview of work while interning at Brault & Barnes</a><span id="Style3_emoji">🌲</span>
+                </li>
+                
+                <h7>WIP</h7>
+                
+                <li id="Style4_li">
+                <span class="emoji">⌚️</span><a href="capstone.html" class="capstone" onMouseOver="ShowPicture('Style4',1)" onMouseOut="ShowPicture('Style4',0)">Using wearables for digital ambient communication</a><span id="Style4_emoji">⌚️</span>
+                    
+                </li>
+                <li id="Style5_li">
+                <span class="emoji">🗽</span><a href=# class="history" onMouseOver="ShowPicture('Style5',1)" onMouseOut="ShowPicture('Style5',0)">Creating historical experiences in context</a><span id="Style5_emoji">🗽</span>
+                    
+                </li>
+                <li id="Style6_li">
+                <span class="emoji">🚜</span><a href=# class="farmhand" onMouseOver="ShowPicture('Style6',1)" onMouseOut="ShowPicture('Style6',0)">Helping grain farmers be more efficient</a><span id="Style6_emoji">🚜</span>
+                </li>
+                
+                <h7>LOOSIES</h7>
+                
+                <li id="Style7_li">
+                <span class="emoji">🚗</span><a href="#" class="loosies" onMouseOver="ShowPicture('Style7',1)" onMouseOut="ShowPicture('Style7',0)">BMW-Tracking_Pitch.pdf</a><span id="Style7_emoji">🚗</span>
+                </li>
+                
+                <li id="Style8_li">
+                <span class="emoji">⚖</span><a href="#" class="loosies" onMouseOver="ShowPicture('Style8',1)" onMouseOut="ShowPicture('Style8',0)">PoliQuote_Process.pdf</a><span id="Style8_emoji">⚖</span>
+                </li>
+                
+                <li id="Style9_li">
+                <span class="emoji">👻</span><a href="#" class="loosies" onMouseOver="ShowPicture('Style9',1)" onMouseOut="ShowPicture('Style9',0)">LaCroix_ad-hockey.mp4</a><span id="Style9_emoji">👻</span>
+                </li>
+                
+            </ul>
+        </h2>
+
+    <div id="Style">
+        <img src="assets/house/yellow-hand-4x.png" alt="emoji-hand" class='hand' />
+        <img src="assets/house/contents-2x.png" alt="emoji-hand" class='contents' />
+        <img src="assets/house/deck-cover-2x.png" alt="emoji-hand" class='deck-cover' />
+        <img src="assets/house/video-2x.png" alt="emoji-hand" class='video' />
+    </div>
+    <div id="Style2">
+        <img src="assets/netronome/info-arch-2x.png" alt="emoji-hand" class='info-arch' />
+        <img src="assets/netronome/rainbow-2x.png" alt="emoji-hand" class='rainbow' />
+        <img src="assets/netronome/stats-2x.png" alt="emoji-hand" class='stats' />
+        <img src="assets/netronome/video-2x.png" alt="emoji-hand" class='video2' />
+    </div>
+    <div id="Style3">
+        <img src="assets/intern/powerwall-2.png" alt="emoji-hand" class='pw2' />
+        <img src="assets/intern/powerwall-3.png" alt="emoji-hand" class='pw3' />
+        <img src="assets/intern/maps-wf.jpg" alt="emoji-hand" class='maps' />
+        <img src="assets/intern/hovering.png" alt="emoji-hand" class='hovering' />
+    </div>
+    <div id="Style4">
+        <img src="assets/capstone/pitch-2x.png" alt="emoji-hand" class='pitch' />
+        <img src="assets/capstone/textblock-2x.png" alt="emoji-hand" class='textblock' />
+        <img src="assets/capstone/users-2x.png" alt="emoji-hand" class='users' />
+        <img src="assets/capstone/watch-2x.png" alt="emoji-hand" class='watch' />
+    </div>
+    
+    <div id="Style5">
+        
+
+        <img src="assets/history/stick-small-2x.png" alt="emoji-hand" class='stick-small' />
+        <img src="assets/history/wip-2x.png" alt="emoji-hand" class='wip' />
+    </div>
+    <div id="Style6">
+        <img src="assets/farmhand/farm-mix.png" alt="emoji-hand" class='farm' />
+        <img src="assets/farmhand/stick-big-2x.png" alt="emoji-hand" class='stick-big' />
+    </div>
+    <div id="Style7">
+    </div>
+    <div id="Style8">
+    </div>
+    <div id="Style9">
+    </div>
+    <div id="Style10">
+        <img src="assets/contact/contactcard-2x.png" alt="emoji-hand" class='contactcard' />
+        <img src="assets/about/headshot.png" alt="emoji-hand" class='headshot' />
+    </div>
+</body>
+
+</html>

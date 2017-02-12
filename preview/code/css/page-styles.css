@@ -1,0 +1,378 @@
+html {}
+
+#netronome_container {
+    width: 100vw;
+    /* Adjust TV image width */
+    height: auto;
+    /* Adjust TV image height */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#netronome_container img {
+    width: 100%;
+    height: auto;
+}
+
+#netronome_container iframe {
+    position: absolute;
+    top: 4.7%;
+    /* Adjust top position */
+    left: 3%;
+    /* Adjust left position */
+    z-index: 10;
+}
+
+#house_container {
+    width: 100vw;
+    /* Adjust TV image width */
+    height: auto;
+    /* Adjust TV image height */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#house_container img {
+    width: 100%;
+    height: auto;
+}
+
+#house_container iframe {
+    position: absolute;
+    top: 6%;
+    /* Adjust top position */
+    left: 3.14%;
+    /* Adjust left position */
+    z-index: 10;
+}
+
+#capstone_container {
+    width: 100vw;
+    /* Adjust TV image width */
+    height: auto;
+    /* Adjust TV image height */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#capstone_container img {
+    width: 100%;
+    height: auto;
+}
+
+#capstone_container iframe {
+    position: absolute;
+    top: 4.6%;
+    /* Adjust top position */
+    left: 2.99%;
+    /* Adjust left position */
+    z-index: 10;
+}
+
+body {
+    background: #fff;
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 38px;
+    /*background-image: url("assets/netronome/bg-dots.png");
+    background-repeat: repeat;*/
+}
+
+.emoji {
+    font-family: emoji;
+    letter-spacing: 2px;
+    padding-right: 20px;
+}
+
+.emoji2 {
+    font-family: emoji;
+    letter-spacing: 2px;
+    padding-left: 20px;
+}
+
+.emoji-big {
+    padding-right: 40px;
+    font-size: 50px;
+}
+
+.emoji2-big {
+    padding-left: 40px;
+    font-size: 50px;
+}
+
+.emoji-rotate-div {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    z-index: 1;
+    top: 150vh;
+    right: 20vw;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.box {
+    background-image: url(assets/cursors/pointer-emoji.png);
+    width: 25px;
+    height: 41px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.boxTwo {
+    background-image: url(assets/cursors/pointer-emoji-left.png);
+    width: 25px;
+    height: 41px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.download {
+    display: flex;
+    position: relative;
+    padding-bottom: 15vh;
+    padding-top: 15vh;
+    width: ;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 30;
+}
+
+.download a {
+    color: #0000ff;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 400;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.download a:hover {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #0000ee;
+    padding: 5px;
+}
+
+h4 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h4 a {
+    text-decoration: none;
+}
+ .back {
+    -webkit-transform: rotate(90deg); 
+     -moz-transform: rotate(90deg); 
+      -ms-transform: rotate(90deg); 
+       -o-transform: rotate(90deg); 
+          transform: rotate(90deg);
+        width: auto;
+        height: auto;
+        position: fixed;
+        top: 40px;
+        left: -10px;
+     z-index: 100;
+}
+h6 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+h7 {
+    font-weight: bold;
+}
+
+#content {
+    font-size: 14px;
+    padding-top: 100px;
+    line-height: 24px;
+}
+
+.content-center {
+    width: 450px;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 30px;
+    padding-top: 0vh;
+    padding-bottom: 20vh;
+}
+
+.content-right {
+    width: 40vw;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.content-right a {
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 50vh;
+}
+
+.right {
+    float: right;
+    width: 50vh;
+}
+
+ol {
+    padding-top: 3vh;
+    padding-bottom: 25vh;
+}
+
+ol li {
+    padding: 10px;
+    list-style: upper-roman;
+    list-style-position: outside;
+    padding-right: 35%;
+}
+
+h10 {
+    color: darkgray;
+    font-weight: 500;
+}
+
+.brief {
+    color: darkgray;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 1600px) {
+    #netronome_container iframe {
+        height: 86%;
+        width: 93.5%;
+        left: 3.3%;
+    }
+    #house_container iframe {
+        position: absolute;
+        height: 83.5%;
+        width: 93.2%;
+        top: 6%;
+        left: 3.6%;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    h5 {
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .emoji {
+        font-family: emoji;
+        letter-spacing: 2px;
+        padding-right: 15px;
+    }
+    .emoji2 {
+        font-family: emoji;
+        letter-spacing: 2px;
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #house_container iframe {
+        position: absolute;
+        height: 82%;
+        width: 93.2%;
+        top: 6%;
+        left: 3.2%;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .back {
+        top: 20px;
+    }
+}
+@media screen and (max-width: 840px) {
+    #netronome_container iframe {
+        height: 84.8%;
+        width: 93.5%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    h5 {
+        padding-top: 25px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .emoji {
+        font-family: emoji;
+        letter-spacing: 2px;
+        padding-right: 10px;
+    }
+    .emoji2 {
+        font-family: emoji;
+        letter-spacing: 2px;
+        padding-left: 10px;
+    }
+    #netronome_container iframe {
+        height: 84%;
+        width: 93.5%;
+    }
+    #house_container iframe {
+        position: absolute;
+        height: 80%;
+        width: 93.2%;
+        top: 6%;
+        left: 3.2%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    h5 {
+        padding-top: 25px;
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .emoji {
+        font-family: emoji;
+        letter-spacing: 2px;
+        padding-right: 10px;
+    }
+    .emoji2 {
+        font-family: emoji;
+        letter-spacing: 2px;
+        padding-left: 10px;
+    }
+    .content-center {
+        font-size: 14px;
+        width: 290px;
+    }
+}

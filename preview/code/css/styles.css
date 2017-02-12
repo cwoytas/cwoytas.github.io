@@ -1,0 +1,466 @@
+html {}
+
+#Style,
+#Style2,
+#Style3,
+#Style4,
+#Style5,
+#Style6,
+#Style7,
+#Style8,
+#Style9, #Style10 {
+    visibility: hidden;
+}
+
+#Style_emoji,
+#Style2_emoji,
+#Style3_emoji,
+#Style4_emoji,
+#Style5_emoji,
+#Style6_emoji,
+#Style7_emoji,
+#Style8_emoji,
+#Style9_emoji {
+    visibility: hidden;
+}
+
+@font-face {
+    font-family: emoji;
+    src: local('Apple Color Emoji'), local('Android Emoji'), local('Segoe UI'), local(EmojiSymbols), local(Symbola), url('font/Symbola-Emoji.eot?#iefix') format('embedded-opentype'), url('font/Symbola-Emoji.woff') format('woff'), url('font/Symbola-Emoji.ttf') format('truetype');
+    /* Emoji unicode blocks */
+    unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
+}
+
+body {
+    background: #fff;
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+    height: 100vw;
+    margin: 0;
+}
+
+h1 {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 45px;
+    margin-bottom: 0px;
+    padding-left: 15vh;
+}
+
+h1 a {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+h2 {
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+h2 ul {
+    padding-left: 15vh;
+}
+
+h2 a:hover {
+}
+
+h2 a:visited {
+    color: #0000EE;
+}
+
+h3 {
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+h4 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h4 a {
+    text-decoration: none;
+}
+
+h7 {
+    line-height: 42px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.back {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 40px;
+    left: -10px;
+}
+
+.emoji {
+    font-size: 14px;
+    font-family: emoji;
+    letter-spacing: 4px;
+    padding-right: 15px;
+}
+
+.emoji2 {
+    font-size: 14px;
+    font-family: emoji;
+    letter-spacing: 4px;
+    padding-left: 15px;
+}
+
+#Style_emoji,
+#Style2_emoji,
+#Style3_emoji,
+#Style4_emoji,
+#Style5_emoji,
+#Style6_emoji,
+#Style7_emoji,
+#Style8_emoji,
+#Style9_emoji {
+    letter-spacing: 4px;
+    padding-left: 15px;
+}
+
+.house:hover {
+    cursor: url('../assets/cursors/big-hand.png'), auto;
+}
+
+.netronome:hover {
+    cursor: url('../assets/cursors/rock-emoji.png'), auto;
+}
+.loosies:hover {
+    cursor: url('../assets/cursors/pointer-emoji.png'), auto;
+}
+.history:hover {
+    cursor: url('../assets/cursors/kimoji.png'), auto;
+    text-decoration: line-through;
+    text-decoration-color: #0000ee;
+    color: #0000ee;
+}
+
+.about:hover {
+    cursor: url('../assets/cursors/pointer-emoji.png'), auto;
+}
+.random:hover {}
+
+.farmhand:hover {
+    cursor: url('../assets/cursors/nope.png'), auto;
+    text-decoration: line-through;
+    text-decoration-color: #0000ee;
+    color: #0000ee;
+}
+
+.capstone:hover {
+    cursor: url('../assets/cursors/inspect.png'), auto;
+    text-decoration-color: black;
+}
+
+.intern:hover {
+    cursor: url('../assets/cursors/eyes.png'), auto;
+}
+
+
+/*house pictures*/
+
+.hand {
+    position: absolute;
+    z-index: 5;
+    bottom: 0px;
+    right: 0px;
+    height: 98vh;
+    max-height: 98vh;
+    width: auto;
+}
+
+.contents {
+    position: absolute;
+    z-index: 2;
+    bottom: -10vh;
+    left: 28vw;
+    height: auto;
+    width: 50vw;
+}
+
+.deck-cover {
+    position: absolute;
+    z-index: 1;
+    bottom: 0vh;
+    left: -10vw;
+    height: 30vw;
+    width: auto;
+}
+
+.video {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 35vw;
+    width: 48vw;
+    height: auto;
+}
+
+
+/*netronome pictures*/
+
+.info-arch {
+    position: absolute;
+    z-index: 10;
+    bottom: -2vh;
+    left: 0vw;
+    width: 50vw;
+    height: auto;
+}
+
+.rainbow {
+    position: absolute;
+    z-index: 4;
+    top: 5vh;
+    right: 10vw;
+    width: 20vw;
+    height: auto;
+}
+
+.stats {
+    position: absolute;
+    z-index: 10;
+    top: 0vh;
+    left: 10vw;
+    width: 32vw;
+    height: auto;
+}
+
+.video2 {
+    position: absolute;
+    z-index: 1;
+    bottom: 0vh;
+    right: -1vw;
+    height: auto;
+    width: 65vw;
+}
+
+
+/*history*/
+
+.linkedin {
+    position: absolute;
+    z-index: 3;
+    bottom: 3vh;
+    left: 1vw;
+    width: 15vw;
+    height: auto;
+}
+
+.sketch-w {
+    position: absolute;
+    z-index: 2;
+    top: 0vh;
+    right: 0vw;
+    width: auto;
+    height: 110vh;
+}
+
+.sketch-i {
+    position: absolute;
+    z-index: 3;
+    top: 22vh;
+    right: 20vw;
+    width: 8vw;
+    height: auto;
+}
+
+.stick-small {
+    position: absolute;
+    z-index: 10;
+    top: 18vh;
+    right: 33vw;
+    width: 18vw;
+    height: auto;
+}
+
+.wip {
+    position: absolute;
+    z-index: 8;
+    bottom: 1vw;
+    right: 1vw;
+    width: 50vw;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    text-align: left;
+    padding-left: 0px;
+}
+
+
+/*capstone*/
+
+.pitch {
+    position: absolute;
+    z-index: 3;
+    bottom: 10vh;
+    right: 8vw;
+    width: 35vw;
+    height: auto;
+}
+
+.textblock {
+    position: absolute;
+    z-index: 10;
+    bottom: 8vh;
+    left: 40vw;
+    width: 10vw;
+    height: auto;
+}
+
+.users {
+    position: absolute;
+    z-index: 4;
+    top: 1vw;
+    left: 35vw;
+    width: 22vw;
+    height: auto;
+}
+
+.watch {
+    position: absolute;
+    z-index: 1;
+    top: 0vh;
+    right: 0vw;
+    width: 50vw;
+    height: auto;
+}
+
+
+/*farmhand*/
+
+.farm {
+    position: absolute;
+    z-index: 8;
+    top: 2vh;
+    right: 0vw;
+    width: 40vw;
+    height: auto;
+}
+
+.stick-big {
+    position: absolute;
+    z-index: 10;
+    bottom: 3vh;
+    right: 20vw;
+    width: 20vw;
+    height: auto;
+}
+
+
+/*about*/
+
+.headshot {
+    position: absolute;
+    z-index: 3;
+    bottom: 5vh;
+    right: 5vw;
+    height: auto;
+    width: 20vw;
+}
+
+/*intern*/
+
+.pw3 {
+    position: absolute;
+    z-index: 25;
+    bottom: 30vh;
+    right: 8vw;
+    height: 45vh;
+    width: auto;
+}
+.pw2 {
+    position: absolute;
+    z-index: 50;
+    top: 0vh;
+    right: 0vw;
+    height: 36vh;
+    width: auto;
+}
+.hovering {
+    position: absolute;
+    z-index: 1;
+    top: 5vh;
+    right: 40vw;
+    width: 15vw;
+    height: auto;
+    
+}
+.maps {
+    position: absolute;
+    z-index: -10;
+    bottom: 1vh;
+    right: 2vw;
+    height: auto;
+    width: 70vw;
+}
+/*contact*/
+
+.contactcard {
+    position: absolute;
+    z-index: 1;
+    top: 10vh;
+    right: 20vw;
+    height: auto;
+    width: 35vw;
+}
+
+.email {
+    position: absolute;
+    z-index: 4;
+    bottom: -30vh;
+    left: 0vw;
+    height: auto;
+    width: 60vw;
+}
+
+h9 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.aRight {
+    position: absolute;
+    right: 0vw;
+    top: 5vh;
+    padding-right: 10vw;
+    width: 30vw;
+}
+
+h3 ul {
+    padding-top: 30vh;
+    padding-left: 15vh;
+    font-weight: 400;
+}
+
+h3 ul a {
+    color: #0000EE;
+}

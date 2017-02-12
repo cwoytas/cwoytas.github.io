@@ -1,0 +1,5 @@
+AuthName "code"
+AuthType Basic
+AuthUserFile /preview/code/.htpasswds
+
+Require valid-user

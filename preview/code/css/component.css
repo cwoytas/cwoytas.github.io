@@ -1,0 +1,50 @@
+.deck-grid {
+	padding: 0px;
+    margin: 0px;
+	list-style: none;
+	position: fixed;
+    top: 0vh;
+    left: 0vh;
+	width: 100%;
+    pointer-events: none;
+    cursor: default;
+    z-index: 11;
+    background-color: #8f8f8f;
+}
+.deck-grid li {
+	position: relative;
+	float: left;
+	overflow: hidden;
+    background-color: black;
+}
+.deck-grid li a,
+.deck-grid li a img {
+	display: block;
+	width: 100%;
+    opacity: 0.75;
+}
+.deck-grid li a img {
+	max-width: 100%;
+}
+
+/*from other portfolio*/
+#Style7 {
+    visibility: hidden;
+}
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
