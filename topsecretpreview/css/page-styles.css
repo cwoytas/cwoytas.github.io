@@ -189,17 +189,17 @@ h4 {
      
      padding-top: 0px;
     padding-bottom: 0px;
-    color: #000000;
     font-weight: bold;
     font-size: 24px;
     line-height: 42px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-top: 0px;
+     text-decoration: none;
 }
 
 .back a {
-    text-decoration: none;
+
 }
 
 h6 {

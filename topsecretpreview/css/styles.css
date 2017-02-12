@@ -72,12 +72,12 @@ h2 {
     font-size: 14px;
     line-height: 36px;
 }
-
+h2 a {
+}
 h2 a:hover {
 }
 
 h2 a:visited {
-    color: #0000EE;
 }
 
 h2 ul {
@@ -106,21 +106,21 @@ h7 {
     font-weight: 400;
 }
 /*BACK BUTTON*/
-.back {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-    width: auto;
-    height: auto;
-    position: fixed;
-    top: 40px;
-    left: -10px;
-    
-    padding-top: 0px;
+ .back {
+    -webkit-transform: rotate(90deg); 
+     -moz-transform: rotate(90deg); 
+      -ms-transform: rotate(90deg); 
+       -o-transform: rotate(90deg); 
+          transform: rotate(90deg);
+        width: auto;
+        height: auto;
+        position: fixed;
+        top: 40px;
+        left: -10px;
+     z-index: 100;
+     
+     padding-top: 0px;
     padding-bottom: 0px;
-    color: #000000;
     font-weight: bold;
     font-size: 24px;
     line-height: 42px;
@@ -128,9 +128,11 @@ h7 {
     margin-left: 0px;
     margin-top: 0px;
 }
-.back a {
+
+.back a:link {
     text-decoration: none;
 }
+
 /*LIST EMOJIS*/
 .emojiL {
     font-size: 14px;
