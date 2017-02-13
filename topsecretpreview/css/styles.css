@@ -32,9 +32,10 @@
     }
 }
 
+#Style {
+    visibility: visible;
+}
 
-
-#Style,
 #Style2,
 #Style3,
 #Style4,
@@ -680,11 +681,25 @@ ul {
         width: auto;
         right: 20px;
     }
+    .hand {
+        width: 500px;
+        height: auto;
+    }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1150px) {
     .rainbow {
         height: 300px;
         width: auto;
         top: 0px;
+    }
+    .hand {
+        width: 420px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1050px) and (max-height:1000px) {
+    .hand {
+        width: 300px;
+        height: auto;
     }
 }
