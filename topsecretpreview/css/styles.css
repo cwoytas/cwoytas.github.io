@@ -32,7 +32,11 @@
     }
 }
 
-#Style,
+#Style {
+    visibility: visible;
+}
+
+
 #Style2,
 #Style3,
 #Style4,
@@ -284,7 +288,6 @@ h7 {
     bottom: 0px;
     right: 0px;
     height: 98vh;
-    max-height: 98vh;
     width: auto;
 }
 
@@ -293,7 +296,7 @@ h7 {
     z-index: 2;
     bottom: -10vh;
     left: 28vw;
-    height: 65vh;
+    height: 650px;
     width: auto;
 }
 
@@ -302,7 +305,7 @@ h7 {
     z-index: 1;
     bottom: 0vh;
     left: -10vw;
-    height: 60vh;
+    height: 600px;
     width: auto;
 }
 
@@ -311,8 +314,8 @@ h7 {
     z-index: 3;
     top: 0;
     left: 35vw;
-    width: 48vw;
-    height: auto;
+    height: 400px;
+    width: auto;
 }
 
 
@@ -508,15 +511,44 @@ ul {
     height: auto;
 }
 
-@media only screen and (max-height: 850px) {
-    .deck-cover {
-        position: absolute;
-        z-index: 1;
-        bottom: 0vh;
-        left: -5vw;
-        height: 45vh;
-        width: auto;
-    }
+@media screen and (max-height: 850px) {
+/*house*/
+.hand {
+    position: absolute;
+    z-index: 5;
+    bottom: 0px;
+    right: 0px;
+    height: 98vh;
+    width: auto;
+}
+
+.contents {
+    position: absolute;
+    z-index: 2;
+    bottom: -10vh;
+    left: 28vw;
+    height: 500px;
+    width: auto;
+}
+
+.deck-cover {
+    position: absolute;
+    z-index: 1;
+    bottom: 0vh;
+    left: -10vw;
+    height: 220px;
+    width: auto;
+}
+
+.video {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 45vw;
+    height: 200px;
+    width: auto;
+}
+/*netronome*/
     .info-arch {
         bottom: -2vh;
         left: 30vw;
