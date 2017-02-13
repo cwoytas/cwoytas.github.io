@@ -5,6 +5,39 @@
     unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
 }
 
+#mobileCover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    visibility: hidden;
+    padding-left,
+    padding-right: 10vw;
+    margin: 0px;
+    padding-top: 25vh;
+    padding-bottom: 20vh;
+    color: #000000;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 56px;
+    z-index: 150;
+}
+
+@media screen and (max-width: 950px) {
+    #mobileCover {
+        visibility: visible;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    #mobileCover {
+        visibility: visible;
+    }
+}
+
 #Style,
 #Style2,
 #Style3,
@@ -13,7 +46,8 @@
 #Style6,
 #Style7,
 #Style8,
-#Style9, #Style10 {
+#Style9,
+#Style10 {
     visibility: hidden;
 }
 
@@ -36,6 +70,8 @@ body {
     height: 100vw;
     margin: 0;
 }
+
+
 /*about paragraph*/
 
 .aRight {
@@ -48,7 +84,10 @@ body {
     padding-right: 10vw;
     width: 30vw;
 }
+
+
 /*BIG MAIN TITLE*/
+
 h1 {
     padding-top: 100px;
     padding-bottom: 60px;
@@ -57,38 +96,43 @@ h1 {
     font-size: 50px;
     line-height: 45px;
     margin-bottom: 0px;
-    padding-left: 15vh;
+    padding-left: 150px;
 }
 
 h1 a {
     color: #000000;
     text-decoration: none;
-    
 }
+
+
 /*MENU LIST*/
+
 h2 {
     margin-top: 0px;
     font-weight: 400;
     font-size: 14px;
     line-height: 36px;
 }
-h2 a {
-}
-h2 a:hover {
-}
 
-h2 a:visited {
-}
+h2 a {}
+
+h2 a:hover {}
+
+h2 a:visited {}
 
 h2 ul {
-    padding-left: 15vh;
+    padding-left: 150px;
 }
+
+
 /*NOT SURE*/
+
 h3 {
     margin-top: 0px;
     font-size: 16px;
     line-height: 36px;
 }
+
 h3 ul {
     padding-top: 30vh;
     padding-left: 15vh;
@@ -99,27 +143,31 @@ h3 ul a {
     color: #0000EE;
 }
 
+
 /*MENU LIST HEADERS*/
+
 h7 {
     line-height: 42px;
     font-size: 12px;
     font-weight: 400;
 }
+
+
 /*BACK BUTTON*/
- .back {
-    -webkit-transform: rotate(90deg); 
-     -moz-transform: rotate(90deg); 
-      -ms-transform: rotate(90deg); 
-       -o-transform: rotate(90deg); 
-          transform: rotate(90deg);
-        width: auto;
-        height: auto;
-        position: fixed;
-        top: 40px;
-        left: -10px;
-     z-index: 100;
-     
-     padding-top: 0px;
+
+.back {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 40px;
+    left: -10px;
+    z-index: 100;
+    padding-top: 0px;
     padding-bottom: 0px;
     font-weight: bold;
     font-size: 24px;
@@ -133,7 +181,9 @@ h7 {
     text-decoration: none;
 }
 
+
 /*LIST EMOJIS*/
+
 .emojiL {
     font-size: 14px;
     font-family: emoji;
@@ -155,10 +205,14 @@ h7 {
     letter-spacing: 4px;
     padding-left: 15px;
 }
+
+
 /*LIST HOVER CURSORS*/
+
 .about:hover {
     cursor: url('../assets/cursors/pointer-emoji.png'), auto;
 }
+
 .house:hover {
     cursor: url('../assets/cursors/big-hand.png'), auto;
 }
@@ -166,29 +220,37 @@ h7 {
 .netronome:hover {
     cursor: url('../assets/cursors/rock-emoji.png'), auto;
 }
+
 .intern:hover {
     cursor: url('../assets/cursors/eyes.png'), auto;
 }
+
 .capstone:hover {
     cursor: url('../assets/cursors/inspect.png'), auto;
     text-decoration-color: black;
 }
+
 .history:hover {
     cursor: url('../assets/cursors/kimoji.png'), auto;
     text-decoration: line-through;
     text-decoration-color: #0000ee;
     color: #0000ee;
 }
+
 .farmhand:hover {
     cursor: url('../assets/cursors/nope.png'), auto;
     text-decoration: line-through;
     text-decoration-color: #0000ee;
     color: #0000ee;
 }
+
 .loosies:hover {
     cursor: url('../assets/cursors/pointer-emoji.png'), auto;
 }
+
+
 /******HOVER STATE IMAGES******/
+
 
 /*about*/
 
@@ -219,6 +281,7 @@ h7 {
     width: 60vw;
 }
 
+
 /*house*/
 
 .hand {
@@ -236,8 +299,8 @@ h7 {
     z-index: 2;
     bottom: -10vh;
     left: 28vw;
-    height: auto;
-    width: 50vw;
+    height: 65vh;
+    width: auto;
 }
 
 .deck-cover {
@@ -245,7 +308,7 @@ h7 {
     z-index: 1;
     bottom: 0vh;
     left: -10vw;
-    height: 30vw;
+    height: 60vh;
     width: auto;
 }
 
@@ -266,8 +329,8 @@ h7 {
     z-index: 10;
     bottom: -2vh;
     left: 0vw;
-    width: 50vw;
-    height: auto;
+    height: 58vh;
+    width: auto;
 }
 
 .rainbow {
@@ -297,6 +360,7 @@ h7 {
     width: 65vw;
 }
 
+
 /*intern*/
 
 .pw3 {
@@ -304,9 +368,10 @@ h7 {
     z-index: 25;
     bottom: 30vh;
     right: 8vw;
-    height: 45vh;
+    height: 54vh;
     width: auto;
 }
+
 .pw2 {
     position: absolute;
     z-index: 50;
@@ -315,23 +380,25 @@ h7 {
     height: 36vh;
     width: auto;
 }
+
 .hovering {
     position: absolute;
-    z-index: 1;
+    z-index: 5;
     top: 5vh;
-    right: 40vw;
+    right: 45vw;
     width: 15vw;
     height: auto;
-    
 }
+
 .maps {
     position: absolute;
-    z-index: -10;
-    bottom: 1vh;
+    z-index: 2;
+    bottom: -3vh;
     right: 2vw;
     height: auto;
     width: 70vw;
 }
+
 
 /*capstone*/
 
@@ -357,8 +424,8 @@ h7 {
     position: absolute;
     z-index: 4;
     top: 1vw;
-    left: 35vw;
-    width: 22vw;
+    left: 2vw;
+    width: 30vw;
     height: auto;
 }
 
@@ -370,6 +437,7 @@ h7 {
     width: 50vw;
     height: auto;
 }
+
 
 /*history*/
 
@@ -425,6 +493,7 @@ ul {
     padding-left: 0px;
 }
 
+
 /*farmhand*/
 
 .farm {
@@ -445,4 +514,33 @@ ul {
     height: auto;
 }
 
+@media only screen and (max-height: 850px) {
+    .deck-cover {
+        position: absolute;
+        z-index: 1;
+        bottom: 0vh;
+        left: -5vw;
+        height: 45vh;
+        width: auto;
+    }
+    .info-arch {
+        bottom: -2vh;
+        left: 30vw;
+        height: 35vh;
+        width: auto;
+    }
+}
 
+@media only screen and (max-height: 715px) {
+    .deck-cover {
+        bottom: 0vh;
+        left: 0vw;
+        height: 38vh;
+    }
+    .contents {
+        bottom: -5vh;
+        left: 28vw;
+        height: 44vh;
+        width: auto;
+    }
+}
