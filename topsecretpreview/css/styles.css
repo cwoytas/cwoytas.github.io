@@ -228,7 +228,7 @@ h7 {
 /*LIST HOVER CURSORS*/
 
 .about:hover {
-    cursor: url('../assets/cursors/pointer-emoji.png'), auto;
+    cursor: url('../assets/cursors/wave.png'), auto;
 }
 
 .house:hover {
