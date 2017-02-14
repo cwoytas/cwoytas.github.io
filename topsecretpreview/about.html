@@ -7,6 +7,11 @@
     <title>about me</title>
     <meta name="about" content="about me">
     <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" type="text/css" href="css/component.css">
+    <link rel="stylesheet" type="text/css" href="css/netronome-responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    
 </head>
 <script>
     (function (i, s, o, g, r, a, m) {
@@ -23,6 +28,21 @@
 
     ga('create', 'UA-91842018-1', 'auto');
     ga('send', 'pageview');
+</script>
+    <script>
+        <script language="Javascript">
+    function ShowPicture(id, Source) {
+        if (Source == "1") {
+            if (document.layers) document.layers['' + id + ''].visibility = "show"
+            else if (document.all) document.all['' + id + ''].style.visibility = "visible"
+            else if (document.getElementById) document.getElementById('' + id + '').style.visibility = "visible"
+        } else
+        if (Source == "0") {
+            if (document.layers) document.layers['' + id + ''].visibility = "hide"
+            else if (document.all) document.all['' + id + ''].style.visibility = "hidden"
+            else if (document.getElementById) document.getElementById('' + id + '').style.visibility = "hidden"
+        }
+    }
 </script>
 
 <body>
@@ -59,10 +79,111 @@
         <h9>
             I use a range of personal tools - UX knowledge, visual and motion design skills, and a passion for presentation and discussion - to take projects from a sparked thought to a package ready for development.
             <br/>
-            <br/> I'm obsessed with how close we are to the introduction of computers and digital interfaces. Most of my life exists through the blue filter on Snapchat. Ask me what today’s theory is on the next revolution of social media.
+            <br/> I'm obsessed with how close we are to the introduction of computers and digital interfaces. Most of my memories exist through the <div class="scrollable"><a href=# onMouseOver="ShowPicture('Style11',1)" onMouseOut="ShowPicture('Style11',0)" class="blue">blue filter</a></div> on Snapchat. Ask me what today’s theory is on the next revolution of social media.
         </h9>
     </div>
+    
     <img src="assets/about/headshot.png" alt="emoji-hand" class='headshot' />
+    
+    <div id="Style11">
+        <ul class="deck-grid">
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0001.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0002.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0003.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0004.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0005.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0006.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0007.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0008.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0009.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0010.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0011.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0012.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0013.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0014.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0015.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0016.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0017.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0018.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0019.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0020.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0021.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0022.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0023.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0024.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0025.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0026.jpg" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/netronome/deck/0027.jpg" /></a>
+            </li>
+            <li>
+        </ul>
+    </div>
+    
 </body>
+<script>
+    var b = $('html');
 
+    $('.scrollable').hover(function () {
+        var s = b.scrollTop();
+        b.css('overflow', 'hidden');
+        b.scrollTop(s);
+    }, function () {
+        var s = b.scrollTop();
+        b.css('overflow', 'auto');
+        b.scrollTop(s);
+    });
+</script>
 </html>
