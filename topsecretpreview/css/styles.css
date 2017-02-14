@@ -425,9 +425,9 @@ h7 {
 .pw3 {
     position: absolute;
     z-index: 25;
-    bottom: 30vh;
-    right: 8vw;
-    height: 54vh;
+    bottom: 220px;
+    right: 70px;
+    height: 550px;
     width: auto;
 }
 
@@ -690,7 +690,24 @@ h7 {
         height: 400px;
     }
 }
-    
+   @media screen and (max-width: 1440px) {
+       .pw3 {
+           height:550px;
+           right: 5px;
+           top:70px;
+       }
+       .pw2 {
+        width: 400px;
+        height: auto;
+    }
+    .pitch {
+        height: 400px;
+        bottom: -12px;
+    }
+    .wip {
+        height: 325px;
+    }
+} 
 @media screen and (max-width: 1480px) and (max-height: 930px) {
     .video2 {
     height: 500px;
@@ -718,6 +735,13 @@ h7 {
         width: 500px;
         height: auto;
     }
+        .pw3 {
+            z-index:150;
+        top: 150px;
+        right: 25px;
+        width: 450px;
+        height: auto;
+    }
 }
 @media screen and (max-width: 1150px) {
     .rainbow {
@@ -740,25 +764,7 @@ h7 {
         bottom:px;
     }
 }
-@media screen and (max-width: 1440px) {
-    .pw3 {
-        width: 550px;
-        height: auto;
-        right:1vw;
-        top:14vh;
-    }
-    .pw2 {
-        width: 400px;
-        height: auto;
-    }
-    .pitch {
-        height: 400px;
-        bottom: -12px;
-    }
-    .wip {
-        height: 325px;
-    }
-}
+
 @media screen and (max-width: 1440px) and (max-height:900px) {
     .pitch {
         height: 260px;
