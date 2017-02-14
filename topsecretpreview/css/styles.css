@@ -74,6 +74,7 @@ ul {
 /*about paragraph*/
 
 .aRight {
+    z-index:100;
     position: absolute;
     right: 0vw;
     top: 5vh;
@@ -82,6 +83,7 @@ ul {
     line-height: 32px;
     padding-right: 10vw;
     width: 30vw;
+    background-color: white;
 }
 
 
@@ -174,6 +176,7 @@ h7 {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-top: 0px;
+    color: #800080
 }
 
 .back a:link {

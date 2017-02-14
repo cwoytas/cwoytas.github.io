@@ -199,20 +199,19 @@ h4 {
 }
 
 
- .back {
-    -webkit-transform: rotate(90deg); 
-     -moz-transform: rotate(90deg); 
-      -ms-transform: rotate(90deg); 
-       -o-transform: rotate(90deg); 
-          transform: rotate(90deg);
-        width: auto;
-        height: auto;
-        position: fixed;
-        top: 40px;
-        left: -10px;
-     z-index: 100;
-     
-     padding-top: 0px;
+.back {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 40px;
+    left: -10px;
+    z-index: 100;
+    padding-top: 0px;
     padding-bottom: 0px;
     font-weight: bold;
     font-size: 24px;
@@ -220,11 +219,11 @@ h4 {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-top: 0px;
-     text-decoration: none;
+    color: #800080
 }
 
-.back a {
-
+.back a:link {
+    text-decoration: none;
 }
 
 h6 {
