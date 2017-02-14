@@ -32,12 +32,12 @@
     }
 }
 
-#Style {
+#Style3 {
     visibility: visible;
 }
 
+#Style,
 #Style2,
-#Style3,
 #Style4,
 #Style5,
 #Style6,
@@ -531,18 +531,17 @@ ul {
 .hovering {
     position: absolute;
     z-index: 5;
-    top: 5vh;
+    top: 10px;
     right: 45vw;
-    width: 15vw;
-    height: auto;
+    height: 300px;
+    width:auto;
 }
-
 .maps {
     position: absolute;
     z-index: 2;
     bottom: -20px;
     left: -10px;
-    height: 600px;
+    height: 47vh;
     width: auto;
 }
 
@@ -587,13 +586,19 @@ ul {
     height: 220px;
     width: auto;
 }
-
-.video2 {
+    .video2 {
     bottom: 0vh;
     right: -1vw;
     height: 325px;
     width: auto;
 }
+/*intern*/
+.maps {
+    height: 300px;
+    width: auto;
+    bottom: -40px;
+}
+
 }
 
 /******BIGGEST 880+******/
@@ -650,6 +655,20 @@ ul {
     height: 700px;
     width: auto;
 }
+    /*intern*/
+.pw2 {
+    top: 0vh;
+    right: 0vw;
+    height: 360px;
+    width: auto;
+}
+/*intern*/
+.maps {
+    bottom: -20px;
+    left: -10px;
+    height: 55vh;
+    width: auto;
+}
     }
 /*WIDTHS*/
 @media screen and (max-width: 1660px) {
@@ -663,9 +682,9 @@ ul {
     
 @media screen and (max-width: 1480px) and (max-height: 930px) {
     .video2 {
-    height: 400px;
+    height: 500px;
         width: auto;
-        right: 2vw;
+        right: -2vw;
 }
 }
 @media screen and (max-width: 1150px) and (max-height: 660px) {
@@ -675,7 +694,7 @@ ul {
         right: 2vw;
 }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1290px) {
     .rainbow {
         height: 300px;
         width: auto;
@@ -703,3 +722,38 @@ ul {
         height: auto;
     }
 }
+@media screen and (max-width: 1440px) {
+    .pw3 {
+        width: 550px;
+        height: auto;
+        right:1vw;
+        top:14vh;
+    }
+    .pw2 {
+        width: 400px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1200px) and (max-height: 750px) {
+    .pw3 {
+        width: 400px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1050px) and (max-height: 750px) {
+    .pw3 {
+        width: 350px;
+        height: auto;
+        bottom: 10vh;
+    }
+}
+@media screen and (max-width: 1180px) and (min-height: 750px) {
+    .pw3 {
+        top: 50px;
+        right: 30vw;
+        width: 400px;
+        height: auto;
+    }
+}
+
+
