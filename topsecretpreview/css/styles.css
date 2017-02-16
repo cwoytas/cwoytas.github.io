@@ -17,7 +17,7 @@
     padding-left,
     padding-right: 10vw;
     margin: 0px;
-    padding-top: 25vh;
+    padding-top:35vh;
     padding-bottom: 20vh;
     color: #000000;
     font-weight: bold;
@@ -29,6 +29,10 @@
 @media screen and (max-width: 900px), screen and (max-height: 580px) {
     #mobileCover {
         visibility: visible;
+    }
+    html {
+    overflow-x: hidden;
+    overflow-y: hidden;
     }
 }
 
@@ -80,20 +84,19 @@ ul {
     right: 0vw;
     top: 5vh;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 32px;
     padding-right: 10vw;
-    width: 30vw;
-    background-color: white;
+    width: 755px;
+
 }
 
 .blue a {
     color: #0000ff;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 400;
     background-color: #ffffff;
-    padding: 5px;
 }
 
 .blue a:hover {
@@ -101,8 +104,8 @@ ul {
     text-align: center;
     text-decoration: underline;
     background-color: #0000ee;
-    padding: 5px;
 }
+
 /*BIG MAIN TITLE*/
 
 h1 {
