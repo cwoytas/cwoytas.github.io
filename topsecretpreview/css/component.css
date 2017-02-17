@@ -46,7 +46,8 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-    background-color: black;
+    background-color: white;
+    padding: 2px;
 }
 .deck-grid-2 li a,
 .deck-grid-2 li a img {
@@ -76,7 +77,8 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-    background-color: black;
+    background-color: white;
+    padding: 2px;
 }
 .deck-grid-3 li a,
 .deck-grid-3 li a img {
