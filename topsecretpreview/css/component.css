@@ -1,3 +1,4 @@
+/*pages*/
 .deck-grid {
 	padding: 0px;
     margin: 0px;
@@ -24,6 +25,65 @@
     opacity: 0.75;
 }
 .deck-grid li a img {
+	max-width: 100%;
+}
+
+/*left side on about page*/
+.deck-grid-2 {
+	padding: 0px;
+    margin: 0px;
+	list-style: none;
+	position: fixed;
+    bottom: 0vh;
+    left: 0vh;
+	width: 100%;
+    pointer-events: none;
+    cursor: default;
+    z-index: 11;
+    background-color: #8f8f8f;
+}
+.deck-grid-2 li {
+	position: relative;
+	float: left;
+	overflow: hidden;
+    background-color: black;
+}
+.deck-grid-2 li a,
+.deck-grid-2 li a img {
+	display: block;
+	width: 100%;
+    opacity: 0.75;
+}
+.deck-grid-2 li a img {
+	max-width: 100%;
+}
+
+/*right side on about page*/
+.deck-grid-3 {
+	padding: 0px;
+    margin: 0px;
+	list-style: none;
+	position: fixed;
+    bottom: 0vh;
+    left: 45vw;
+	width: 100%;
+    pointer-events: none;
+    cursor: default;
+    z-index: 11;
+    background-color: #8f8f8f;
+}
+.deck-grid-3 li {
+	position: relative;
+	float: left;
+	overflow: hidden;
+    background-color: black;
+}
+.deck-grid-3 li a,
+.deck-grid-3 li a img {
+	display: block;
+	width: 100%;
+}
+.deck-grid-3 li a img {
 	max-width: 100%;
 }
 

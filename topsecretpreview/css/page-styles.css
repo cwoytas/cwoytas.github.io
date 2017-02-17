@@ -236,7 +236,8 @@ h4 {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-top: 0px;
-    color: #800080
+    color: #800080;
+    text-decoration: none;
 }
 
 .back a:link {
