@@ -102,8 +102,21 @@ ul {
 .blue a:hover {
     color: #ffffff;
     text-align: center;
-    text-decoration: underline;
     background-color: #0000ee;
+}
+
+.red a {
+    color: #ff0000;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+
+.red a:hover {
+    color: #ffffff;
+    text-align: center;
+    background-color: #ff0000;
 }
 
 /*BIG MAIN TITLE*/
