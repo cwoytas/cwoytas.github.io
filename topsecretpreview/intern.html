@@ -8,11 +8,13 @@
     <title>INT3RN</title>
     <meta name="intern" content="intern">
     <link rel="stylesheet" href="css/page-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
     <link rel="stylesheet" type="text/css" href="css/component.css">
     <link rel="stylesheet" type="text/css" href="css/house-responsive.css">
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
+    <script src="js/lightbox.js"></script>
 </head>
 <style>
     .box {
@@ -44,37 +46,219 @@
         left: -10px;
     }
     
+    .content-center {
+        padding-top: 20vh;
+        padding-bottom: 10vh;
+    }
+    
+    .green a {
+        color: #0000ff;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: #ffffff;
+    }
+    
+    .blue a:hover {
+        color: #ffffff;
+        text-align: center;
+        background-color: #0000ee;
+        cursor: default;
+    }
+    
+    .section1 {
+        width: 200;
+        font-weight: bold;
+        text-align: left;
+        margin-right: auto;
+        margin-left: 15vw;
+        font-size: 24px;
+        line-height: 40px;
+        padding-bottom: 3vh;
+    }
+    .section2 {
+        width: 200;
+        position: relative;
+        font-weight: bold;
+        text-align: left;
+        margin-left: auto;
+        margin-right: 8vw;
+        font-size: 24px;
+        line-height: 40px;
+        bottom: 0px;
+    }
+    .wireframes {
+        padding-bottom: 250px;
+    }
+    #imgHome {
+        padding-left: 40px;
+        padding-bottom: 20vh;
+    }
+    
+    #imgHome .imgL {
+        float: left;
+        width: 1202px;
+    }
+    
+    #imgHome .imgR {
+        position: absolute;
+        right: 0;
+        width: calc(100% - 1282px);
+        padding-top: 200px;
+        padding-left: 10px;
+    }
+    
+    #imgHome .imgR img {
+        padding: 3px;
+        padding-bottom: 15px;
+        width: calc(100% /5);
+    }
+    #imgHome .imgR .cards img {
+        padding: 3px;
+        padding-bottom: 15px;
+        width: calc(100% /3);
+    }
+    
+    #imgHome .imgR .title {
+        text-align: left;
+        padding-left: 5px;
+        padding-bottom: 20px;
+        font-weight: medium;
+    }
+    
+    #imgRates {
+    }
+    
+    #imgRates .imgL {
+        float: left;
+        width: 40%;
+        margin-right: 4vw;
+        margin-left: 12vw;
+        padding-top: 10vh;
+    }
+    
+    #imgRates .imgR {
+        float: left;
+        width: 40%;
+        margin-right: 0%;
+        margin-bottom: 0.5em;
+        padding-top: 10vh;
+    }
 </style>
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-91842018-1', 'auto');
-  ga('send', 'pageview');
-
+    ga('create', 'UA-91842018-1', 'auto');
+    ga('send', 'pageview');
 </script>
+
 <body>
     <div id="mobileCover">I'M STILL WORKING THE MOBILE VERSION
         <br />🤘</div>
     <a href="index.html" class="back">back</a>
     <h5><span class="emoji">🌲🌲🌲</span>B&B AND ME<span class="emoji2">🌲🌲🌲</span></h5>
-    
+
     <div id="intern_container">
         <img src="assets/intern/intern-frame.png" alt="emoji-hand" />
     </div>
-    
+    <div class="content-center">
+        I spent last summer as design intern at Brault & Barnes Design as we worked through re-designing the web presence of a major Vermont utility company.
+        <br/>
+        <br/> During my time with Jeremy and Lisa I learned a ton about the design process, client relations, and gaining inspiration from creativity outside of work.
+    </div>
+    <div class="section1">
+        homepage concept <span class="emoji">👇</span>
+    </div>
+    <div id="imgHome">
+        <img src="assets/intern/homepage.png" class="imgL" />
+        <div class="imgR">
+            <div class="title">Wireframe explorations</div>
+            <div class="wireframes">
+                <a class="thumbnail" href="assets/intern/wfs/0001.png" data-lightbox="wf-1">
+
+                    <img class="fullImage" src="assets/intern/wfs/0001.png" alt="wf-1" /></a>
+
+                <a class="thumbnail" href="assets/intern/wfs/0002.png" data-lightbox="wf-2">
+
+                    <img class="fullImage" src="assets/intern/wfs/0002.png" alt="image-1" /></a>
+
+                <a class="thumbnail" href="assets/intern/wfs/0003.png" data-lightbox="wf-3">
+
+                    <img class="fullImage" src="assets/intern/wfs/0003.png" alt="image-1" /></a>
+                
+                <a class="thumbnail" href="assets/intern/wfs/0004.png" data-lightbox="wf-4">
+
+                    <img class="fullImage" src="assets/intern/wfs/0004.png" alt="image-1" /></a>
+
+                <a class="thumbnail" href="assets/intern/wfs/0005.png" data-lightbox="wf-5">
+
+                    <img class="fullImage" src="assets/intern/wfs/0005.png" alt="image-1" /></a>
+
+                <a class="thumbnail" href="assets/intern/wfs/0006.png" data-lightbox="wf-6">
+
+                    <img class="fullImage" src="assets/intern/wfs/0006.png" alt="image-1" /></a>
+
+                <a class="thumbnail" href="assets/intern/wfs/0007.png" data-lightbox="wf-7">
+
+                    <img class="fullImage" src="assets/intern/wfs/0007.png" alt="image-1" /></a>
+
+                
+                <a class="thumbnail" href="assets/intern/wfs/0009.png" data-lightbox="wf-9">
+
+                    <img class="fullImage" src="assets/intern/wfs/0009.png" alt="image-1" /></a>
+                
+                <a class="thumbnail" href="assets/intern/wfs/0008.png" data-lightbox="wf-8">
+
+                    <img class="fullImage" src="assets/intern/wfs/0008.png" alt="image-1" /></a>
+                <a class="thumbnail" href="assets/intern/wfs/0010.png" data-lightbox="wf-10">
+
+                    <img class="fullImage" src="assets/intern/wfs/0010.png" alt="image-1" /></a>
+                <a class="thumbnail" href="assets/intern/wfs/0011.png" data-lightbox="wf-11">
+
+                    <img class="fullImage" src="assets/intern/wfs/0011.png" alt="image-1" /></a>
+                <a class="thumbnail" href="assets/intern/wfs/0012.png" data-lightbox="wf-12">
+
+                    <img class="fullImage" src="assets/intern/wfs/0012.png" alt="image-1" /></a>
+            </div>
+            <div class="title">Card iterations</div>
+            <div class="cards">
+                <a class="thumbnail" href="assets/intern/cards/0001.jpg" data-lightbox="cards-1">
+
+                    <img class="fullImage" src="assets/intern/cards/0001.jpg" alt="wf-1" /></a>
+
+                <a class="thumbnail" href="assets/intern/cards/0002.jpg" data-lightbox="cards-2">
+
+                    <img class="fullImage" src="assets/intern/cards/0002.jpg" alt="image-1" /></a>
+
+                <a class="thumbnail" href="assets/intern/cards/0003.jpg" data-lightbox="cards-3">
+
+                    <img class="fullImage" src="assets/intern/cards/0003.jpg" alt="image-1" /></a>
+                
+                <a class="thumbnail" href="assets/intern/cards/0004.jpg" data-lightbox="cards-4">
+
+                    <img class="fullImage" src="assets/intern/cards/0004.jpg" alt="image-1" /></a>
+                <a class="thumbnail" href="assets/intern/cards/0005.jpg" data-lightbox="cards-5">
+
+                    <img class="fullImage" src="assets/intern/cards/0005.jpg" alt="image-1" /></a>
+            </div>
+        </div>
+               
+    </div>
+    <div id="imgRates">
+
+        <img src="assets/intern/rates1.png" class="imgL" />
+        <img src="assets/intern/rates2.png" class="imgR" />
+    </div>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-

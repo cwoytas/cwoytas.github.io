@@ -101,6 +101,7 @@ ul {
     color: #ffffff;
     text-align: center;
     background-color: #0000ee;
+    cursor: default;
 }
 
 .red a {
@@ -115,6 +116,7 @@ ul {
     color: #ffffff;
     text-align: center;
     background-color: #ff0000;
+    cursor: default;
 }
 
 /*BIG MAIN TITLE*/

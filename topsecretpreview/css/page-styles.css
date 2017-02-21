@@ -23,7 +23,7 @@ and (max-width : 1023px) {
     }
     html {
         overflow-x: hidden;
-        overflow-y:hidden;
+        overflow-y: hidden;
     }
 }
 
@@ -271,16 +271,15 @@ h7 {
     padding-top: 0vh;
     padding-bottom: 20vh;
 }
-
 .content-right {
-    width: 40vw;
-    line-height: 24px;
-    font-size: 14px;
-}
-
-.content-right a {
-    font-size: 22px;
-    line-height: 50px;
+    width: 470px;
+    text-align: justify;
+    margin-right: 5vw;
+    margin-left: auto;
+    margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 30px;
+    padding-top: 40vh;
 }
 
 .left {
