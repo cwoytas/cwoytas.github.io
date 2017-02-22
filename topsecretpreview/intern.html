@@ -48,7 +48,7 @@
     
     .content-center {
         padding-top: 20vh;
-        padding-bottom: 10vh;
+        padding-bottom: 20vh;
     }
     
     .green a {
@@ -67,7 +67,6 @@
     }
     
     .section1 {
-        width: 200;
         font-weight: bold;
         text-align: left;
         margin-right: auto;
@@ -76,36 +75,26 @@
         line-height: 40px;
         padding-bottom: 3vh;
     }
-    .section2 {
-        width: 200;
-        position: relative;
-        font-weight: bold;
-        text-align: left;
-        margin-left: auto;
-        margin-right: 8vw;
-        font-size: 24px;
-        line-height: 40px;
-        bottom: 0px;
-    }
+    
     .wireframes {
-        padding-bottom: 250px;
+        padding-bottom: 13vw;
     }
     #imgHome {
         padding-left: 40px;
-        padding-bottom: 20vh;
+        height: calc(65vw * 2.92);
     }
     
     #imgHome .imgL {
         float: left;
-        width: 1202px;
+        width: 65vw;
     }
     
     #imgHome .imgR {
         position: absolute;
-        right: 0;
-        width: calc(100% - 1282px);
-        padding-top: 200px;
-        padding-left: 10px;
+        right: 0px;
+        width: 30vw;
+        padding-top: 20vw;
+        padding-left: 1vw;
     }
     
     #imgHome .imgR img {
@@ -123,26 +112,39 @@
         text-align: left;
         padding-left: 5px;
         padding-bottom: 20px;
+        font-size: 14px;
         font-weight: medium;
+        text-decoration: underline;
+        color: #888888;
     }
     
     #imgRates {
     }
-    
+    .section2 {
+        padding-top: 3vw;
+        padding-right: 8vw;
+        float: right;
+        font-weight: bold;
+        text-align: right;
+        margin-left: auto;
+        margin-right: 1vw;
+        font-size: 24px;
+        line-height: 35px;
+    }
     #imgRates .imgL {
-        float: left;
-        width: 40%;
-        margin-right: 4vw;
-        margin-left: 12vw;
-        padding-top: 10vh;
+        float: right;
+        width: 46vw;
+        margin-right: 1vw;
     }
     
     #imgRates .imgR {
-        float: left;
-        width: 40%;
-        margin-right: 0%;
-        margin-bottom: 0.5em;
-        padding-top: 10vh;
+        float: right;
+        width: 46vw;
+        margin-right: 1vw;
+        padding-top: 6vh;
+    }
+    .emoji-title {
+        padding-right: 32px;
     }
 </style>
 <script>
@@ -182,7 +184,7 @@
     <div id="imgHome">
         <img src="assets/intern/homepage.png" class="imgL" />
         <div class="imgR">
-            <div class="title">Wireframe explorations</div>
+            <div class="title">wireframe explorations</div>
             <div class="wireframes">
                 <a class="thumbnail" href="assets/intern/wfs/0001.png" data-lightbox="wf-1">
 
@@ -230,7 +232,7 @@
 
                     <img class="fullImage" src="assets/intern/wfs/0012.png" alt="image-1" /></a>
             </div>
-            <div class="title">Card iterations</div>
+            <div class="title">visual iterations</div>
             <div class="cards">
                 <a class="thumbnail" href="assets/intern/cards/0001.jpg" data-lightbox="cards-1">
 
@@ -252,11 +254,13 @@
                     <img class="fullImage" src="assets/intern/cards/0005.jpg" alt="image-1" /></a>
             </div>
         </div>
-               
     </div>
+    
     <div id="imgRates">
-
+        
         <img src="assets/intern/rates1.png" class="imgL" />
+        <div class="section2">rates visual concept 👉<br/>
+            <span class="emoji-title">👇</span></div>
         <img src="assets/intern/rates2.png" class="imgR" />
     </div>
 </body>
