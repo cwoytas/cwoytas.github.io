@@ -70,7 +70,7 @@
         font-weight: bold;
         text-align: left;
         margin-right: auto;
-        margin-left: 15vw;
+        margin-left: 14vw;
         font-size: 24px;
         line-height: 40px;
         padding-bottom: 3vh;
@@ -79,6 +79,7 @@
     .wireframes {
         padding-bottom: 13vw;
     }
+    
     #imgHome {
         padding-left: 40px;
         height: calc(65vw * 2.92);
@@ -87,6 +88,10 @@
     #imgHome .imgL {
         float: left;
         width: 65vw;
+    }
+    
+    #imgHome .imgL img {
+        width: 100%;
     }
     
     #imgHome .imgR {
@@ -102,6 +107,7 @@
         padding-bottom: 15px;
         width: calc(100% /5);
     }
+    
     #imgHome .imgR .cards img {
         padding: 3px;
         padding-bottom: 15px;
@@ -113,16 +119,23 @@
         padding-left: 5px;
         padding-bottom: 20px;
         font-size: 14px;
-        font-weight: medium;
+        font-weight: lighter;
         text-decoration: underline;
         color: #888888;
     }
     
     #imgRates {
+        padding-top: 5vw;
+        height: 79vw;
     }
+    
+    #imgRates img {
+        width: 100%;
+    }
+    
     .section2 {
-        padding-top: 3vw;
-        padding-right: 8vw;
+        padding-top: 1.5vw;
+        padding-right: 1.5vw;
         float: right;
         font-weight: bold;
         text-align: right;
@@ -131,6 +144,7 @@
         font-size: 24px;
         line-height: 35px;
     }
+    
     #imgRates .imgL {
         float: right;
         width: 46vw;
@@ -141,10 +155,54 @@
         float: right;
         width: 46vw;
         margin-right: 1vw;
-        padding-top: 6vh;
+        padding-top: 1.5vw;
     }
+    
     .emoji-title {
         padding-right: 32px;
+    }
+    
+    .thumbnail:hover {
+        cursor: url('assets/cursors/eyes.png'), auto;
+    }
+    
+    .section3 {
+        font-weight: bold;
+        text-align: center;
+        margin-left: auto;
+        font-size: 20px;
+        line-height: 35px;
+        padding-bottom: 3vh;
+    }
+    
+    .imgIcons {
+        width: 90vw;
+        padding-bottom: 15vh;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .imgIcons img {
+        width: 100%;
+    }
+    
+    .section4 {
+        font-weight: 100;
+        text-align: right;
+        margin-left: auto;
+        font-size: 24px;
+        line-height: 35px;
+        padding-bottom: 3vh;
+        padding-right: 15vw;
+    }
+    
+    .motion .thumbnail {
+        float: right;
+        padding-right: 1vw;
+    }
+    .motion .thumbnail img {
+        width: 25vw;
+        padding: 10px;
     }
 </style>
 <script>
@@ -174,63 +232,68 @@
         <img src="assets/intern/intern-frame.png" alt="emoji-hand" />
     </div>
     <div class="content-center">
-        I spent last summer as design intern at Brault & Barnes Design as we worked through re-designing the web presence of a major Vermont utility company.
+        I spent last summer as design intern at Brault & Barnes Design as we worked through re-designing the web presence of a major Vermont utility.
         <br/>
-        <br/> During my time with Jeremy and Lisa I learned a ton about the design process, client relations, and gaining inspiration from creativity outside of work.
+        <br/>I learned a ton about the agency design process, client relations, and the relevant inspiration to be found in exercising creativity outside of work. Forever thankful to Jeremy and Lisa for having me along and answering sooOOoo0ooo many questions.
     </div>
     <div class="section1">
-        homepage concept <span class="emoji">👇</span>
+        👇 homepage concept
     </div>
     <div id="imgHome">
-        <img src="assets/intern/homepage.png" class="imgL" />
+        <div class="imgL">
+            <a class="thumbnail" href="assets/intern/homepage.png" data-lightbox="homepage">
+
+                <img class="fullImage" src="assets/intern/homepage.png" alt="image-1" /></a>
+        </div>
+
         <div class="imgR">
             <div class="title">wireframe explorations</div>
             <div class="wireframes">
-                <a class="thumbnail" href="assets/intern/wfs/0001.png" data-lightbox="wf-1">
+                <a class="thumbnail" href="assets/intern/wfs/0001.jpg" data-lightbox="wf-1">
 
-                    <img class="fullImage" src="assets/intern/wfs/0001.png" alt="wf-1" /></a>
+                    <img class="fullImage" src="assets/intern/wfs/0001.jpg" alt="wf-1" /></a>
 
-                <a class="thumbnail" href="assets/intern/wfs/0002.png" data-lightbox="wf-2">
+                <a class="thumbnail" href="assets/intern/wfs/0002.jpg" data-lightbox="wf-2">
 
-                    <img class="fullImage" src="assets/intern/wfs/0002.png" alt="image-1" /></a>
+                    <img class="fullImage" src="assets/intern/wfs/0002.jpg" alt="image-1" /></a>
 
-                <a class="thumbnail" href="assets/intern/wfs/0003.png" data-lightbox="wf-3">
+                <a class="thumbnail" href="assets/intern/wfs/0003.jpg" data-lightbox="wf-3">
 
-                    <img class="fullImage" src="assets/intern/wfs/0003.png" alt="image-1" /></a>
-                
-                <a class="thumbnail" href="assets/intern/wfs/0004.png" data-lightbox="wf-4">
+                    <img class="fullImage" src="assets/intern/wfs/0003.jpg" alt="image-1" /></a>
 
-                    <img class="fullImage" src="assets/intern/wfs/0004.png" alt="image-1" /></a>
+                <a class="thumbnail" href="assets/intern/wfs/0004.jpg" data-lightbox="wf-4">
 
-                <a class="thumbnail" href="assets/intern/wfs/0005.png" data-lightbox="wf-5">
+                    <img class="fullImage" src="assets/intern/wfs/0004.jpg" alt="image-1" /></a>
 
-                    <img class="fullImage" src="assets/intern/wfs/0005.png" alt="image-1" /></a>
+                <a class="thumbnail" href="assets/intern/wfs/0005.jpg" data-lightbox="wf-5">
 
-                <a class="thumbnail" href="assets/intern/wfs/0006.png" data-lightbox="wf-6">
+                    <img class="fullImage" src="assets/intern/wfs/0005.jpg" alt="image-1" /></a>
 
-                    <img class="fullImage" src="assets/intern/wfs/0006.png" alt="image-1" /></a>
+                <a class="thumbnail" href="assets/intern/wfs/0006.jpg" data-lightbox="wf-6">
 
-                <a class="thumbnail" href="assets/intern/wfs/0007.png" data-lightbox="wf-7">
+                    <img class="fullImage" src="assets/intern/wfs/0006.jpg" alt="image-1" /></a>
 
-                    <img class="fullImage" src="assets/intern/wfs/0007.png" alt="image-1" /></a>
+                <a class="thumbnail" href="assets/intern/wfs/0007.jpg" data-lightbox="wf-7">
 
-                
-                <a class="thumbnail" href="assets/intern/wfs/0009.png" data-lightbox="wf-9">
+                    <img class="fullImage" src="assets/intern/wfs/0007.jpg" alt="image-1" /></a>
 
-                    <img class="fullImage" src="assets/intern/wfs/0009.png" alt="image-1" /></a>
-                
-                <a class="thumbnail" href="assets/intern/wfs/0008.png" data-lightbox="wf-8">
 
-                    <img class="fullImage" src="assets/intern/wfs/0008.png" alt="image-1" /></a>
-                <a class="thumbnail" href="assets/intern/wfs/0010.png" data-lightbox="wf-10">
+                <a class="thumbnail" href="assets/intern/wfs/0009.jpg" data-lightbox="wf-9">
 
-                    <img class="fullImage" src="assets/intern/wfs/0010.png" alt="image-1" /></a>
-                <a class="thumbnail" href="assets/intern/wfs/0011.png" data-lightbox="wf-11">
+                    <img class="fullImage" src="assets/intern/wfs/0009.jpg" alt="image-1" /></a>
 
-                    <img class="fullImage" src="assets/intern/wfs/0011.png" alt="image-1" /></a>
-                <a class="thumbnail" href="assets/intern/wfs/0012.png" data-lightbox="wf-12">
+                <a class="thumbnail" href="assets/intern/wfs/0008.jpg" data-lightbox="wf-8">
 
-                    <img class="fullImage" src="assets/intern/wfs/0012.png" alt="image-1" /></a>
+                    <img class="fullImage" src="assets/intern/wfs/0008.jpg" alt="image-1" /></a>
+                <a class="thumbnail" href="assets/intern/wfs/0010.jpg" data-lightbox="wf-10">
+
+                    <img class="fullImage" src="assets/intern/wfs/0010.jpg" alt="image-1" /></a>
+                <a class="thumbnail" href="assets/intern/wfs/0011.jpg" data-lightbox="wf-11">
+
+                    <img class="fullImage" src="assets/intern/wfs/0011.jpg" alt="image-1" /></a>
+                <a class="thumbnail" href="assets/intern/wfs/0012.jpg" data-lightbox="wf-12">
+
+                    <img class="fullImage" src="assets/intern/wfs/0012.jpg" alt="image-1" /></a>
             </div>
             <div class="title">visual iterations</div>
             <div class="cards">
@@ -245,7 +308,7 @@
                 <a class="thumbnail" href="assets/intern/cards/0003.jpg" data-lightbox="cards-3">
 
                     <img class="fullImage" src="assets/intern/cards/0003.jpg" alt="image-1" /></a>
-                
+
                 <a class="thumbnail" href="assets/intern/cards/0004.jpg" data-lightbox="cards-4">
 
                     <img class="fullImage" src="assets/intern/cards/0004.jpg" alt="image-1" /></a>
@@ -255,13 +318,54 @@
             </div>
         </div>
     </div>
-    
+
     <div id="imgRates">
-        
-        <img src="assets/intern/rates1.png" class="imgL" />
-        <div class="section2">rates visual concept 👉<br/>
+
+        <div class="imgL">
+            <a class="thumbnail" href="assets/intern/rates1.png" data-lightbox="rates1">
+
+                <img class="fullImage" src="assets/intern/rates1.png" alt="image-1" /></a>
+        </div>
+
+        <div class="section2">rates visual concept 👉
+            <br/>
             <span class="emoji-title">👇</span></div>
-        <img src="assets/intern/rates2.png" class="imgR" />
+
+        <div class="imgR">
+            <a class="thumbnail" href="assets/intern/rates2.png" data-lightbox="rates2">
+
+                <img class="fullImage" src="assets/intern/rates2.png" alt="image-1" /></a>
+        </div>
+    </div>
+    <div class="section3">~ my first ever icon set ~</div>
+    <div class="imgIcons">
+        <a class="thumbnail" href="assets/intern/iconsBW.png" data-lightbox="iconsBW">
+
+            <img class="fullImage" src="assets/intern/iconsBW.png" alt="image-1" /></a>
+    </div>
+    <div class="section4">did a lil motion study ✨</div>
+    <div class="motion">
+        <!--
+        <a class="thumbnail" href="assets/intern/motion/0001.gif" data-lightbox="gif1">
+            <img class="fullImage" src="assets/intern/motion/0001.gif" alt="image-1" /></a>
+        
+        <a class="thumbnail" href="assets/intern/motion/0002.gif" data-lightbox="gif2">
+            <img class="fullImage" src="assets/intern/motion/0002.gif" alt="image-1" /></a>
+        
+        <a class="thumbnail" href="assets/intern/motion/0003.gif" data-lightbox="gif3">
+            <img class="fullImage" src="assets/intern/motion/0003.gif" alt="image-1" /></a>
+        
+        <a class="thumbnail" href="assets/intern/motion/0004.gif" data-lightbox="gif4">
+            <img class="fullImage" src="assets/intern/motion/0004.gif" alt="image-1" /></a>
+        
+        <a class="thumbnail" href="assets/intern/motion/0005.gif" data-lightbox="gif5">
+            <img class="fullImage" src="assets/intern/motion/0005.gif" alt="image-1" /></a>
+        
+        <a class="thumbnail" href="assets/intern/motion/0006.gif" data-lightbox="gif6">
+            <img class="fullImage" src="assets/intern/motion/0006.gif" alt="image-1" /></a>
+        -->
+        <a class="thumbnail" href="assets/intern/motion/master.gif" data-lightbox="master">
+            <img class="fullImage" src="assets/intern/motion/master.gif" alt="image-1" /></a>
     </div>
 </body>
 
