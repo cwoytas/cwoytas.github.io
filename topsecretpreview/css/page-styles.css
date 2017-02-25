@@ -2,14 +2,14 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-color: #000000;
     text-align: center;
     visibility: hidden;
     padding-left, padding-right: 10vw;
     
     padding-top: 25vh;
     padding-bottom: 35vh;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     font-size: 50px;
     line-height: 56px;
