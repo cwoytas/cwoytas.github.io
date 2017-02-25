@@ -7,14 +7,22 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>H0USE</title>
     <meta name="house" content="house">
-    <link rel="stylesheet" href="css/page-styles.css">
-    <link rel="stylesheet" type="text/css" href="css/component.css">
-    <link rel="stylesheet" type="text/css" href="css/house-responsive.css">
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <!-- MOST PAGE STYLES -->
+    <link rel="stylesheet" href="css/page-styles.css">
+    <!-- RUNS THE DECK GRID -->
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <!-- MEDIA QUERIES THAT MAKE THE DECK GRID RESPONSIVE -->
+    <link rel="stylesheet" type="text/css" href="css/house-responsive.css">
+    <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
 </head>
+    
+    <!-- *********** PAGE STYLES ********** -->
 <style>
+    /***CSS FOR MAKING EMOJI SPIN***/
+    /*LEFT POINTER*/
     .box {
         background-image: url(assets/cursors/pointer-emoji.png);
         width: 25px;
@@ -22,7 +30,7 @@
         position: relative;
         background-repeat: no-repeat;
     }
-    
+    /*RIGHT POINTER*/
     .boxTwo {
         background-image: url(assets/cursors/pointer-emoji-left.png);
         width: 25px;
@@ -30,8 +38,22 @@
         position: relative;
         background-repeat: no-repeat;
     }
-    
 </style>
+    
+    <!-- *********** JAVASCRIPT ********** -->
+    
+    <!-- GOOGLE ANALYTICS -->
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91842018-1', 'auto');
+  ga('send', 'pageview');
+</script>
+    
+    <!-- HOVER SHOW IMAGES -->
 <script language="Javascript">
     function ShowPicture(id, Source) {
         if (Source == "1") {
@@ -46,35 +68,39 @@
         }
     }
 </script>
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-91842018-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    <!-- *********** CONTENT ********** -->
 <body>
+    <!-- COVER FOR MOBILE/TABLET SIZES -->
     <div id="mobileCover">I'M STILL WORKING THE MOBILE VERSION
         <br />🤘</div>
+    
+    <!-- BACK BUTTON -->
         <a href="index.html" class="back">back</a>
+    
+    <!-- HEADER -->
     <h5><span class="emoji">🔥🔥🔥</span>Naturally adjusting home comfort relative to how you feel<span class="emoji2">🔥🔥🔥</span></h5>
 
+    <!-- ******* VIDEO ****** -->
     <div id="house_container">
+        <!-- FRAME IMAGE -->
         <img src="assets/house/house-frame.png" alt="emoji-hand" />
-
+<!-- VIDEO INSIDE -->
         <iframe src="https://player.vimeo.com/video/195726115?" width="93.7%" height="84.3%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
     </div>
-
+    
+    <!-- ******* DOWNLOAD LINK ****** -->
     <div class="download">
+        <!-- LEFT POINTER -->
         <div class="emoji-big">
             <div class="box"></div>
         </div>
-        <div class="scrollable"><a href="assets/house/h0use-deck.compressed.pdf" target="_blank" onMouseOver="ShowPicture('Style11',1)" onMouseOut="ShowPicture('Style11',0)">h0use-deck.compressed.pdf</a></div><span class="emoji2-big"><div class="boxTwo"></div></span>
+        <!-- LINK TEXT -->
+        <div class="scrollable"><a href="assets/house/h0use-deck.compressed.pdf" target="_blank" onMouseOver="ShowPicture('Style11',1)" onMouseOut="ShowPicture('Style11',0)">h0use-deck.compressed.pdf</a>
+        <!-- RIGHT POINTER -->
+        </div><span class="emoji2-big"><div class="boxTwo"></div></span>
     </div>
+    
+    <!-- ******* PARAGRAPH ****** -->
     <div class="content-center">
         <span class="brief">“Distill real time data and present in a way that is both easy to understand and engaging for the targeted users.”</span>
         <br />
@@ -82,6 +108,8 @@
         <br/>
         <br> Extended thanks to Mike Strobert, Adam Smith, Dad, and Caleb Payne
     </div>
+    
+    <!-- ******* DECK GRID IMAGES ****** -->
     <div id="Style11">
         <ul class="deck-grid">
             <li>
@@ -270,6 +298,7 @@
         </ul>
     </div>
 </body>
+    <!-- *********** IDK WHAT THIS DOES ********** -->
 <script>
     var b = $('html');
 
@@ -283,6 +312,7 @@
         b.scrollTop(s);
     });
 </script>
+    <!-- *********** ROTATES THE LEFT EMOJI ********** -->
 <script>
     $(document).ready(function () {
 
@@ -302,6 +332,7 @@
     });
 });
 </script>
+    <!-- *********** ROTATES THE RIGHT EMOJI ********** -->
 <script>
        $(document).ready(function () {
 
