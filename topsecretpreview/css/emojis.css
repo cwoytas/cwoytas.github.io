@@ -1,0 +1,33 @@
+.fire {
+    width: 15px;
+    height: 15px;
+    background-image: url(../assets/emojis/fire.png);
+    background-size: cover;
+    background-position: center;
+}
+.car {
+    width: 15px;
+    height: 15px;
+    background-image: url(''../assets/emojis/car.png);
+    background-size: contain;
+}
+.liberty {
+    width: 15px;
+    height: 15px;
+    background-image: url(../assets/emojis/liberty.png);
+}
+.tractor {
+    width: 15px;
+    height: 15px;
+    background-image: url(../assets/emojis/tractor.png);
+}
+.tree {
+    width: 15px;
+    height: 15px;
+    background-image: url(../assets/emojis/tree.png);
+}
+.watch {
+    width: 15px;
+    height: 15px;
+    background-image: url(../assets/emojis/watch.png);
+}
