@@ -7,22 +7,27 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>@c0ltDawg</title>
     <meta name="description" content="Colton Woytas Design Portfolio">
-   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <!-- MOST PAGE STYLES -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/emojis.css">
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 </head>
+    <!-- *********** PAGE STYLES ********** -->
 <style>
+    /*LOCKS SCROLLING AND MAKES EMOJI POINTER*/
     html {
         overflow-x: hidden;
         overflow-y: hidden;
         cursor: url('assets/cursors/pointer-emoji.png'), auto;
     }
-    
+    /*CREATES BREAKS IN LIST*/
     #Style3_li,
     #Style6_li {
         padding-bottom: 12px;
     }
-    
+    /***SHRINKS THE LIST***/
     @media screen and (max-height: 750px) {
         h1 {
             padding-top: 50px;
@@ -33,17 +38,19 @@
             font-size: 12px;
             line-height: 24px;
         }
+        /*IMG FROM INTERN*/
         .hovering {
-    position: absolute;
-    z-index: 5;
-    top: 10px;
-    right: 45vw;
-    height: 242px;
-    width:auto;
-}
+            position: absolute;
+            z-index: 5;
+            top: 10px;
+            right: 45vw;
+            height: 242px;
+            width: auto;
+        }
     }
-    
 </style>
+    <!-- *********** JAVASCRIPT ********** -->
+    <!-- GOOGLE ANALYTICS -->
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -60,7 +67,10 @@
     ga('create', 'UA-91842018-1', 'auto');
     ga('send', 'pageview');
 </script>
+    <!-- LIST INTERACTIONS -->
 <script language="Javascript">
+    
+    //shows the images when proper list item is hovered
     function ShowPicture(id, Source) {
         if (Source == "1") {
             if (document.layers) document.layers['' + id + ''].visibility = "show"
@@ -76,6 +86,7 @@
         hideEmojis(id, Source);
     }
 
+    //dims other items when one is hovered
     function dimTitles(id, Source) {
         if (Source == "1") {
             document.getElementById('Style_li').style.opacity = ".25";
@@ -101,6 +112,7 @@
         }
     }
 
+    //shows the emoji on the end of the line when the item is hovered
     function hideEmojis(id, Source) {
         if (Source == "1") {
             document.getElementById('Style_emoji').style.visibility = "hidden";
@@ -126,28 +138,40 @@
         }
     }
 </script>
-
+    
+<!-- *********** CONTENT ********** -->
 <body>
+    
+    <!-- COVER FOR MOBILE/TABLET SIZES -->
     <div id="mobileCover">I'M STILL WORKING THE MOBILE VERSION
         <br />🤘</div>
+
+    <!-- *********** HOVER IMAGES ********** -->
+    <!-- HOUSE -->
     <div id="Style">
         <img src="assets/house/yellow-hand-4x.png" alt="emoji-hand" class='hand' />
         <img src="assets/house/contents-2x.png" alt="emoji-hand" class='contents' />
         <img src="assets/house/deck-cover-2x.png" alt="emoji-hand" class='deck-cover' />
         <img src="assets/house/video-2x.png" alt="emoji-hand" class='video' />
     </div>
+
+    <!-- NETRONOME -->
     <div id="Style2">
         <img src="assets/netronome/info-arch-2x.png" alt="emoji-hand" class='info-arch' />
         <img src="assets/netronome/rainbow-2x.png" alt="emoji-hand" class='rainbow' />
         <img src="assets/netronome/stats-2x.png" alt="emoji-hand" class='stats' />
         <img src="assets/netronome/video-2x.png" alt="emoji-hand" class='video2' />
     </div>
+
+    <!-- INTERN -->
     <div id="Style3">
         <img src="assets/intern/powerwall-2.png" alt="emoji-hand" class='pw2' />
         <img src="assets/intern/powerwall-3.png" alt="emoji-hand" class='pw3' />
         <img src="assets/intern/maps-wf.jpg" alt="emoji-hand" class='maps' />
         <img src="assets/intern/hovering.png" alt="emoji-hand" class='hovering' />
     </div>
+
+    <!-- CAPSTONE -->
     <div id="Style4">
         <img src="assets/capstone/pitch-2x.png" alt="emoji-hand" class='pitch' />
         <img src="assets/capstone/textblock-2x.png" alt="emoji-hand" class='textblock' />
@@ -155,70 +179,78 @@
         <img src="assets/capstone/watch-2x.png" alt="emoji-hand" class='watch' />
     </div>
 
+    <!-- HISTORY -->
     <div id="Style5">
         <img src="assets/history/stick-small-2x.png" alt="emoji-hand" class='stick-small' />
         <img src="assets/history/wip-2x.png" alt="emoji-hand" class='wip' />
     </div>
+
+    <!-- FARMHAND -->
     <div id="Style6">
         <img src="assets/farmhand/farm-mix.png" alt="emoji-hand" class='farm' />
         <img src="assets/farmhand/stick-big-2x.png" alt="emoji-hand" class='stick-big' />
     </div>
+    <!-- END OF LIST -->
     <div id="Style7">
     </div>
     <div id="Style8">
     </div>
     <div id="Style9">
     </div>
+    <!-- ABOUT -->
     <div id="Style10">
         <img src="assets/contact/contactcard-2x.png" alt="emoji-hand" class='contactcard' />
         <img src="assets/about/headshot.png" alt="emoji-hand" class='headshot' />
     </div>
-
+    
+    
+<!-- *********** THE LIST ********** -->
+    
+    <!-- HEADER -->
     <h1><a href="about.html" class="about" onMouseOver="ShowPicture('Style10',1)" onMouseOut="ShowPicture('Style10',0)">Colton Woytas</a></h1>
+    <!-- LIST -->
     <h2>   
             <ul>
                 <h7>/*CURRENT*/</h7>
+                <!-- HOUSE -->
                 <li id="Style_li">
                 <span class="emojiL">🔥</span><a href="house.html" class="house" onMouseOver="ShowPicture('Style',1)" onMouseOut="ShowPicture('Style',0)">Naturally adjusting home comfort relative to how you feel</a><span id="Style_emoji">🔥</span>
                 </li>
-                
+                <!-- NETRONOME -->
                 <li id="Style2_li">
                 <span class="emojiL">🎵</span><a href="netronome.html" class="netronome" onMouseOver="ShowPicture('Style2',1)" onMouseOut="ShowPicture('Style2',0)">Making beats based on the frequency of internet events</a><span id="Style2_emoji">🎵</span>
                 </li>
-                
-                
+                <!-- INTERN -->
                 <li id="Style3_li">
                 <span class="emojiL">🌲</span><a href="intern.html" class="intern" onMouseOver="ShowPicture('Style3',1)" onMouseOut="ShowPicture('Style3',0)">Overview of work while interning at Brault & Barnes</a><span id="Style3_emoji">🌲</span>
                 </li>
                 
                 <h7>/*WIP*/</h7>
-                
+                <!-- CAPSTONE -->
                 <li id="Style4_li">
                 <span class="emojiL">⌚️</span><a href="capstone.html" class="capstone" onMouseOver="ShowPicture('Style4',1)" onMouseOut="ShowPicture('Style4',0)">Using wearables for digital ambient communication</a><span id="Style4_emoji">⌚️</span>
-                    
                 </li>
+                <!-- HISTORY -->
                 <li id="Style5_li">
                 <span class="emojiL">🗽</span><a href=# class="history" onMouseOver="ShowPicture('Style5',1)" onMouseOut="ShowPicture('Style5',0)">Creating historical experiences in context</a><span id="Style5_emoji">🗽</span>
-                    
                 </li>
+                <!-- FARMHAND -->
                 <li id="Style6_li">
                 <span class="emojiL">🚜</span><a href=# class="farmhand" onMouseOver="ShowPicture('Style6',1)" onMouseOut="ShowPicture('Style6',0)">Helping grain farmers be more efficient</a><span id="Style6_emoji">🚜</span>
                 </li>
                 
-                <h7>/*LOOSIES*/</h7>
                 
+                <h7>/*LOOSIES*/</h7>
+                <!-- NO HOVER IMAGES SHOW FOR THESE -->
                 <li id="Style7_li">
                 <span class="emojiL">🚗</span><a href="#" class="loosies" onMouseOver="ShowPicture('Style7',1)" onMouseOut="ShowPicture('Style7',0)">BMW-Tracking_Pitch.pdf</a><span id="Style7_emoji">🚗</span>
                 </li>
-                
                 <li id="Style8_li">
                 <span class="emojiL">⚖</span><a href="#" class="loosies" onMouseOver="ShowPicture('Style8',1)" onMouseOut="ShowPicture('Style8',0)">PoliQuote_Process.pdf</a><span id="Style8_emoji">⚖</span>
                 </li>
-                
                 <li id="Style9_li">
                 <span class="emojiL">👻</span><a href="#" class="loosies" onMouseOver="ShowPicture('Style9',1)" onMouseOut="ShowPicture('Style9',0)">LaCroix_Ad.mp4</a><span id="Style9_emoji">👻</span>
                 </li>
-                
             </ul>
         </h2>
 </body>

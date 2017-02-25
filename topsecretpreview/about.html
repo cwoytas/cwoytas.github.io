@@ -7,53 +7,27 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>about me</title>
     <meta name="about" content="about me">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/component.css">
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <!-- MOST PAGE STYLES -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- RUNS THE BLUE FILTER GRID -->
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
 </head>
-
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-91842018-1', 'auto');
-    ga('send', 'pageview');
-</script>
-<script language="Javascript">
-    function ShowPicture(id, Source) {
-        if (Source == "1") {
-            if (document.layers) document.layers['' + id + ''].visibility = "show"
-            else if (document.all) document.all['' + id + ''].style.visibility = "visible"
-            else if (document.getElementById) document.getElementById('' + id + '').style.visibility = "visible"
-        } else
-        if (Source == "0") {
-            if (document.layers) document.layers['' + id + ''].visibility = "hide"
-            else if (document.all) document.all['' + id + ''].style.visibility = "hidden"
-            else if (document.getElementById) document.getElementById('' + id + '').style.visibility = "hidden"
-        }
-    }
-</script>
-<style>
+<!-- *********** PAGE STYLES ********** -->
+    <style>
+        /*LOCKS SCROLLING*/
     html {
         overflow-x: hidden;
         overflow-y: hidden;
     }
-    
+        /*ADDS PADDING TO THE LIST*/
     .padding {
         padding-bottom: 12px;
     }
-    
+    /***OVERWRITES MOST FROM COMPONENT.CSS***/
     .deck-grid-2 {
         background-color: transparent;
         width: 45vw;
@@ -81,7 +55,7 @@
         width: -webkit-calc(100% / 8);
         width: calc(100% / 8);
     }
-    
+    /*BACKGROUND COVER FROM IMAGE GRID*/
     .whiteBG {
         position: absolute;
         top: 0;
@@ -91,7 +65,7 @@
         background-color: white;
         z-index: 10;
     }
-    
+    /*WHEN RED IS HOVERED*/
     .crosby {
         position: absolute;
         left: 15vw;
@@ -142,37 +116,107 @@
         }
     }
 </style>
+    
+    <!-- *********** JAVASCRIPT ********** -->
+    <!-- GOOGLE ANALYTICS -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
+    ga('create', 'UA-91842018-1', 'auto');
+    ga('send', 'pageview');
+</script>
+    <!-- HOVER SHOW IMAGES -->
+<script language="Javascript">
+    function ShowPicture(id, Source) {
+        if (Source == "1") {
+            if (document.layers) document.layers['' + id + ''].visibility = "show"
+            else if (document.all) document.all['' + id + ''].style.visibility = "visible"
+            else if (document.getElementById) document.getElementById('' + id + '').style.visibility = "visible"
+        } else
+        if (Source == "0") {
+            if (document.layers) document.layers['' + id + ''].visibility = "hide"
+            else if (document.all) document.all['' + id + ''].style.visibility = "hidden"
+            else if (document.getElementById) document.getElementById('' + id + '').style.visibility = "hidden"
+        }
+    }
+</script>
+    
+<!-- *********** CONTENT ********** -->
 <body>
+    <!-- COVER FOR MOBILE/TABLET SIZES -->
     <div id="mobileCover">I'M STILL WORKING THE MOBILE VERSION
         <br />🤘</div>
+    
+    <!-- BACK BUTTON -->
     <a href="index.html" class="back">back</a>
+    <!-- HEADER -->
     <h1>About</h1>
+    
+    <!-- *********** LIST IF INFO ********** -->
     <h2>
             <ul>
                 <h7>/*EXPERIENCE*/</h7>
+                <!-- NEW MEDIA DESIGN -->
         <li><span class="emojiL">🎓</span>This spring I am graduating from <a href="https://www.rit.edu/programs/new-media-design-bfa" target="_blank">New Media Design @ RIT</a></li>
+                <!-- BRAULT & BARNES -->
         <li><span class="emojiL">🌲</span>Last summer I interned at <a href="http://braultbarnesdesign.com/" target="_blank">Brault & Barnes Design</a></li>
+                <!-- LIST OF INFO -->
                 <div class="padding">
+                    <!-- NASDAQ -->
         <li><span class="emojiL">👔</span>The summer before that I interned at <a href="http://business.nasdaq.com/" target="_blank">Nasdaq</a></li></div>
+                
                 <h7>/*DOCUMENTS*/</h7>
+                <!-- RESUME -->
                 <div class="padding"><li><span class="emojiL">📃</span><a href="assets/about/ColtonWoytas_resume.pdf" target="_blank">Colton-Woytas_Resume.pdf</a></li></div>
+                
                 <h7>/*CONTACT*/</h7>
+                <!-- DRIBBLE -->
         <li><span class="emojiL">🏀</span>See my empty <a href="https://dribbble.com/ColtonWoytas" target="_blank">Dribbble</a></li>
+                <!-- TWITTER -->
         <li><span class="emojiL">🐥</span>Catch me on <a href="https://twitter.com/c0ltdawg" target="_blank">Twitter</a></li>
+                <!-- EMAIL -->
         <li><span class="emojiL">📧</span>Send me an <a href="mailto:cww7032@rit.edu">email</a></li>
             </ul>
         </h2>
+    
+    <!-- *********** ABOUT PARAGRAPH ********** -->
     <div class="aRight">
         I use a range of personal tools - UX knowledge, visual and motion design skills, and a passion for presentation - to take projects from a sparked thought to a package ready for development.
         <br/>
-        <br/> I'm a Canada/USA dual-citizen but I cheer for Canada in the olympics, <span class="red"><a href=# onMouseOver="ShowPicture('Style12',1)",  onMouseOut="ShowPicture('Style12',0)">sorry</a></span>. People that know/like me would say that I love internet stuff, abuse the <span class="blue"><a href=# onMouseOver="ShowPicture('Style11',1)",  onMouseOut="ShowPicture('Style11',0)">blue filter</a></span> on Snapchat, and eat a lot of chips. <br/><br/>
+        <br/> 
+        I'm a Canada/USA dual-citizen but I cheer for Canada in the olympics,
+        <!-- SHOW RED ON HOVER -->
+        <span class="red"><a href=# onMouseOver="ShowPicture('Style12',1)",  onMouseOut="ShowPicture('Style12',0)">sorry</a></span>. 
+        People that know/like me would say that I love internet stuff, abuse the
+        <!-- SHOW BLUE ON HOVER -->
+        <span class="blue"><a href=# onMouseOver="ShowPicture('Style11',1)",  onMouseOut="ShowPicture('Style11',0)">blue filter</a></span>
+        on Snapchat, and eat a lot of chips.
+        <br/><br/>
         Couldn't have developed this website without the help of my pals Trey Yadon, Jacob Frank, and Conner Hasbrouk 🍻
     </div>
 
+    <!-- *********** HEADSHOT IMAGE ********** -->
     <img src="assets/about/headshot.png" alt="emoji-hand" class='headshot' />
 
+    <!-- *********** CROSBY IMAGE ********** -->
+    <div id="Style12">
+        <img src="assets/about/celly.jpg" alt="emoji-hand" class='crosby' />
+        <div class="whiteBG"></div>
+    </div>
+    
+    <!-- *********** BLUE FILTER GRID ********** -->
     <div id="Style11">
+        <!-- IMAGES LEFT -->
         <ul class="deck-grid-2">
             <li>
                 <a href="#"><img src="assets/about/blue/0001.jpg" /></a>
@@ -296,6 +340,7 @@
                 <a href="#"><img src="assets/about/blue/0041.jpg" /></a>
             </li>
         </ul>
+        <!-- IMAGES RIGHT -->
         <ul class="deck-grid-3">
             <li>
                 <a href="#"><img src="assets/about/blue/0042.jpg" /></a>
@@ -348,13 +393,11 @@
                 <a href="#"><img src="assets/about/blue/0043.jpg" /></a>
             </li>
         </ul>
-        <div class="whiteBG"></div>
-    </div>
-    <div id="Style12">
-        <img src="assets/about/celly.jpg" alt="emoji-hand" class='crosby' />
+        <!-- BACKGROUND COVER -->
         <div class="whiteBG"></div>
     </div>
 </body>
+    <!-- *********** IDK WHAT THIS DOES ********** -->
 <script>
     var b = $('html');
 
