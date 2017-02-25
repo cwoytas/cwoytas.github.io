@@ -7,14 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NETRONOME</title>
     <meta name="netronome" content="netronome">
-    <link rel="stylesheet" href="css/page-styles.css">
-    <link rel="stylesheet" type="text/css" href="css/component.css">
-    <link rel="stylesheet" type="text/css" href="css/netronome-responsive.css">
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+     <!-- MOST PAGE STYLES -->
+    <link rel="stylesheet" href="css/page-styles.css">
+    <!-- RUNS THE DECK GRID -->
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <!-- MEDIA QUERIES THAT MAKE THE DECK GRID RESPONSIVE -->
+    <link rel="stylesheet" type="text/css" href="css/netronome-responsive.css">
+    <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
 </head>
+    
+    <!-- *********** PAGE STYLES ********** -->
 <style>
+    /***CSS FOR MAKING EMOJI SPIN***/
+    /*LEFT POINTER*/
     .box {
         background-image: url(assets/cursors/pointer-emoji.png);
         width: 25px;
@@ -22,7 +30,7 @@
         position: relative;
         background-repeat: no-repeat;
     }
-    
+    /*RIGHT POINTER*/
     .boxTwo {
         background-image: url(assets/cursors/pointer-emoji-left.png);
         width: 25px;
@@ -31,6 +39,10 @@
         background-repeat: no-repeat;
     }
 </style>
+    
+    <!-- *********** JAVASCRIPT ********** -->
+    
+    <!-- GOOGLE ANALYTICS -->
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -41,6 +53,8 @@
   ga('send', 'pageview');
 
 </script>
+    
+    <!-- HOVER SHOW IMAGES -->
 <script language="Javascript">
     function ShowPicture(id, Source) {
         if (Source == "1") {
@@ -56,21 +70,40 @@
     }
 </script>
 
+<!-- *********** CONTENT ********** -->
 <body>
+    <!-- COVER FOR MOBILE/TABLET SIZES -->
     <div id="mobileCover">I'M STILL WORKING THE MOBILE VERSION
         <br />🤘</div>
+    
+    <!-- BACK BUTTON -->
+        <a href="index.html" class="back">back</a>
+    
+    <!-- HEADER -->
     <a href="index.html" class="back">back</a>
     <h5><span class="emoji">🎵🎵🎵</span>Making beats based on the frequency of internet events<span class="emoji2">🎵🎵🎵</span></h5>
+    
+    <!-- ******* VIDEO ****** -->
     <div id="netronome_container">
+        <!-- FRAME IMAGE -->
         <img src="assets/netronome/netronome-frame.png" alt="emoji-hand"/>
+        <!-- VIDEO INSIDE -->
         <iframe src="https://player.vimeo.com/video/202810535" width="94%" height="87%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
+    
+    <!-- ******* DOWNLOAD LINK ****** -->
     <div class="download">
+        <!-- LEFT POINTER -->
         <div class="emoji-big">
             <div class="box"></div>
         </div>
-        <div class="scrollable"><a href="assets/netronome/netronome-deck.compressed.pdf" target="_blank" onMouseOver="ShowPicture('Style11',1)" onMouseOut="ShowPicture('Style11',0)">netronome-deck.compressed.pdf</a></div><span class="emoji2-big"><div class="boxTwo"></div></span>
+        <!-- LINK TEXT -->
+        <div class="scrollable"><a href="assets/netronome/netronome-deck.compressed.pdf" target="_blank" onMouseOver="ShowPicture('Style11',1)" onMouseOut="ShowPicture('Style11',0)">netronome-deck.compressed.pdf</a></div><span class="emoji2-big">
+        <!-- RIGHT POINTER -->
+        <div class="boxTwo"></div></span>
     </div>
+    
+    <!-- ******* PARAGRAPH ****** -->
     <div class="content-center">
         <span class="brief">“Using factual data and its graphic form you will develop an interactive infographic that informs, entertains or/and persuades the audience.”</span>
         <br/>
@@ -78,6 +111,8 @@
         <br/>
         <br/> Extended thanks to Miguel Cardona, Neil LaVigne, and Julie Campbell
     </div>
+    
+    <!-- ******* DECK GRID IMAGES ****** -->
     <div id="Style11">
         <ul class="deck-grid">
             <li>
@@ -166,6 +201,7 @@
     </div>
 
 </body>
+<!-- *********** IDK WHAT THIS DOES ********** -->
 <script>
     var b = $('html');
 
@@ -179,6 +215,7 @@
         b.scrollTop(s);
     });
 </script>
+    <!-- *********** ROTATES THE LEFT EMOJI ********** -->
 <script>
     $(document).ready(function () {
 
@@ -198,8 +235,9 @@
     });
 });
 </script>
+    <!-- *********** ROTATES THE RIGHT EMOJI ********** -->
 <script>
-    $(document).ready(function () {
+       $(document).ready(function () {
 
     var box =$('.boxTwo');
     // var box = document.getElementsByClassName(box);
