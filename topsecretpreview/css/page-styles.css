@@ -16,14 +16,13 @@
     z-index: 150;
 }
 
-@media only screen 
-and (max-width : 1023px) {
+@media screen and (max-width: 900px), screen and (max-height: 580px) {
     #mobileCover {
         visibility: visible;
     }
     html {
-        overflow-x: hidden;
-        overflow-y: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
     }
 }
 
