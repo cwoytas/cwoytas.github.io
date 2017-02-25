@@ -22,7 +22,6 @@
 @media screen and (max-width: 900px), screen and (max-height: 580px) {
     #mobileCover {
         visibility: visible;
-        z-index: 1000;
     }
     html {
     overflow-x: hidden;
