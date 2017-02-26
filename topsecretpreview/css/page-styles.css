@@ -1,23 +1,21 @@
 #mobileCover {
     position: absolute;
-    top: 0px;
-    left: 0px;
     width: 100vw;
     height: 100vh;
-    background-color: #000000;
+    background-color: white;
     text-align: center;
     visibility: hidden;
-    padding-left,
-    padding-right: 10vw;
-    margin: 0px;
-    padding-top:35vh;
-    padding-bottom: 20vh;
-    color: #ffffff;
+    padding-left, padding-right: 10vw;
+    
+    padding-top: 25vh;
+    padding-bottom: 35vh;
+    color: #000000;
     font-weight: bold;
     font-size: 50px;
     line-height: 56px;
     z-index: 150;
 }
+
 @media screen and (max-width: 900px), screen and (max-height: 580px) {
     #mobileCover {
         visibility: visible;

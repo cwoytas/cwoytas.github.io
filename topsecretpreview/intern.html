@@ -16,12 +16,13 @@
     <link rel="stylesheet" type="text/css" href="css/component.css">
     <!-- MEDIA QUERIES THAT MAKE THE DECK GRID RESPONSIVE -->
     <link rel="stylesheet" type="text/css" href="css/house-responsive.css">
-    <!-- LIGHTBOX -->
-    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
-    <script src="js/lightbox.js"></script>
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
+    <!-- LIGHTBOX -->
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <script src="js/lightbox.js"></script>
+    
 </head>
     <!-- *********** PAGE STYLES ********** -->
 <style>
@@ -64,7 +65,10 @@
         padding-top: 12vh;
         padding-bottom: 15vh;
     }
-    
+    /*EYEYS CURSOR ON IMAGES YOU CAN CLICK TO ENLARGE*/
+    .thumbnail:hover {
+        cursor: url('assets/cursors/eyes.png'), auto;
+    }
     /**** IDK YET ****/
     .green a {
         color: #0000ff;
@@ -182,10 +186,7 @@
     .emoji-title {
         padding-right: 50px;
     }
-    /*EYEYS CURSOR ON IMAGES YOU CAN CLICK TO ENLARGE*/
-    .thumbnail:hover {
-        cursor: url('assets/cursors/eyes.png'), auto;
-    }
+    
     
     /***ICON SET***/
     /*TITLE*/
@@ -244,12 +245,11 @@ height: 35vw;
         padding-bottom: 2vh;
     }
     /*CONTAINER*/
-    #imgHome .maps {
+    .maps {
         position: absolute;
-        padding-top: 120vw;
         right: 0px;
         width: 30vw;
-        padding-left: 1vw;
+        top: 230vw;
     }
     .maps .thumbnail {
         position: absolute;
@@ -434,9 +434,12 @@ height: 35vw;
                 <a class="thumbnail" href="assets/intern/cards/0005.jpg" data-lightbox="cards-5">
                     <img class="fullImage" src="assets/intern/cards/0005.jpg" alt="image-1" /></a>
             </div>
-            </div>
-        
-        <!-- ***** MOBILE MAPS ***** -->
+            
+        </div>
+    
+    
+</div>
+    <!-- ***** MOBILE MAPS ***** -->
         <div class="maps">
             <!-- TITLE -->
             <div class="section5">always mobile version of everything, forever?</div>
@@ -444,8 +447,6 @@ height: 35vw;
         <a class="thumbnail" href="assets/intern/maps.jpg" data-lightbox="maps" border="1">
             <img class="fullImage" src="assets/intern/maps.jpg" alt="image-1" border="1"/></a>
     </div>
-    </div>
-
     <!-- ***** RATES VISUALS ***** -->
     <div id="imgRates">
 <!-- LIGHTBOX IMAGE LEFT -->
