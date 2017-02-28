@@ -26,11 +26,6 @@
     }
 }
 
-@font-face{
-  font-family: "kindess";
-  src: url("../assets/fonts/kindness.ttf");
-}
-
 #netronome_container {
     width: 100vw;
     /* Adjust TV image width */
@@ -128,25 +123,23 @@ body {
 }
 
 .emoji {
-    font-family: kindess;
+    font-family: emoji;
     letter-spacing: 2px;
     padding-right: 20px;
 }
 
 .emoji2 {
-    font-family: kindess;
+    font-family: emoji;
     letter-spacing: 2px;
     padding-left: 20px;
 }
 
 .emoji-big {
-    font-family: kindess;
     padding-right: 40px;
     font-size: 50px;
 }
 
 .emoji2-big {
-    font-family: kindess;
     padding-left: 40px;
     font-size: 50px;
 }
@@ -346,12 +339,12 @@ h10 {
         line-height: 28px;
     }
     .emoji {
-        font-family: kindess;
+        font-family: emoji;
         letter-spacing: 2px;
         padding-right: 15px;
     }
     .emoji2 {
-        font-family: kindess;
+        font-family: emoji;
         letter-spacing: 2px;
         padding-left: 15px;
     }
@@ -414,12 +407,12 @@ h10 {
         line-height: 24px;
     }
     .emoji {
-        font-family: kindess;
+        font-family: emoji;
         letter-spacing: 2px;
         padding-right: 10px;
     }
     .emoji2 {
-        font-family: kindess;
+        font-family: emoji;
         letter-spacing: 2px;
         padding-left: 10px;
     }
