@@ -2,14 +2,14 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-color: black;
     text-align: center;
     visibility: hidden;
     padding-left, padding-right: 10vw;
     
     padding-top: 25vh;
     padding-bottom: 35vh;
-    color: #000000;
+    color: white;
     font-weight: bold;
     font-size: 50px;
     line-height: 56px;
@@ -24,6 +24,11 @@
     overflow-x: hidden;
     overflow-y: hidden;
     }
+}
+
+@font-face{
+  font-family: "kindess";
+  src: url("../assets/fonts/kindness.ttf");
 }
 
 #netronome_container {
@@ -123,23 +128,25 @@ body {
 }
 
 .emoji {
-    font-family: emoji;
+    font-family: kindess;
     letter-spacing: 2px;
     padding-right: 20px;
 }
 
 .emoji2 {
-    font-family: emoji;
+    font-family: kindess;
     letter-spacing: 2px;
     padding-left: 20px;
 }
 
 .emoji-big {
+    font-family: kindess;
     padding-right: 40px;
     font-size: 50px;
 }
 
 .emoji2-big {
+    font-family: kindess;
     padding-left: 40px;
     font-size: 50px;
 }
@@ -339,12 +346,12 @@ h10 {
         line-height: 28px;
     }
     .emoji {
-        font-family: emoji;
+        font-family: kindess;
         letter-spacing: 2px;
         padding-right: 15px;
     }
     .emoji2 {
-        font-family: emoji;
+        font-family: kindess;
         letter-spacing: 2px;
         padding-left: 15px;
     }
@@ -407,12 +414,12 @@ h10 {
         line-height: 24px;
     }
     .emoji {
-        font-family: emoji;
+        font-family: kindess;
         letter-spacing: 2px;
         padding-right: 10px;
     }
     .emoji2 {
-        font-family: emoji;
+        font-family: kindess;
         letter-spacing: 2px;
         padding-left: 10px;
     }
