@@ -100,6 +100,9 @@
             document.getElementById('Style7_li').style.opacity = ".25";
             document.getElementById('Style8_li').style.opacity = ".25";
             document.getElementById('Style9_li').style.opacity = ".25";
+            document.getElementById('Current_title').style.opacity = ".25";
+            document.getElementById('Wip_title').style.opacity = ".25";
+            document.getElementById('Loosies_title').style.opacity = ".25";
             document.getElementById(id + '_li').style.opacity = "1";
         } else {
             document.getElementById('Style_li').style.opacity = "1";
@@ -111,6 +114,9 @@
             document.getElementById('Style7_li').style.opacity = "1";
             document.getElementById('Style8_li').style.opacity = "1";
             document.getElementById('Style9_li').style.opacity = "1";
+            document.getElementById('Current_title').style.opacity = "1";
+            document.getElementById('Wip_title').style.opacity = "1";
+            document.getElementById('Loosies_title').style.opacity = "1";
         }
     }
 
@@ -213,7 +219,7 @@
     <!-- LIST -->
     <h2>   
             <ul>
-                <h7>/*CURRENT*/</h7>
+                <h7 id="Current_title">/*CURRENT*/</h7>
                 <!-- HOUSE -->
                 <li id="Style_li">
                 <span class="emojiL">🔥</span><a href="house.html" class="house" onMouseOver="ShowPicture('Style',1)" onMouseOut="ShowPicture('Style',0)">Naturally adjusting home comfort relative to how you feel</a><span id="Style_emoji">🔥</span>
@@ -227,7 +233,7 @@
                 <span class="emojiL">🌲</span><a href="intern.html" class="intern" onMouseOver="ShowPicture('Style3',1)" onMouseOut="ShowPicture('Style3',0)">Overview of work while interning at Brault & Barnes</a><span id="Style3_emoji">🌲</span>
                 </li>
                 
-                <h7>/*WIP*/</h7>
+                <h7 id="Wip_title">/*WIP*/</h7>
                 <!-- CAPSTONE -->
                 <li id="Style4_li">
                 <span class="emojiL">⌚️</span><a href="capstone.html" class="capstone" onMouseOver="ShowPicture('Style4',1)" onMouseOut="ShowPicture('Style4',0)">Using wearables for digital ambient communication</a><span id="Style4_emoji">⌚️</span>
@@ -242,7 +248,7 @@
                 </li>
                 
                 
-                <h7>/*LOOSIES*/</h7>
+                <h7 id="Loosies_title">/*LOOSIES*/</h7>
                 <!-- NO HOVER IMAGES SHOW FOR THESE -->
                 <li id="Style7_li">
                 <span class="emojiL">🚗</span><a href="#" class="loosies" onMouseOver="ShowPicture('Style7',1)" onMouseOut="ShowPicture('Style7',0)">BMW-Tracking_Pitch.pdf</a><span id="Style7_emoji">🚗</span>
