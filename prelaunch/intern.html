@@ -16,14 +16,13 @@
     <link rel="stylesheet" type="text/css" href="css/component.css">
     <!-- MEDIA QUERIES THAT MAKE THE DECK GRID RESPONSIVE -->
     <link rel="stylesheet" type="text/css" href="css/house-responsive.css">
-    <!-- JQUERY -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
+    
     <!-- LIGHTBOX -->
     <link rel="stylesheet" type="text/css" href="css/lightbox.css">
-    <script src="js/lightbox.js"></script>
+    
     
 </head>
+    
     <!-- *********** PAGE STYLES ********** -->
 <style>
     /*COVER TESTING*/
@@ -166,7 +165,7 @@
         padding-top: 5vw;
         height: 79vw;
     }
-    #imgRates img {
+    #imgRates .thumbnail img {
         width: 100%;
     }    
     /*LEFT IMAGE*/
@@ -274,14 +273,15 @@ height: 35vw;
     .powerwall {
         height:42vw;
     }
-    .powerwall img {
-        width: 100%;
-    }
+    
     /*LEFT IMAGE*/
     .powerwall .imgL {
         width: 45vw;
         float:left;
         z-index: 5;
+    }
+    .powerwall .imgL img {
+        width: 100%;
     }
     /*RIGHT IMAGE*/
     .powerwall .imgR {
@@ -291,6 +291,9 @@ height: 35vw;
         float:left;
         z-index: 4;
         margin-top: 0; 
+    }
+    .powerwall .imgR img {
+        width: 100%;
     }
     /*TITLE RIGHT*/
     .section7 {
@@ -313,7 +316,10 @@ height: 35vw;
 </style>
     
     <!-- *********** JAVASCRIPT ********** -->
-    
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+<script src="js/lightbox.js"></script>
     <!-- GOOGLE ANALYTICS -->
 <script>
     (function (i, s, o, g, r, a, m) {
@@ -331,18 +337,31 @@ height: 35vw;
     ga('create', 'UA-91842018-1', 'auto');
     ga('send', 'pageview');
 </script>
-    
+     <!-- EMOJIS -->
+    <script src="js/jQueryEmoji.js"></script>
+    <script>
+        
+        var init = function() {
+            $(function(){
+                $('.replace').Emoji();
+            });
+        }
+        
+        window.onload = function() {
+            init();
+        };
+    </script>
 <!-- *********** CONTENT ********** -->
 <body>
     <!-- COVER FOR MOBILE/TABLET SIZES -->
     <div id="mobileCover">I'M STILL WORKING THE MOBILE VERSION
-        <br />🤘</div>
+        <br /><span class="replace">🤘</span></div>
     
     <!-- BACK BUTTON -->
         <a href="index.html" class="back">back</a>
     
     <!-- HEADER -->
-    <h5><span class="emoji">🌲🌲🌲</span>B&B AND ME<span class="emoji2">🌲🌲🌲</span></h5>
+    <h5><span class="emoji"><span class="replace">🌲🌲🌲</span></span>B&B AND ME<span class="emoji2"><span class="replace">🌲🌲🌲</span></span></h5>
 
     <!-- ******* PDF IMAGE ****** -->
     <div id="intern_container">
@@ -359,7 +378,7 @@ height: 35vw;
     <!-- ******* HOMEPAGE ****** -->
     <!-- TITLE -->
     <div class="section1">
-        👇 homepage concept
+        <span class="replace">👇</span> homepage concept
     </div>
     <div id="imgHome">
         <!-- LEFT IMAGE -->
@@ -455,10 +474,10 @@ height: 35vw;
                 <img class="fullImage" src="assets/intern/rates1.png" alt="image-1" /></a>
         </div>
 <!-- TITLE -->
-        <div class="section2">rates visual concept 👉
+        <div class="section2">rates visual concept <span class="replace">👉</span>
             <br/>
             <!-- BOTTOM EMOJI -->
-            <span class="emoji-title">👇</span></div>
+            <span class="emoji-title"><span class="replace">👇</span></span></div>
 <!-- LIGHTBOX IMAGE RIGHT -->
         <div class="imgR">
             <a class="thumbnail" href="assets/intern/rates2.png" data-lightbox="rates2">
@@ -476,7 +495,7 @@ height: 35vw;
     
     <!-- ***** MOTION STUDY ***** -->
     <!-- TITLE -->
-    <div class="section4">did a lil motion study ✨</div>
+    <div class="section4">did a lil motion study <span class="replace">✨</span></div>
     <!-- LIGHTBOX GIF -->
     <div class="motion">
         <a class="thumbnail" href="assets/intern/motion/master.gif" data-lightbox="master">
@@ -494,7 +513,7 @@ height: 35vw;
             <img class="fullImage" src="assets/intern/powerwall-2.png" alt="image-1" /></a>
         </div>
         <!-- TITLE RIGHT -->
-        <div class="section7">...into this asset 🤘</div>
+        <div class="section7">...into this asset <span class="replace">🤘</span></div>
         <!-- LIGHTBOX IMAGE RIGHT -->
         <div class="imgR">
         <a class="thumbnail" href="assets/intern/powerwall-white.jpg" data-lightbox="pwll2">
