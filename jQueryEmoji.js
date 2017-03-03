@@ -30,7 +30,7 @@ Licensed under MIT
 			$element = $(element),
 			element = element,
 			defaults = {
-				path:'img/apple40/',
+				path:'img/apple72/',
 				class: 'emoji',
 				alt: true,
 				ext: 'png'

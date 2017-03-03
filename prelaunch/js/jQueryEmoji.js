@@ -31,7 +31,7 @@ Licensed under MIT
 			element = element,
 			defaults = {
 				path:'img/apple40/',
-				class: 'emoji',
+				class: 'replace',
 				alt: true,
 				ext: 'png'
 			};
