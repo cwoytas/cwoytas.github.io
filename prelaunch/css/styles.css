@@ -220,9 +220,7 @@ h7 {
 /*LIST EMOJIS*/
 
 .emojiL {
-    font-size: 14px;
-    font-family: emoji;
-    letter-spacing: 4px;
+    font-size: 18px;
     padding-right: 15px;
 }
 
@@ -235,9 +233,7 @@ h7 {
 #Style7_emoji,
 #Style8_emoji,
 #Style9_emoji {
-    font-size: 14px;
-    font-family: emoji;
-    letter-spacing: 4px;
+    font-size: 18px;
     padding-left: 15px;
 }
 

@@ -30,7 +30,7 @@ Licensed under MIT
 			$element = $(element),
 			element = element,
 			defaults = {
-				path:'img/apple72/',
+				path:'img/apple40/',
 				class: 'replace',
 				alt: true,
 				ext: 'png'
