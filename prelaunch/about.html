@@ -12,8 +12,6 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,400i,500,700" rel="stylesheet">
     <!-- MOST PAGE STYLES -->
     <link rel="stylesheet" href="css/styles.css">
-    <!-- RUNS THE BLUE FILTER GRID -->
-    <link rel="stylesheet" type="text/css" href="css/component.css">
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
@@ -30,34 +28,7 @@
     .padding {
         padding-bottom: 12px;
     }
-    /***OVERWRITES MOST FROM COMPONENT.CSS***/
-    .deck-grid-2 {
-        background-color: transparent;
-        width: 45vw;
-        bottom: 0vh;
-    }
     
-    .deck-grid-2 li {
-        width: -webkit-calc(100% / 8);
-        width: calc(100% / 8);
-    }
-    
-    .deck-grid-2 li a,
-    .deck-grid-2 li a img {
-        display: block;
-        width: 100%;
-        opacity: 1;
-    }
-    
-    .deck-grid-3 {
-        background-color: transparent;
-        width: 45vw;
-    }
-    
-    .deck-grid-3 li {
-        width: -webkit-calc(100% / 8);
-        width: calc(100% / 8);
-    }
     /*BACKGROUND COVER FROM IMAGE GRID*/
     .whiteBG {
         position: absolute;
@@ -67,6 +38,13 @@
         width: 100vw;
         background-color: white;
         z-index: 10;
+    }
+        /*WHEN BLUE IS HOVERED*/
+    .snapchat {
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        z-index: 200;
     }
     /*WHEN RED IS HOVERED*/
     .crosby {
@@ -235,185 +213,9 @@
         <div class="whiteBG"></div>
     </div>
     
-    <!-- ******* BLUE FILTER GRID ****** -->
+    <!-- ******* BLUE FILTER IMAGE ****** -->
     <div id="Style11">
-        <!-- IMAGES LEFT -->
-        <ul class="deck-grid-2">
-            <li>
-                <a href="#"><img src="assets/about/blue/0001.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0002.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0003.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0004.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0005.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0023.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0006.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0007.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0008.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0009.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0010.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0011.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0012.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0013.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0014.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0015.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0049.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0017.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0018.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0019.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0020.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0021.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0022.jpg" /></a>
-            </li>
-
-            <li>
-                <a href="#"><img src="assets/about/blue/0024.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0026.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0027.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0028.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0029.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0030.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0031.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0055.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0033.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0034.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0035.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0036.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0037.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0038.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0039.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0040.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0041.jpg" /></a>
-            </li>
-        </ul>
-        <!-- IMAGES RIGHT -->
-        <ul class="deck-grid-3">
-            <li>
-                <a href="#"><img src="assets/about/blue/0042.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0044.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0045.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0046.jpg" /></a>
-            </li>
-
-            <li>
-                <a href="#"><img src="assets/about/blue/0047.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0048.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0050.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0051.jpg" /></a>
-            </li>
-
-            <li>
-                <a href="#"><img src="assets/about/blue/0052.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0053.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0054.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0056.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0057.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0058.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0059.jpg" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="assets/about/blue/0043.jpg" /></a>
-            </li>
-        </ul>
+        <img src="assets/about/blue-filter.png" alt="emoji-hand" class='snapchat' />
         <!-- BACKGROUND COVER -->
         <div class="whiteBG"></div>
     </div>
