@@ -23,7 +23,7 @@
     font-weight: bold;
     font-size: 50px;
     line-height: 56px;
-    z-index: 150;
+    z-index: 300;
 }
 
 @media screen and (max-width: 900px), screen and (max-height: 580px) {
@@ -78,7 +78,7 @@ ul {
 /*about paragraph*/
 
 .aRight {
-    z-index:100;
+    z-index:210;
     position: absolute;
     right: 220px;
     top: 40px;
