@@ -52,7 +52,7 @@ $(function(){
     albumLabel: 'Image %1 of %2',
     alwaysShowNavOnTouchDevices: false,
     fadeDuration: 0,
-    fitImagesInViewport: false,
+    fitImagesInViewport: true,
     imageFadeDuration: 0,
     // maxWidth: 800,
     // maxHeight: 600,
@@ -60,7 +60,7 @@ $(function(){
     resizeDuration: 0,
     showImageNumberLabel: false,
     wrapAround: false,
-    disableScrolling: false,
+    disableScrolling: true,
     /*
     Sanitize Title
     If the caption data is trusted, for example you are hardcoding it in, then leave this to false.

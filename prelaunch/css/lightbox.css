@@ -4,7 +4,7 @@ body:after {
 }
 
 body.lb-disable-scrolling {
-  overflow: visible;
+  overflow: hidden;
 }
 .thumbnail img {
     vertical-align: top;
@@ -13,7 +13,7 @@ body.lb-disable-scrolling {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 210;
   background-color: white;
   display: none;
 }
@@ -21,8 +21,9 @@ body.lb-disable-scrolling {
 .lightbox {
   position: absolute;
   left: 0;
-  width: 100%;
-  z-index: 10000;
+  width: 100vw;
+    height: 100vh;
+  z-index: 215;
   text-align: center;
   line-height: 0;
   font-weight: normal;

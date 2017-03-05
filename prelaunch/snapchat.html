@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>@c0ltDawg</title>
+    <meta name="description" content="Colton Woytas Design Portfolio">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <!-- ROBOTO MONO -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,400i,500,700" rel="stylesheet">
+</head>
+    
+    <style>
+        html {
+            height: 100vh;
+            width: 100vw;
+            overflow-x: hidden;
+            overflow-y: hidden;
+                font-family: 'Roboto Mono', monospace;
+        }
+        .center {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+            height: 638px;
+            width: 320px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+}
+        .video {
+            position:absolute;
+            margin-left: -5px;
+        }
+        /*BACK BUTTON*/
+
+.back {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 40px;
+    left: -10px;
+    z-index: 9;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: #800080;
+    text-decoration: none;
+}
+
+.back a:link {
+    text-decoration: none;
+}
+
+        #mobileCover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    text-align: center;
+    visibility: hidden;
+    padding-left,
+    padding-right: 10vw;
+    margin: 0px;
+    padding-top:35vh;
+    padding-bottom: 20vh;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 56px;
+    z-index: 300;
+}
+
+@media screen and (max-width: 900px), screen and (max-height: 580px) {
+    #mobileCover {
+        visibility: visible;
+    }
+    html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    }
+}
+    </style>
+    <body>
+            <!-- COVER FOR MOBILE/TABLET SIZES -->
+    <div id="mobileCover">I'M STILL WORKING THE MOBILE VERSION
+        <br /><span class="replace">🤘</span></div>
+         <!-- BACK BUTTON -->
+    <a href="index.html" class="back">back</a>
+        
+        
+        <div class="center">
+    <video width="330" height="644" autoplay loop>
+  <source src="assets/loosies/snapchat-ad.mp4" type="video/mp4">
+</video>
+        </div>
+    </body>
+</html>
