@@ -27,6 +27,7 @@ body.lb-disable-scrolling {
   text-align: center;
   line-height: 0;
   font-weight: normal;
+    cursor: url('../assets/cursors/clothes.png'), auto;
 }
 
 .lightbox .lb-image {
@@ -34,6 +35,9 @@ body.lb-disable-scrolling {
   height: auto;
   max-width: inherit;
   max-height: none;
+}
+.lb-image:hover{
+    cursor: default;
 }
 
 .lightbox a img {
