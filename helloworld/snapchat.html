@@ -19,8 +19,8 @@
             overflow-y: hidden;
                 font-family: 'Roboto Mono', monospace;
         }
-        .center {
-    left: 50%;
+        .left {
+    left: 33vw;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -31,8 +31,25 @@
 }
         .video {
             position:absolute;
-            margin-left: -5px;
+            margin-left: auto;
+            margin-right: auto
         }
+        
+        .right {
+left: 63vw;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+            overflow-x: hidden;
+            overflow-y: hidden;
+            
+            width: 450px;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15px;
+    line-height: 30px;
+}
         /*BACK BUTTON*/
 
 .back {
@@ -84,6 +101,7 @@
     z-index: 300;
 }
 
+        
 @media screen and (max-width: 900px), screen and (max-height: 580px) {
     #mobileCover {
         visibility: visible;
@@ -92,6 +110,29 @@
     overflow-x: hidden;
     overflow-y: hidden;
     }
+}
+        @media screen and (max-width: 1500px) {
+            
+            .right{
+                left:71vw;
+            }
+            .left {
+                left: 25vw;
+            }
+        }
+        
+        .right .link {
+            text-align: center;
+            padding-top: 20px;
+        }
+        
+.right a {
+    color: #0000ff;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 400;
+    background-color: #ffffff;
+    padding: 5px;
 }
     </style>
     <body>
@@ -102,10 +143,18 @@
     <a href="index.html" class="back">back</a>
         
         
-        <div class="center">
+        <div class="left">
     <video width="330" height="644" controls>
-  <source src="assets/loosies/snapchat-ad.mp4" type="video/mp4">
+  <source src="assets/snapchat/snapchat-ad.mp4" type="video/mp4">
 </video>
         </div>
+        <div class="right">
+        I created a marketing campaign for LaCroix for an  experimental design class lead by Jeffrey Gable of Partners & Napier in Rochester.
+        <br />
+        <br /> I used the opportunity to share the potential of marketing with Snapchat for a younger trending brand, LaCroix. I delivered this ad concept I made during an intramural hockey game along with a pitch presentation, creative presentation, geofilter concepts, and a report.
+           <br />
+        <br /><div class="link"> <a href="assets/snapchat/lacroix_marketing-pitch.compressed.pdf" target="_blank" >lacroix_marketing-pitch.compressed.pdf</a>
+            </div>
+    </div>
     </body>
 </html>
