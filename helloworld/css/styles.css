@@ -125,8 +125,8 @@ ul {
 /*BIG MAIN TITLE*/
 
 h1 {
-    padding-top: 100px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 110px;
     color: #000000;
     font-weight: 600;
     font-size: 50px;
@@ -140,6 +140,15 @@ h1 a {
     text-decoration: none;
 }
 
+/*PERSONAL SENTENCE*/
+
+.subtitle {
+        position: absolute;
+        top: 139px;
+        font-size: 24px;
+        font-weight: 600;
+        padding-left: 120px;
+    }
 
 /*MENU LIST*/
 
@@ -236,7 +245,7 @@ h7 {
 #Style7_emoji,
 #Style8_emoji,
 #Style9_emoji,
-#Style11_emoji{
+#Style_emoji{
     font-size: 18px;
     padding-left: 15px;
 }
