@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>LaCroix Snapchat Marketing</title>
+    <title>Video Interface Concept</title>
     <meta name="description" content="Colton Woytas Design Portfolio">
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <!-- ROBOTO MONO -->
@@ -24,19 +24,21 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-            height: 638px;
-            width: 320px;
+            height: 627px;
+            width: 885px;
             overflow-x: hidden;
             overflow-y: hidden;
 }
-        .video {
+        .left img {
+            width: 100%;
+            height: 100%;
             position:absolute;
             margin-left: auto;
-            margin-right: auto
+            margin-right: auto;
         }
         
         .right {
-left: 63vw;
+            left: 80vw;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -111,29 +113,50 @@ left: 63vw;
     overflow-y: hidden;
     }
 }
-        @media screen and (max-width: 1500px) {
+        @media screen and (max-width: 1550px) {
             
             .right{
-                left:71vw;
             }
             .left {
-                left: 25vw;
+                left: 30%;
+                width: 713px;
+                height: 501px;
             }
         }
-        
-        .right .link {
-            text-align: center;
-            padding-top: 20px;
+        @media screen and (max-width: 1330px) {
+            
+            .right{
+                font-size: 12px;
+                line-height: 24px;
+                width: 275px;
+                left:82%;
+            }
+            .left {
+                left:35%;
+            }
         }
-        
-.right a {
-    color: #0000ff;
-    text-align: center;
-    text-decoration: underline;
-    font-weight: 400;
-    background-color: #ffffff;
-    padding: 5px;
-}
+         @media screen and (max-width: 1105px) {
+            
+            .right{
+                left: 85%;
+            }
+            .left {
+                width: 642px;
+                height: 451px;
+            }
+        }
+        @media screen and (max-width: 1020px) {
+            
+            .right{
+                left: 83%;
+                width: 225px;
+            }
+            .left {
+                width: 578px;
+                height: 406px;
+            }
+        }
+    
     </style>
     <body>
             <!-- COVER FOR MOBILE/TABLET SIZES -->
@@ -144,17 +167,12 @@ left: 63vw;
         
         
         <div class="left">
-    <video width="330" height="644" controls>
-  <source src="assets/snapchat/snapchat-ad.mp4" type="video/mp4">
-</video>
+    <img src="assets/video/ipad.png" alt="emoji-hand" />
         </div>
         <div class="right">
-        I created a marketing campaign for LaCroix for an  experimental design class lead by Jeffrey Gable of Partners & Napier in Rochester.
+        I have always been bothered by the lack of forgivness present when scrubbing a video on a touch screen device. Once you have started scrubbing there is no way you can have that video continue playing smoothly if you were to change your mind.
         <br />
-        <br /> I used the opportunity to share the potential of marketing with Snapchat for a younger trending brand, LaCroix. I delivered this ad concept I made during an intramural hockey game along with a pitch presentation, creative presentation, geofilter concepts, and a report.
-           <br />
-        <br /><div class="link"> <a href="assets/snapchat/lacroix_marketing-pitch.compressed.pdf" target="_blank" >lacroix_marketing-pitch.compressed.pdf</a>
-            </div>
+        <br /> As a solution to this, I redesigned the common scrub interaction to include the ability to cancel or hold your decision. The interface gives a visual preview of the video as the user scrubs to help them make a more accurate decision.
     </div>
     </body>
 </html>

@@ -44,7 +44,8 @@
 #Style7,
 #Style8,
 #Style9,
-#Style10 {
+#Style10,
+#Style11 {
     visibility: hidden;
 }
 
@@ -56,7 +57,9 @@
 #Style6_emoji,
 #Style7_emoji,
 #Style8_emoji,
-#Style9_emoji {
+#Style9_emoji,
+#Style11_emoji
+ {
     visibility: hidden;
 }
 
@@ -232,7 +235,8 @@ h7 {
 #Style6_emoji,
 #Style7_emoji,
 #Style8_emoji,
-#Style9_emoji {
+#Style9_emoji,
+#Style11_emoji{
     font-size: 18px;
     padding-left: 15px;
 }
