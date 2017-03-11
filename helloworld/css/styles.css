@@ -144,8 +144,8 @@ h1 a {
 
 .subtitle {
         position: absolute;
-        top: 139px;
-        font-size: 24px;
+        top: 144px;
+        font-size: 20px;
         font-weight: 600;
         padding-left: 120px;
     }
@@ -547,6 +547,35 @@ h7 {
     height: 275px;
     width: auto;
 }
+
+/*LOOSIES*/
+
+.snapchat {
+    position: absolute;
+    width:auto;
+    height: 60vh;
+    z-index: 10;
+    right: 3vw;
+    bottom: 2vh;
+}
+
+.bmw {
+    position: absolute;
+    width: 900px;
+    height: auto;
+    z-index: 10;
+    right: 3vw;
+    top:200px;
+}
+.obama {
+    position: absolute;
+    width: 891px;
+    height: auto;
+    z-index: 10;
+    right: 3vw;
+    top:2vh;
+}
+
 /******MEDIUM 550-650******/
 
 /******SMALLEST 550-650******/
@@ -754,6 +783,12 @@ h7 {
     .wip {
         height: 325px;
     }
+           .bmw {
+    width: 700px;
+    height: auto;
+    right: 3vw;
+    bottom: 0vh;
+}
 } 
 @media screen and (max-width: 1480px) and (max-height: 930px) {
     .video2 {
@@ -789,6 +824,11 @@ h7 {
         width: 450px;
         height: auto;
     }
+             .bmw {
+top:200px;
+    right: 10vw;
+}
+    
 }
 @media screen and (max-width: 1150px) {
     .rainbow {
@@ -831,15 +871,24 @@ h7 {
         right: 30px;
     }
 }
-@media screen and (max-width: 1305px) and (max-height: 750px) {
+@media screen and (max-width: 1305px) and (max-height: 800px) {
     .watch {
         height: 310px;
     }
     .farm {
         height: 360px;
     }
+               .obama {
+    width: 682px;
+    height: auto;
+    right: 4vw;
 }
-@media screen and (max-width: 1200px) and (max-height: 750px) {
+             .bmw {
+top:20px;
+    right: 30vw;
+}
+}
+@media screen and (max-width: 1200px) and (max-height: 800px) {
     .pw3 {
         width: 400px;
         height: auto;
@@ -856,14 +905,14 @@ h7 {
         height: 200px;
     }
 }
-@media screen and (max-width: 1050px) and (max-height: 750px) {
+@media screen and (max-width: 1050px) and (max-height: 800px) {
     .pw3 {
         width: 350px;
         height: auto;
         bottom: 10vh;
     }
 }
-@media screen and (max-width: 1180px) and (min-height: 750px) {
+@media screen and (max-width: 1180px) and (min-height: 800px) {
     .pw3 {
         top: 50px;
         right: 30vw;
