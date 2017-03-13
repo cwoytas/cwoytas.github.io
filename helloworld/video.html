@@ -9,6 +9,8 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <!-- ROBOTO MONO -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,400i,500,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 </head>
     
     <style>
@@ -160,6 +162,16 @@ left:80%;
             padding-top: 20px;
         }
     </style>
+    <script>
+$(function() {
+    var vimeo_iframe = $('#vimeo_player')[0];
+    var player = $f(vimeo_iframe);
+
+    player.addEvent('ready', function() {
+        player.api('setVolume', 0);
+    });
+});
+</script>
     <body>
             <!-- COVER FOR MOBILE/TABLET SIZES -->
     <div id="mobileCover">I'M STILL WORKING THE MOBILE VERSION
@@ -169,7 +181,7 @@ left:80%;
         
         
         <div class="left">
-    <iframe src="https://player.vimeo.com/video/208097424" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe id="vimeo_player" src="https://player.vimeo.com/video/208097424?api=1&player_id=vimeo_player&autoplay=1&loop=1" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
         <div class="right">
         I have always been bothered by the lack of forgivness granted when scrubbing a video on a touch screen device. Once you have started scrubbing there is no way you can have that video continue playing smoothly if you were to change your mind.
