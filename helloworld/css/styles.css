@@ -144,7 +144,9 @@ h1 a:hover {
     text-decoration: none;
 }
 
-#header:hover { color: #0000ee; }
+#header:hover { 
+    color: #0000ee; 
+}
 
 
 /*PERSONAL SENTENCE*/
@@ -318,9 +320,9 @@ h7 {
     position: absolute;
     z-index: 1;
     top: 10vh;
-    right: 20vw;
+    right: 1vw;
     height: auto;
-    width: 35vw;
+    width: 44vw;
 }
 
 .email {
