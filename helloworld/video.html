@@ -20,22 +20,15 @@
                 font-family: 'Roboto Mono', monospace;
         }
         .left {
-    left: 33vw;
+    left: 0;
     position: absolute;
     top: 50%;
-    transform: translate(-50%, -50%);
-            height: 627px;
-            width: 885px;
+    transform: translate(0%, -50%);
+            width: 1280px;
+            height: 720px;
             overflow-x: hidden;
             overflow-y: hidden;
 }
-        .left img {
-            width: 100%;
-            height: 100%;
-            position:absolute;
-            margin-left: auto;
-            margin-right: auto;
-        }
         
         .right {
             left: 80vw;
@@ -113,36 +106,43 @@
     overflow-y: hidden;
     }
 }
+        
+        @media screen and (max-width: 1670px) {
+            
+            .right{
+            }
+            .left {
+                width: 1040px;
+                height: 584px;
+            }
+        }
+        
         @media screen and (max-width: 1550px) {
             
             .right{
             }
             .left {
-                left: 30%;
-                width: 713px;
-                height: 501px;
             }
         }
-        @media screen and (max-width: 1330px) {
+        @media screen and (max-width: 1410px) {
             
             .right{
                 font-size: 12px;
                 line-height: 24px;
-                width: 275px;
-                left:82%;
+                width: 300px;
+                left:86%;
             }
             .left {
-                left:35%;
             }
         }
-         @media screen and (max-width: 1105px) {
+         @media screen and (max-width: 1240px) {
             
             .right{
-                left: 85%;
+left:80%;
             }
             .left {
-                width: 642px;
-                height: 451px;
+                width: 800px;
+                height: 450px;
             }
         }
         @media screen and (max-width: 1020px) {
@@ -152,11 +152,13 @@
                 width: 225px;
             }
             .left {
-                width: 578px;
-                height: 406px;
+
             }
         }
-    
+    .right .link {
+            text-align: center;
+            padding-top: 20px;
+        }
     </style>
     <body>
             <!-- COVER FOR MOBILE/TABLET SIZES -->
@@ -167,12 +169,16 @@
         
         
         <div class="left">
-    <img src="assets/video/ipad.png" alt="emoji-hand" />
+    <iframe src="https://player.vimeo.com/video/208097424" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
         <div class="right">
         I have always been bothered by the lack of forgivness present when scrubbing a video on a touch screen device. Once you have started scrubbing there is no way you can have that video continue playing smoothly if you were to change your mind.
         <br />
-        <br />I whipped this up over winter break to show how easy it would be to allow users to cancel their decision. I've also included the original version I did of this project back in junior year.
+        <br />This is a redo/simplification of an original solution I proposed show how easy it would be to allow users to cancel their decision. I've included old version I did of this project back in junior year.
+        <br />
+        <br />    
+            <div class="link"> <a href="https://vimeo.com/208097571" target="_blank" >Tablet-Video-Controls_FALL16.mp4</a>
+            </div>
     </div>
     </body>
 </html>
