@@ -139,6 +139,13 @@ h1 a {
     color: #000000;
     text-decoration: none;
 }
+h1 a:hover {
+    color: #0000ee;
+    text-decoration: none;
+}
+
+#header:hover { color: #0000ee; }
+
 
 /*PERSONAL SENTENCE*/
 
@@ -147,7 +154,7 @@ h1 a {
         top: 140px;
         font-size: 20px;
         font-weight: 600;
-        padding-left: 122px;
+        padding-left: 3px;
     }
 
 /*MENU LIST*/
