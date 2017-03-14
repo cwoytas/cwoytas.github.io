@@ -587,11 +587,12 @@ bottom: 3vh;
 }
 .obama {
     position: absolute;
-    width: 891px;
-    height: auto;
     z-index: 10;
     right: 3vw;
     top: 2vh;
+    height: 603px;
+        width: 853px;
+        background-image: url("../assets/loosies/obama-w853.jpg");
 }
 .cutVideo {
     position: absolute;
@@ -942,9 +943,10 @@ bottom:3vh;
         background-image: url("../assets/farmhand/farm-h358.png");
     }
     .obama {
-        width: 682px;
-        height: auto;
         right: 4vw;
+        height: 482px;
+        width: 682px;
+        background-image: url("../assets/loosies/obama-w682.jpg");
     }
     .bmw {
     top:3vh;
