@@ -62,27 +62,19 @@ html {
 }
 
 #house_container {
-    width: 100%;
-    /* Adjust TV image width */
-    height: auto;
-    /* Adjust TV image height */
     position: relative;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-}
-
-#house_container img {
-    width: 100%;
-    height: auto;
+    width: 1869px;
+    height: 1155px;
+    background-image: url("../assets/house/house-frame-w1869.png");
 }
 
 #house_container iframe {
     position: absolute;
-    top: 6%;
-    /* Adjust top position */
-    left: 3.14%;
-    /* Adjust left position */
+    top: 70px;
+    left: 59px;
     z-index: 10;
 }
 
@@ -329,21 +321,63 @@ h10 {
 
 /*Media Queries*/
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1840px) {
+#house_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1640px;
+    height: 1027px;
+    background-image: url("../assets/house/house-frame-w1640.png");
+}
     #netronome_container iframe {
         height: 86%;
         width: 93.5%;
         left: 3.3%;
     }
     #house_container iframe {
-        position: absolute;
-        height: 83.5%;
-        width: 93.2%;
-        top: 6%;
-        left: 3.6%;
-    }
+    position: absolute;
+        width: 92.6%;
+        height: 83%;
+    top: 71px;
+    left: 61px;
+    z-index: 10;
 }
 
+}
+@media screen and (max-width: 1600px) {
+    #house_container {
+        margin-left: auto;
+        margin-right: auto;
+    width: 1338px;
+    height: 857px;
+    background-image: url("../assets/house/house-frame-w1338.png");
+}
+        #house_container iframe {
+    position: absolute;
+        width: 91%;
+            height: 79.5%;
+    top: 71px;
+    left: 60px;
+    z-index: 10;
+}
+}
+@media screen and (max-width: 1440px) {
+    #house_container {
+        margin-left: auto;
+        margin-right: auto;
+    width: 1338px;
+    height: 857px;
+    background-image: url("../assets/house/house-frame-w1338.png");
+}
+#house_container iframe {
+    position: absolute;
+        width: 91%;
+    height: 79.7%;
+    top: 71px;
+    left: 60px;
+    z-index: 10;
+}
+}
 @media screen and (max-width: 1040px) {
     h5 {
         margin-top: 0px;
@@ -366,14 +400,24 @@ h10 {
         margin-left: 0px;
     }
 }
+@media screen and (max-width: 1290px) {
+        #house_container {
+        margin-left: auto;
+        margin-right: auto;
+    width: 980px;
+    height: 661px;
+    background-image: url("../assets/house/house-frame-w980.png");
+}
+#house_container iframe {
+    position: absolute;
+        width: 86.5%;
+    height: 71%;
+    top: 71px;
+    left: 60px;
+    z-index: 10;
+}
+}
 @media screen and (max-width: 1200px) {
-    #house_container iframe {
-        position: absolute;
-        height: 82%;
-        width: 93.2%;
-        top: 6%;
-        left: 3.2%;
-    }
     h4 {
         font-size: 18px;
     }
@@ -408,13 +452,7 @@ h10 {
         height: 84%;
         width: 93.5%;
     }
-    #house_container iframe {
-        position: absolute;
-        height: 80%;
-        width: 93.2%;
-        top: 6%;
-        left: 3.2%;
-    }
+
 }
 
 @media screen and (max-width: 650px) {
