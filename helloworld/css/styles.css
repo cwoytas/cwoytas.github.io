@@ -38,7 +38,6 @@ screen and (max-height: 580px) {
 }
 
 
-
 #Style,
 #Style2,
 #Style3,
@@ -386,18 +385,21 @@ h7 {
 .stick-small {
     position: absolute;
     z-index: 10;
-    top: 150px;
-    right: 33vw;
-    height: 190px;
-    width: auto;
+    top: 60px;
+    right: 22vw;
+    height: 180px;
+    width: 297px;
+    background-image: url("../assets/history/stick-small-w297.png");
 }
 
 .wip {
     position: absolute;
     z-index: 8;
-    bottom: 20px;
-    right: 20px;
-    height: 500px;
+    bottom: 5px;
+        right:10px;
+    height: 704px;
+        width: 1083px;
+        background-image: url("../assets/history/wip-w1083.png");
 }
 
 
@@ -834,10 +836,8 @@ h7 {
         bottom: 10vh;
     }
     
-    .wip {
-        height: 400px;
-    }
 }
+
 @media screen and (max-width: 1440px) {
     .pw3 {
         bottom: 8vh;
@@ -861,15 +861,18 @@ h7 {
         background-image: url("../assets/capstone/pitch-h490.png");
     }
     
-    .wip {
-        height: 325px;
-    }
-    
     .bmw {
         width: 700px;
         height: auto;
         right: 3vw;
         bottom: 0vh;
+    }
+    .wip {
+        bottom: 5px;
+        right:-60px;
+         height: 724px;
+        width: 690px;
+        background-image: url("../assets/history/wip-w690.png");
     }
 }
 @media screen and (max-width: 1480px) and (max-height: 930px) {
@@ -935,6 +938,7 @@ h7 {
         width: 420px;
         height: auto;
     }
+
 }
 @media screen and (max-width: 1050px) and (max-height:1000px) {
     .hand {
@@ -942,20 +946,27 @@ h7 {
         height: auto;
     }
     
-    .wip {
-        right: 5px;
+}
+@media screen and (max-width: 1600px) {
+.wip {
+        bottom: -60px;
+        right:5px;
+         height: 724px;
+        width: 690px;
+        background-image: url("../assets/history/wip-w690.png");
     }
 }
-@media screen and (max-width: 1440px) and (max-height:900px) {
-    .wip {
-        height: 275px;
+@media screen and (max-width: 1200px) {
+.wip {
+        bottom: -60px;
+        right:-310px;
+         height: 724px;
+        width: 690px;
+        background-image: url("../assets/history/wip-w690.png");
     }
+
 }
 @media screen and (max-width: 1180px) and (max-height:850px) {
-    .wip {
-        height: 220px;
-        right: 100px
-    }
     
     .stick-big {
         height: 250px;
@@ -1013,11 +1024,6 @@ h7 {
         background-image: url("../assets/intern/pw3-h440.png");
     }
 }
-.wip {
-    height: 220px;
-    bottom: 0px;
-    right: 0px;
-}
 .video {
     height: 200px;
     width: 840px;
@@ -1040,7 +1046,6 @@ h7 {
     }
 }
 
-}
 @media screen and (max-width: 1180px) and (min-height: 800px) {
     .pw3 {
         bottom: 12vh;
