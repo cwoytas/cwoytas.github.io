@@ -56,7 +56,7 @@ position: absolute;
     left: 59px;
     z-index: 10;
     }
-}
+
 
 #house_container {
     position: relative;
@@ -67,11 +67,12 @@ position: absolute;
     height: 1155px;
     background-image: url("../assets/house/house-frame-w1869.png");
 }
-
 #house_container iframe {
     position: absolute;
-    top: 70px;
-    left: 59px;
+        width: 93.5%;
+    height: 79.7%;
+    top:95px;
+    left: 60px;
     z-index: 10;
 }
 
