@@ -323,10 +323,10 @@ h7 {
 .contactcard {
     position: absolute;
     z-index: 1;
-    top: 10vh;
-    right: 1vw;
-    height: auto;
-    width: 44vw;
+    top: 200px;
+    right: 100px;
+    height: 884px;
+    width: 1522px;
 }
 
 .email {
