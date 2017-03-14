@@ -37,7 +37,6 @@ screen and (max-height: 580px) {
     }
 }
 
-
 #Style,
 #Style2,
 #Style3,
@@ -374,17 +373,17 @@ h7 {
 
 .video2 {
     position: absolute;
-        right: -2vw;
+    right: -2vw;
     bottom: 0px;
-        height: 734px;
-        width: 1053px;
-        background-image: url("../assets/netronome/video2-w1053.png");
-    }
+    height: 734px;
+    width: 1053px;
+    background-image: url("../assets/netronome/video2-w1053.png");
 }
 
 
-/*history*/
+}
 
+/*history*/
 .stick-small {
     position: absolute;
     z-index: 10;
@@ -394,23 +393,19 @@ h7 {
     width: 297px;
     background-image: url("../assets/history/stick-small-w297.png");
 }
-
 .wip {
     position: absolute;
     z-index: 8;
     bottom: 5px;
-        right:10px;
+    right: 10px;
     height: 653px;
-        width: 1076px;
-        background-image: url("../assets/history/wip-w1076.png");
+    width: 1076px;
+    background-image: url("../assets/history/wip-w1076.png");
 }
-
 
 /******MEDIUM 650-880******/
 
-
 /*house*/
-
 .hand {
     position: absolute;
     z-index: 5;
@@ -419,7 +414,6 @@ h7 {
     height: 98vh;
     width: auto;
 }
-
 .contents {
     position: absolute;
     z-index: 2;
@@ -429,7 +423,6 @@ h7 {
     width: 664px;
     background-image: url("../assets/house/contents-h450.png");
 }
-
 .deck-cover {
     position: absolute;
     z-index: 1;
@@ -439,7 +432,6 @@ h7 {
     width: 664px;
     background-image: url("../assets/house/deck-cover-h-415.png");
 }
-
 .video {
     position: absolute;
     z-index: 3;
@@ -450,9 +442,7 @@ h7 {
     background-image: url("../assets/house/video-h250.png");
 }
 
-
 /*netronome*/
-
 .info-arch {
     position: absolute;
     z-index: 10;
@@ -462,17 +452,15 @@ h7 {
     width: 664px;
     background-image: url("../assets/netronome/info-arch-h411.png");
 }
-
 .rainbow {
     position: absolute;
     z-index: 1;
     top: 1vh;
     right: 10vw;
     height: 311px;
-        width: 304px;
-        background-image: url("../assets/netronome/rainbow-h311.png");
+    width: 304px;
+    background-image: url("../assets/netronome/rainbow-h311.png");
 }
-
 .stats {
     position: absolute;
     z-index: 10;
@@ -483,10 +471,7 @@ h7 {
     background-image: url("../assets/netronome/stats-h238.png");
 }
 
-
-
 /*intern*/
-
 .pw3 {
     position: absolute;
     z-index: 25;
@@ -496,7 +481,6 @@ h7 {
     height: 548px;
     background-image: url("../assets/intern/pw3-h548.png");
 }
-
 .pw2 {
     position: absolute;
     z-index: 50;
@@ -506,7 +490,6 @@ h7 {
     height: 369px;
     background-image: url("../assets/intern/pw2-h369.png");
 }
-
 .hovering {
     position: absolute;
     z-index: 5;
@@ -518,7 +501,6 @@ h7 {
 }
 
 /*intern*/
-
 .maps {
     z-index: 3;
     position: absolute;
@@ -528,7 +510,6 @@ h7 {
     width: 1028px;
     background-image: url("../assets/intern/maps-h299.jpg");
 }
-
 .pitch {
     position: absolute;
     z-index: 10;
@@ -538,7 +519,6 @@ h7 {
     width: 839px;
     background-image: url("../assets/capstone/pitch-h490.png");
 }
-
 .textblock {
     position: absolute;
     z-index: 10;
@@ -548,7 +528,6 @@ h7 {
     height: 165px;
     background-image: url("../assets/capstone/textblock-h165.png");
 }
-
 .users {
     position: absolute;
     z-index: 4;
@@ -559,15 +538,15 @@ h7 {
     background-image: url("../assets/capstone/users-h310.png");
 }
 
-
 }
-.watch{
+.watch {
     z-index: 5;
     right: 0px;
- height: 310px;
-        width: 520px;
-        background-image: url("../assets/capstone/watch-h310.jpg");
+    height: 310px;
+    width: 520px;
+    background-image: url("../assets/capstone/watch-h310.jpg");
 }
+
 /*farmhand*/
 .farm {
     position: absolute;
@@ -575,17 +554,17 @@ h7 {
     top: 20px;
     right: 10px;
     height: 468px;
-        width: 889px;
-        background-image: url("../assets/farmhand/farm-h468.png");
+    width: 889px;
+    background-image: url("../assets/farmhand/farm-h468.png");
 }
 .stick-big {
     position: absolute;
     z-index: 10;
     bottom: 3vh;
     right: 20vw;
-    height: 328px;
-        width: 228px;
-        background-image: url("../assets/farmhand/stick-big-h328.png");
+    height: 228px;
+    width: 328px;
+    background-image: url("../assets/farmhand/stick-big-h328.png");
 }
 
 /*LOOSIES*/
@@ -599,11 +578,12 @@ h7 {
 }
 .bmw {
     position: absolute;
-    width: 897px;
-    height: auto;
     z-index: 10;
-    right: 3vw;
-    top: 200px;
+bottom: 3vh;
+    right: 20vw;
+    width: 897px;
+    height: 612px;
+    background-image: url("../assets/loosies/bmw-hover.png");
 }
 .obama {
     position: absolute;
@@ -627,22 +607,18 @@ h7 {
 /******SMALLEST 550-650******/
 @media screen and (max-height: 650px) {
     /*house*/
-    
     .hand {
         height: 98vh;
         width: auto;
     }
-    
     .contents {
         bottom: -20vh;
         left: 28vw;
     }
-    
     .deck-cover {
         bottom: -13vh;
         left: 0vw;
     }
-    
     .video {
         left: 45vw;
         height: 200px;
@@ -650,7 +626,6 @@ h7 {
         background-image: url("../assets/house/video-h200.png");
     }
     /*netronome*/
-    
     .info-arch {
         bottom: -2.5vh;
         left: 0vw;
@@ -658,7 +633,6 @@ h7 {
         width: 842px;
         background-image: url("../assets/netronome/info-arch-h342.png");
     }
-    
     .stats {
         top: 0vh;
         left: 10vw;
@@ -671,12 +645,10 @@ h7 {
 /******BIGGEST 880+******/
 @media screen and (min-height: 880px) {
     /*house*/
-    
     .hand {
         height: 98vh;
         width: auto;
     }
-    
     .contents {
         bottom: -10vh;
         left: 28vw;
@@ -684,7 +656,6 @@ h7 {
         width: 935px;
         background-image: url("../assets/house/contents-h637.png");
     }
-    
     .deck-cover {
         bottom: 0vh;
         left: 0vw;
@@ -692,7 +663,6 @@ h7 {
         width: 681px;
         background-image: url("../assets/house/deck-cover-h-497.png");
     }
-    
     .video {
         left: 38vw;
         height: 300px;
@@ -700,7 +670,6 @@ h7 {
         background-image: url("../assets/house/video-h300.png");
     }
     /*netronome*/
-    
     .info-arch {
         bottom: -2vh;
         left: 0vw;
@@ -708,7 +677,6 @@ h7 {
         width: 832px;
         background-image: url("../assets/netronome/info-arch-h549.png");
     }
-    
     .rainbow {
         top: 0vh;
         right: 10vw;
@@ -716,7 +684,6 @@ h7 {
         width: 304px;
         background-image: url("../assets/netronome/rainbow-h311.png");
     }
-    
     .stats {
         top: 0vh;
         left: 10vw;
@@ -724,7 +691,6 @@ h7 {
         width: 688px;
         background-image: url("../assets/netronome/stats-h297.png");
     }
-    
     .video2 {
         bottom: 0px;
         right: -1vw;
@@ -733,7 +699,6 @@ h7 {
         background-image: url("../assets/netronome/video2-w1053.png");
     }
     /*intern*/
-    
     .pw2 {
         top: 0vh;
         right: 0vw;
@@ -742,7 +707,6 @@ h7 {
         background-image: url("../assets/intern/pw2-h369.png");
     }
     /*intern*/
-    
     .maps {
         bottom: 20px;
         left: 20px;
@@ -751,7 +715,6 @@ h7 {
         background-image: url("../assets/intern/maps-h388.jpg");
     }
     /*capstone*/
-    
     .pitch {
         position: absolute;
         z-index: 10;
@@ -761,7 +724,6 @@ h7 {
         width: 839px;
         background-image: url("../assets/capstone/pitch-h490.png");
     }
-    
     .textblock {
         position: absolute;
         z-index: 10;
@@ -771,7 +733,6 @@ h7 {
         height: 165px;
         background-image: url("../assets/capstone/textblock-h165.png");
     }
-    
     .users {
         position: absolute;
         z-index: 1;
@@ -781,7 +742,6 @@ h7 {
         width: 787px;
         background-image: url("../assets/capstone/users-h310.png");
     }
-    
     .watch {
         position: absolute;
         top: 0vh;
@@ -796,13 +756,12 @@ h7 {
 /*WIDTHS*/
 @media screen and (max-height: 850px) {
     .pw2 {
-        top:0vh;
-        right:-10vh;
+        top: 0vh;
+        right: -10vh;
         width: 478px;
         height: 369px;
         background-image: url("../assets/intern/pw2-h369.png");
     }
-    
     .pw3 {
         z-index: 25;
         bottom: 13vh;
@@ -817,7 +776,6 @@ h7 {
         width: 865px;
         background-image: url("../assets/netronome/video2-w865.png");
     }
-    
     .watch {
         z-index: 5;
         position: absolute;
@@ -827,14 +785,11 @@ h7 {
         width: 763px;
         background-image: url("../assets/capstone/watch-h455.jpg");
     }
-    
     .textblock {
         right: 55vw;
         bottom: 10vh;
     }
-    
 }
-
 @media screen and (max-width: 1440px) {
     .pw3 {
         bottom: 8vh;
@@ -843,13 +798,11 @@ h7 {
         height: 548px;
         background-image: url("../assets/intern/pw3-h548.png");
     }
-    
     .pw2 {
         width: 478px;
         height: 369px;
         background-image: url("../assets/intern/pw2-h369.png");
     }
-    
     .pitch {
         bottom: 2vh;
         right: -15vw;
@@ -857,17 +810,18 @@ h7 {
         width: 839px;
         background-image: url("../assets/capstone/pitch-h490.png");
     }
-    
     .bmw {
-        width: 700px;
-        height: auto;
-        right: 3vw;
-        bottom: 0vh;
+        position: absolute;
+bottom:3vh;
+    right: -10vw;
+        width: 897px;
+        height: 612px;
+        background-image: url("../assets/loosies/bmw-hover.png");
     }
     .wip {
         bottom: 5px;
-        right:-60px;
-         height: 683px;
+        right: -60px;
+        height: 683px;
         width: 687px;
         background-image: url("../assets/history/wip-w687.png");
     }
@@ -880,16 +834,14 @@ h7 {
         width: 865px;
         background-image: url("../assets/netronome/video2-w865.png");
     }
-    
     .users {
         height: 220px;
         width: 543px;
         background-image: url("../assets/capstone/users-h220.png");
     }
 }
-@media screen and (max-width: 1150px) and (max-height: 660px) {
-    
-}
+@media screen and (max-width: 1150px) and (max-height: 660px) {}
+
 @media screen and (max-width: 1290px) {
     .rainbow {
         right: 20px;
@@ -897,12 +849,10 @@ h7 {
         width: 304px;
         background-image: url("../assets/netronome/rainbow-h311.png");
     }
-    
     .hand {
         width: 500px;
         height: auto;
     }
-    
     .pw3 {
         z-index: 150;
         bottom: 0vh;
@@ -911,10 +861,6 @@ h7 {
         height: 440px;
         background-image: url("../assets/intern/pw3-h440.png");
     }
-}
-.bmw {
-    top: 200px;
-    right: 10vw;
 }
 .deck-cover {
     left: -10vw;
@@ -926,34 +872,31 @@ h7 {
         width: 304px;
         background-image: url("../assets/netronome/rainbow-h311.png");
     }
-    
     .hand {
         width: 420px;
         height: auto;
     }
-
 }
 @media screen and (max-width: 1050px) and (max-height:1000px) {
     .hand {
         width: 300px;
         height: auto;
     }
-    
 }
 @media screen and (max-width: 1600px) {
-.wip {
+    .wip {
         bottom: -60px;
-        right:5px;
-         height: 683px;
+        right: 5px;
+        height: 683px;
         width: 687px;
         background-image: url("../assets/history/wip-w687.png");
     }
 }
 @media screen and (max-width: 1200px) {
-.wip {
+    .wip {
         bottom: -60px;
-        right:-310px;
-         height: 683px;
+        right: -310px;
+        height: 683px;
         width: 687px;
         background-image: url("../assets/history/wip-w687.png");
     }
@@ -964,15 +907,12 @@ h7 {
         width: 492px;
         background-image: url("../assets/netronome/video2-h409.png");
     }
-
 }
 @media screen and (max-width: 1180px) and (max-height:850px) {
-    
     .stick-big {
-        bottom: 0px;
+        bottom: 60px;
         right: 30px;
     }
-    
     .pitch {
         bottom: -9vh;
         right: -420px;
@@ -996,24 +936,23 @@ h7 {
         width: 687px;
         background-image: url("../assets/capstone/watch-h455.jpg");
     }
-    
     .farm {
         height: 358px;
         width: 689px;
         background-image: url("../assets/farmhand/farm-h358.png");
     }
-    
     .obama {
         width: 682px;
         height: auto;
         right: 4vw;
     }
-    
     .bmw {
-        top: 20px;
-        right: 30vw;
-    }
-    
+    top:3vh;
+    right: -20vw;
+    width: 897px;
+        height: 612px;
+        background-image: url("../assets/loosies/bmw-hover.png");
+}
     .cutVideo {
         right: 0%;
     }
@@ -1027,25 +966,38 @@ h7 {
 }
 @media screen and (max-width: 1200px) and (max-height: 800px) {
     .pw3 {
-        right: -15.5vw;
-        bottom: -15.5vh;
+        right: -9vw;
+        bottom: -17vh;
         width: 665px;
         height: 440px;
         background-image: url("../assets/intern/pw3-h440.png");
     }
-.video {
-    height: 200px;
-    width: 840px;
-    background-image: url("../assets/house/video-h200.png");
+    .video {
+        height: 200px;
+        width: 840px;
+        background-image: url("../assets/house/video-h200.png");
+    }
+        .bmw {
+top:2vh;
+    right: -40vw;
+    width: 897px;
+        height: 612px;
+        background-image: url("../assets/loosies/bmw-hover.png");
 }
 }
-
 @media screen and (max-width: 1180px) and (min-height: 800px) {
     .pw3 {
-        bottom: 13vh;
-        right: 30vw;
-        width: 677px;
-        height: 548px;
-        background-image: url("../assets/intern/pw3-h548.png");
+        bottom: vh;
+        right: -5vw;
+        width: 665px;
+        height: 440px;
+        background-image: url("../assets/intern/pw3-h440.png");
     }
+    .bmw {
+top:2vh;
+    right: -25vw;
+    width: 897px;
+        height: 612px;
+        background-image: url("../assets/loosies/bmw-hover.png");
+}
 }
