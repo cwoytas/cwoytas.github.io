@@ -1,0 +1,66 @@
+/*#netronome_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 904px;
+    height: 606px;
+    background-image: url("../assets/netronome/netronome-frame-w904.png");
+}
+#netronome_container iframe {
+position: absolute;
+        width: 87%;
+        height: 74%;
+    top: 70px;
+    left: 59px;
+    }
+*/
+.banner-container {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-container iframe #player .controls-wrapper {
+  display: none;
+}
+/* audio button style */
+.audio-control {
+  opacity: 1;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 120px;
+  left: 90px;
+  transition: opacity 0.3s;
+}
+.audio-control:hover {
+  opacity: 1;
+}
+.audio-control:before, .audio-control:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+}
+.audio-control:before {
+    background-image: url("../img/apple40/1f50a.png");
+}
+.audio-control:after {
+  background-image: url("../img/apple40/1f507.png");
+
+}
+.audio-control.unmuted:after, .audio-control.muted:before {
+  opacity: 0;
+}

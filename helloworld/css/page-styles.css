@@ -54,7 +54,6 @@ position: absolute;
         height: 82%;
     top: 92px;
     left: 59px;
-    z-index: 10;
     }
 
 
@@ -351,7 +350,6 @@ position: absolute;
         height: 81%;
     top: 95px;
     left: 59px;
-    z-index: 10;
     }
 }
 @media screen and (max-width: 1600px) {
@@ -385,7 +383,6 @@ position: absolute;
         height: 79.7%;
     top: 79px;
     left: 59px;
-    z-index: 10;
     }
 }
 @media screen and (max-width: 1440px) {
@@ -419,7 +416,6 @@ position: absolute;
         height: 79.7%;
     top: 79px;
     left: 59px;
-    z-index: 10;
     }
 }
 @media screen and (max-width: 1040px) {
@@ -460,7 +456,7 @@ position: absolute;
     left: 62px;
     z-index: 10;
 }
-    #netronome_container {
+#netronome_container {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -475,7 +471,6 @@ position: absolute;
         height: 74%;
     top: 70px;
     left: 59px;
-    z-index: 10;
     }
 }
 @media screen and (max-width: 1200px) {

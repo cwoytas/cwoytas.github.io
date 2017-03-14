@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,400i,500,700" rel="stylesheet">
      <!-- MOST PAGE STYLES -->
     <link rel="stylesheet" href="css/page-styles.css">
+     <!-- MUTE VIMEO VIDEO -->
+    <link rel="stylesheet" href="css/mute-video.css">
     <!-- RUNS THE DECK GRID -->
     <link rel="stylesheet" type="text/css" href="css/component.css">
     <!-- MEDIA QUERIES THAT MAKE THE DECK GRID RESPONSIVE -->
@@ -87,8 +89,14 @@
     
     <!-- ******* VIDEO ****** -->
     <div id="netronome_container">
-        <!-- VIDEO INSIDE -->
-        <iframe src="https://player.vimeo.com/video/202810535" width="93.5%" height="82%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <div id="vi-video-1-container">
+            
+        <iframe id="vi-banner-video" src="https://player.vimeo.com/video/202810535" width="93.5%" height="82%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+        <div class="mute">
+      <a class="audio-control js-audio-control unmuted" href="#"></a>
+            
+    </div>
     </div>
     
     <!-- ******* DOWNLOAD LINK ****** -->
@@ -199,7 +207,8 @@
             <li>
         </ul>
     </div>
-
+<script src='http://joekang.co/assets/cdn/jquery.vimeo.api.js'></script>
+    <script src="js/mute-video.js"></script>
 </body>
 <!-- *********** IDK WHAT THIS DOES ********** -->
 <script>
