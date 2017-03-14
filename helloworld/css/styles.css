@@ -580,7 +580,7 @@ h7 {
     position: absolute;
     z-index: 10;
 bottom: 3vh;
-    right: 20vw;
+    right: 0vw;
     width: 897px;
     height: 612px;
     background-image: url("../assets/loosies/bmw-hover.png");
@@ -600,7 +600,7 @@ bottom: 3vh;
     height: auto;
     z-index: 10;
     right: 10%;
-    top: 0;
+    top: -10px;
 }
 
 /******MEDIUM 550-650******/
@@ -980,8 +980,8 @@ bottom:3vh;
         background-image: url("../assets/house/video-h200.png");
     }
         .bmw {
-top:2vh;
-    right: -40vw;
+top:-120px;
+    right: 1vw;
     width: 897px;
         height: 612px;
         background-image: url("../assets/loosies/bmw-hover.png");
@@ -995,9 +995,9 @@ top:2vh;
         height: 440px;
         background-image: url("../assets/intern/pw3-h440.png");
     }
-    .bmw {
-top:2vh;
-    right: -25vw;
+        .bmw {
+top:40px;
+    right: 1vw;
     width: 897px;
         height: 612px;
         background-image: url("../assets/loosies/bmw-hover.png");
