@@ -75,6 +75,25 @@ position: absolute;
     z-index: 10;
 }
 
+#capstone_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 1702px;
+    height: 1065px;
+    background-image: url("../assets/capstone/capstone-frame-w1702.png");
+}
+#capstone_container iframe {
+    position: absolute;
+        width: 9%;
+    height: 79.7%;
+    top:95px;
+    left: 60px;
+    z-index: 10;
+}
+
+
 #intern_container {
     width: 85vw;
     /* Adjust TV image width */
@@ -88,30 +107,6 @@ position: absolute;
 #intern_container img {
     width: 100%;
     height: auto;
-}
-
-#capstone_container {
-    width: 100vw;
-    /* Adjust TV image width */
-    height: auto;
-    /* Adjust TV image height */
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#capstone_container img {
-    width: 100%;
-    height: auto;
-}
-
-#capstone_container iframe {
-    position: absolute;
-    top: 4.6%;
-    /* Adjust top position */
-    left: 2.99%;
-    /* Adjust left position */
-    z-index: 10;
 }
 
 body {
@@ -352,6 +347,26 @@ position: absolute;
     left: 59px;
     }
 }
+#capstone_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 1702px;
+    height: 1065px;
+    background-image: url("../assets/capstone/capstone-frame-w1702.png");
+}
+#capstone_container iframe {
+    position: absolute;
+        width: 93.5%;
+    height: 79.7%;
+    top:95px;
+    left: 60px;
+    z-index: 10;
+}
+
+
+
 @media screen and (max-width: 1600px) {
     #house_container {
         margin-left: auto;
@@ -385,6 +400,25 @@ position: absolute;
     left: 59px;
     }
 }
+#capstone_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 1391px;
+    height: 890px;
+    background-image: url("../assets/capstone/capstone-frame-w1391.png");
+}
+#capstone_container iframe {
+    position: absolute;
+        width: 91.1%;
+    height: 79.7%;
+    top:60px;
+    left: 62px;
+    z-index: 10;
+}
+
+
 @media screen and (max-width: 1440px) {
     #house_container {
         margin-left: auto;
@@ -417,7 +451,27 @@ position: absolute;
     top: 79px;
     left: 59px;
     }
+
+#capstone_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 1095px;
+    height: 723px;
+    background-image: url("../assets/capstone/capstone-frame-w1095.png");
 }
+#capstone_container iframe {
+    position: absolute;
+        width: 89%;
+    height: 75.5%;
+    top:58px;
+    left: 60px;
+    z-index: 10;
+}
+}
+
+
 @media screen and (max-width: 1040px) {
     h5 {
         margin-top: 0px;
@@ -440,6 +494,8 @@ position: absolute;
         margin-left: 0px;
     }
 }
+
+
 @media screen and (max-width: 1290px) {
         #house_container {
         margin-left: auto;
@@ -472,7 +528,27 @@ position: absolute;
     top: 70px;
     left: 59px;
     }
-    }
+#capstone_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 935px;
+    height: 633px;
+    background-image: url("../assets/capstone/capstone-frame-w935.png");
+}
+#capstone_container iframe {
+    position: absolute;
+        width: 87.5%;
+    height: 72.5%;
+    top:56px;
+    left: 58px; 
+    z-index: 10;
+}
+}
+
+
+
 @media screen and (max-width: 1200px) {
     h4 {
         font-size: 18px;
