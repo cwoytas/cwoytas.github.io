@@ -38,27 +38,24 @@ html {
 }
 
 #netronome_container {
-    width: 100vw;
-    /* Adjust TV image width */
-    height: auto;
-    /* Adjust TV image height */
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    overflow-x: hidden;
+    width: 1806px;
+    height: 1169px;
+    background-image: url("../assets/netronome/netronome-frame-w1806.png");
 }
 
-#netronome_container img {
-    width: 100%;
-    height: auto;
-}
 
 #netronome_container iframe {
-    position: absolute;
-    top: 4.7%;
-    /* Adjust top position */
-    left: 3%;
-    /* Adjust left position */
+position: absolute;
+        width: 93.5%;
+        height: 82%;
+    top: 92px;
+    left: 59px;
     z-index: 10;
+    }
 }
 
 #house_container {
@@ -329,12 +326,8 @@ h10 {
     height: 1027px;
     background-image: url("../assets/house/house-frame-w1640.png");
 }
-    #netronome_container iframe {
-        height: 86%;
-        width: 93.5%;
-        left: 3.3%;
-    }
-    #house_container iframe {
+
+#house_container iframe {
     position: absolute;
         width: 92.6%;
         height: 83%;
@@ -342,7 +335,23 @@ h10 {
     left: 61px;
     z-index: 10;
 }
-
+#netronome_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 1649px;
+    height: 1071px;
+    background-image: url("../assets/netronome/netronome-frame-w1649.png");
+}
+#netronome_container iframe {
+position: absolute;
+        width: 92.9%;
+        height: 81%;
+    top: 95px;
+    left: 59px;
+    z-index: 10;
+    }
 }
 @media screen and (max-width: 1600px) {
     #house_container {
@@ -352,7 +361,7 @@ h10 {
     height: 857px;
     background-image: url("../assets/house/house-frame-w1338.png");
 }
-        #house_container iframe {
+#house_container iframe {
     position: absolute;
         width: 91%;
             height: 79.5%;
@@ -360,6 +369,23 @@ h10 {
     left: 60px;
     z-index: 10;
 }
+#netronome_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 1367px;
+    height: 895px;
+    background-image: url("../assets/netronome/netronome-frame-w1367.png");
+}
+#netronome_container iframe {
+position: absolute;
+        width: 91.5%;
+        height: 79.7%;
+    top: 79px;
+    left: 59px;
+    z-index: 10;
+    }
 }
 @media screen and (max-width: 1440px) {
     #house_container {
@@ -377,6 +403,23 @@ h10 {
     left: 60px;
     z-index: 10;
 }
+    #netronome_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 1367px;
+    height: 895px;
+    background-image: url("../assets/netronome/netronome-frame-w1367.png");
+}
+#netronome_container iframe {
+position: absolute;
+        width: 91.5%;
+        height: 79.7%;
+    top: 79px;
+    left: 59px;
+    z-index: 10;
+    }
 }
 @media screen and (max-width: 1040px) {
     h5 {
@@ -410,12 +453,29 @@ h10 {
 }
 #house_container iframe {
     position: absolute;
-        width: 86.5%;
-    height: 71%;
-    top: 71px;
-    left: 60px;
+        width: 87.5%;
+    height: 72.5%;
+    top: 74px;
+    left: 62px;
     z-index: 10;
 }
+    #netronome_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 904px;
+    height: 606px;
+    background-image: url("../assets/netronome/netronome-frame-w904.png");
+}
+#netronome_container iframe {
+position: absolute;
+        width: 87%;
+        height: 74%;
+    top: 70px;
+    left: 59px;
+    z-index: 10;
+    }
 }
 @media screen and (max-width: 1200px) {
     h4 {
@@ -426,10 +486,6 @@ h10 {
     }
 }
 @media screen and (max-width: 840px) {
-    #netronome_container iframe {
-        height: 84.8%;
-        width: 93.5%;
-    }
 }
 
 @media screen and (max-width: 730px) {
@@ -447,10 +503,6 @@ h10 {
         font-family: emoji;
         letter-spacing: 2px;
         padding-left: 10px;
-    }
-    #netronome_container iframe {
-        height: 84%;
-        width: 93.5%;
     }
 
 }
