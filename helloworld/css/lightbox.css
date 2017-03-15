@@ -3,12 +3,13 @@ body:after {
   display: none;
 }
 
-body.lb-disable-scrolling {
+html.lb-disable-scrolling {
   overflow: hidden;
 }
 .thumbnail img {
     vertical-align: top;
 }
+
 .lightboxOverlay {
   position: absolute;
   top: 0;
@@ -16,11 +17,12 @@ body.lb-disable-scrolling {
   z-index: 210;
   background-color: white;
   display: none;
+    cursor: url('../assets/cursors/clothes.png'), auto;
 }
 
 .lightbox {
   position: absolute;
-  left: 0;
+  left: 0px;
   width: 100vw;
     height: 100vh;
   z-index: 215;
@@ -28,9 +30,11 @@ body.lb-disable-scrolling {
   line-height: 0;
   font-weight: normal;
     cursor: url('../assets/cursors/clothes.png'), auto;
+    padding-top: 0.5vh;
 }
 
 .lightbox .lb-image {
+    
   display: block;
   height: auto;
   max-width: inherit;
@@ -46,6 +50,8 @@ body.lb-disable-scrolling {
 
 .lb-outerContainer {
   position: relative;
+    width: 250px;
+  height: 250px;
   margin: 0 auto;
 
   /* Background color behind image.

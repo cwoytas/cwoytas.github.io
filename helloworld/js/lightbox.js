@@ -259,7 +259,7 @@ $(function(){
 
     // Disable scrolling of the page while open
     if (this.options.disableScrolling) {
-      $('body').addClass('lb-disable-scrolling');
+      $('html').addClass('lb-disable-scrolling');
     }
 
     this.changeImage(imageNumber);
@@ -511,7 +511,7 @@ $(function(){
       visibility: 'visible'
     });
     if (this.options.disableScrolling) {
-      $('body').removeClass('lb-disable-scrolling');
+      $('html').removeClass('lb-disable-scrolling');
     }
   };
 
