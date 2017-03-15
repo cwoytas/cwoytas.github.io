@@ -94,19 +94,14 @@ position: absolute;
 }
 
 
-#intern_container {
-    width: 85vw;
-    /* Adjust TV image width */
-    height: auto;
-    /* Adjust TV image height */
+ #intern_container {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-}
-
-#intern_container img {
-    width: 100%;
-    height: auto;
+    overflow-x: hidden;
+    width: 1683px;
+    height: 1079px;
+    background-image: url("../assets/intern/intern-frame-w1683.png");
 }
 
 body {
@@ -346,23 +341,16 @@ position: absolute;
     top: 95px;
     left: 59px;
     }
-}
-#capstone_container {
+ #intern_container {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    width: 1702px;
-    height: 1065px;
-    background-image: url("../assets/capstone/capstone-frame-w1702.png");
+    width: 1683px;
+    height: 1079px;
+    background-image: url("../assets/intern/intern-frame-w1683.png");
 }
-#capstone_container iframe {
-    position: absolute;
-        width: 93.5%;
-    height: 79.7%;
-    top:95px;
-    left: 60px;
-    z-index: 10;
+    
 }
 
 
@@ -399,6 +387,15 @@ position: absolute;
     top: 79px;
     left: 59px;
     }
+#intern_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 1384px;
+    height: 913px;
+    background-image: url("../assets/intern/intern-frame-w1384.png");
+}
 }
 #capstone_container {
     position: relative;
@@ -468,6 +465,15 @@ position: absolute;
     top:58px;
     left: 60px;
     z-index: 10;
+}
+    #intern_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 1068px;
+    height: 733px;
+    background-image: url("../assets/intern/intern-frame-w1068.png");
 }
 }
 
@@ -544,6 +550,15 @@ position: absolute;
     top:56px;
     left: 58px; 
     z-index: 10;
+}
+#intern_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    width: 912px;
+    height: 646px;
+    background-image: url("../assets/intern/intern-frame-w912.png");
 }
 }
 
