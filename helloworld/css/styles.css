@@ -435,8 +435,8 @@ h7 {
 .video {
     position: absolute;
     z-index: 3;
-    top: 0;
-    left: 40vw;
+    top: -50px;
+    left: 5vw;
     height: 250px;
     width: 945px;
     background-size: contain; background-image: url("../assets/house/video-h250.png");
