@@ -218,8 +218,9 @@
     }
     /*CONTAINER*/
     .imgIcons {
-        width: 90vw;
-        padding-bottom: 10vh;
+        width: 100%;
+        padding-top: 21vh;
+        padding-bottom: 20vh;
         margin-right: auto;
         margin-left: auto;
     }
@@ -234,23 +235,21 @@
         text-align: right;
         margin-left: auto;
         font-size: 24px;
-        line-height: 35px;
-        padding-bottom: 3vh;
-        padding-right: 15vw;
+        line-height: 24px;
+        padding-right: 8vw;
     }
     /*CONTAINER*/
-    .motion {
-height: 35vw;
+.motion {
+        width:90%;
+    height: 720px;
     }
-    .motion .thumbnail {
-        float: right;
-        padding-right: 0.5vw;
-        
+
+.motion iframe {
+    float: right;
+        width: 1008px;
+    height: 567px;
     }
-    .motion .thumbnail img {
-        width: 65vw;
-        padding: 10px;
-    }
+
     
     /***MOBILE MAP UP BY HOMEPAGE IMAGE***/
     /*TITLE*/
@@ -282,12 +281,12 @@ height: 35vw;
     /***POWERWALL***/
     /*TITLE LEFT*/
     .section6 {
-        width: 300px;
+        width: 645px;
         font-weight: 600;
         text-align: right;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 24px;
-        padding-bottom: 2vh;
+        padding-bottom: 20px;
     }
     .powerwall {
         height:42vw;
@@ -295,35 +294,75 @@ height: 35vw;
     
     /*LEFT IMAGE*/
     .powerwall .imgL {
-        width: 45vw;
-        float:left;
-        z-index: 5;
-    }
-    .powerwall .imgL img {
-        width: 100%;
+        position: absolute;
+        width: 664px;
+        height: 468px;
+        z-index: 10;
+        margin-top: -20px;
+        margin-left:0px;
     }
     /*RIGHT IMAGE*/
-    .powerwall .imgR {
-        position: absolute;
-        right: 0vw;
-        width: 52vw;
-        float:left;
-        z-index: 4;
-        margin-top: 0; 
-    }
-    .powerwall .imgR img {
-        width: 100%;
-    }
-    /*TITLE RIGHT*/
-    .section7 {
-        width:100vw;
+     .section7 {
+         position: relative;
         font-weight: 600;
         text-align: right;
-        font-size: 16px;
-        line-height: 24px;
-        padding-top: 3vw;
-        padding-right: 15vh;
+        font-size: 18px;
+        line-height: 50px;
+        padding-top:  90px;
+        right: 260px;
+         z-index: 10;
     }
+    .section7 .title {
+        padding: 6px;
+        background-color: white; 
+    }
+    .powerwall .imgR {
+        position: absolute;
+        right: 200px;
+        margin-top: -90px; 
+        width: 953px;
+        height:549px;
+        background-image: url("assets/intern/powerwall2-white.jpg");
+    }
+    .powerwall .imgR:hover {
+        background-image: url("assets/intern/powerwall2-green.jpg");
+    }
+    
+    /*TITLE RIGHT*/
+   
+    @media screen and (max-width: 1770px) {
+        .powerwall .imgR {
+            right:80px;
+    }
+.section7 {
+             right: 40px;
+         }
+    }
+    @media screen and (max-width: 1670px) {
+        .powerwall .imgR {
+            right:10px;
+    }
+
+    }
+    @media screen and (max-width: 1618px) {
+        .powerwall .imgR {
+            right:30px;
+    }
+        .powerwall .imgL {
+            margin-left:-40px;
+    }
+        
+    }
+     @media screen and (max-width: 1530px) {
+        .powerwall .imgR {
+            right:17px;
+    }
+         .section7 {
+             padding-top: 470px;
+             right: 90px;
+         }
+    }
+    
     /*FOOTER*/
     .section8 {
         font-weight: 400;
@@ -508,19 +547,18 @@ height: 35vw;
     
     <!-- ***** ICON SET ***** -->
     <!-- TITLE -->
-    <div class="section3">~ my first ever icon set ~</div>
-    <!-- IMAGE NON-LIGHTBOX -->
     <div class="imgIcons">
+    <div class="section3">~ my first ever icon set ~</div>
             <img class="fullImage" src="assets/intern/iconsBW.png" alt="image-1" />
     </div>
     
     <!-- ***** MOTION STUDY ***** -->
+        <div class="motion">
     <!-- TITLE -->
+    
     <div class="section4">did a lil motion study <span class="replace">✨</span></div>
-    <!-- LIGHTBOX GIF -->
-    <div class="motion">
-        <a class="thumbnail" href="assets/intern/motion/master.gif" data-lightbox="master" data-title="motion study for company page">
-            <img class="fullImage" src="assets/intern/motion/master.gif" alt="image-1" /></a>
+            
+    <iframe id="vimeo_player" src="https://player.vimeo.com/video/208433861?&autoplay=1&loop=1" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
     
     <!-- ***** POWERWALL ***** -->
@@ -528,20 +566,12 @@ height: 35vw;
     <div class="section6">I turned this picture...</div>
     
     <div class="powerwall">
-        <!-- LIGHTBOX IMAGE LEFT -->
-        <div class="imgL">
-        <a class="thumbnail" href="assets/intern/powerwall-2.png" data-lightbox="pwll1">
-            <img class="fullImage" src="assets/intern/powerwall-2.png" alt="image-1" /></a>
-        </div>
+            <img src="assets/intern/powerwall-1_w664.png" class="imgL" alt="image-1" />
         <!-- TITLE RIGHT -->
-        <div class="section7">...into this asset <span class="replace">🤘</span></div>
-        <!-- LIGHTBOX IMAGE RIGHT -->
+        <div class="section7"><span class="title">...into this asset <span class="replace">🤘</span></span></div>
         <div class="imgR">
-        <a class="thumbnail" href="assets/intern/powerwall-white.jpg" data-lightbox="pwll2" data-title="tesla powerwall with artifical shadows">
-            <img class="fullImage" src="assets/intern/powerwall-white.jpg" alt="image-1" /></a>
-            </div>
-        
-    
+        </div>
+
     </div>
     <!-- ***** FOOTER ***** -->
     <div class="section8">
