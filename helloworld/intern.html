@@ -110,14 +110,14 @@
         float: left;
         width: 1202px;
     height: 3453px;
-    background-image: url("./assets/intern/homepage-w1202.jpg");
+    background-image: url("assets/intern/homepage-w1202.jpg");
     }
     @media screen and (max-width: 1250px) {
     #imgHome .imgL {
         float: left;
         width: 752px;
         height: 2159px;
-    background-image: url("./assets/intern/homepage-w752.jpg");
+    background-image: url("assets/intern/homepage-w752.jpg");
     }
     }
     @media screen and (max-width: 1050px) {
@@ -125,7 +125,7 @@
         float: left;
         width: 602px;
     height: 1728px;
-    background-image: url("./assets/intern/homepage-w602.jpg");
+    background-image: url("assets/intern/homepage-w602.jpg");
     }
     }
     
@@ -168,13 +168,12 @@
     /***RATES VISUALS***/
     /*TITLE*/
     .section2 {
+        position: absolute;
+        right:46vw;
         padding-top: 1.5vw;
-        padding-right: 1.5vw;
-        float: right;
         font-weight: bold;
         text-align: right;
         margin-left: auto;
-        margin-right: 1vw;
         font-size: 24px;
         line-height: 35px;
     }
@@ -182,23 +181,25 @@
     #imgRates {
         padding-top: 5vw;
         height: 79vw;
-    }
-    #imgRates .thumbnail img {
-        width: 100%;
-    }    
+    }  
     /*LEFT IMAGE*/
     #imgRates .imgL {
-        float: right;
+        position: absolute;
+        right:41.5vw;
+        margin-top: 174px;
         width: 1202px;
-        margin-right: 1vw;
-               padding-top: .5vw;
+        height:1516px;
+        background-image: url("assets/intern/rates2.png");
     }
+    
+    
     /*RIGHT IMAGE*/
     #imgRates .imgR {
-        float: right;
-        width: 46vw;
-        margin-right: 1vw;
-        padding-top: 1.1vw;
+        position: absolute;
+        left: 59.5vw;
+        width:1202px;
+        height:1690px;
+        background-image: url("assets/intern/rates1.png")
     }
     /*BOTTOM POINTER*/
     .emoji-title {
@@ -484,23 +485,26 @@ height: 35vw;
     <!-- ***** RATES VISUALS ***** -->
     <div id="imgRates">
 <!-- LIGHTBOX IMAGE LEFT -->
-        <div class="imgL">
-            <!-- FULL PAGE LINK -->
-            <a class="thumbnail" href="rates1-full.html" target="_blank">
-                <img class="fullImage" src="assets/intern/rates1.png" alt="image-1" /></a>
-            
+        <a href="rates2-full.html" target="_blank">
+        <div class="imgR">
         </div>
+        </a>
+            
+        
 <!-- TITLE -->
         <div class="section2">rates visual concept <span class="replace">👉</span>
             <br/>
             <!-- BOTTOM EMOJI -->
             <span class="emoji-title"><span class="replace">👇</span></span></div>
+        
+        
 <!-- LIGHTBOX IMAGE RIGHT -->
-        <div class="imgR">
             <!-- FULL PAGE LINK -->
-            <a class="thumbnail" href="rates2-full.html" target="_blank">
-                <img class="fullImage" src="assets/intern/rates2.png" alt="image-1" /></a>
+            <a href="rates1-full.html" target="_blank">
+        <div class="imgL">
         </div>
+        </a>
+
     </div>
     
     <!-- ***** ICON SET ***** -->
