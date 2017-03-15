@@ -104,7 +104,7 @@
     /*CONTAINER*/
     #imgHome {
         padding-left: 40px;
-        height: calc(65vw * 2.92);
+        height: 3600px;
     }
         #imgHome .imgL {
         float: left;
@@ -119,6 +119,9 @@
         height: 2159px;
     background-image: url("assets/intern/homepage-w752.jpg");
     }
+        #imgHome {
+            height: 2250px;
+        }
     }
     @media screen and (max-width: 1050px) {
     #imgHome .imgL {
@@ -127,6 +130,9 @@
     height: 1728px;
     background-image: url("assets/intern/homepage-w602.jpg");
     }
+        #imgHome {
+            height: 1860px;
+        }
     }
     
     #imgHome .imgL img {
@@ -179,7 +185,7 @@
     }
     /*CONTAINER*/
     #imgRates {
-        height:1690px;
+        height:1620px;
     }  
     /*LEFT IMAGE*/
     #imgRates .imgL {
@@ -231,57 +237,59 @@
     /***MOTION STUDY***/
     /*TITLE*/
     .section4 {
+        position: absolute;
         font-weight: 100;
         text-align: right;
-        margin-left: auto;
+        right:0;
         font-size: 24px;
         line-height: 24px;
         padding-right: 8vw;
     }
     /*CONTAINER*/
 .motion {
-        width:90%;
-    height: 720px;
+    padding-top: 680px;
+        width:99%;
+    height: 600px;
     }
 
 .motion iframe {
     float: right;
         width: 1008px;
     height: 567px;
+    margin-top:-30px;
     }
 
     
     /***MOBILE MAP UP BY HOMEPAGE IMAGE***/
     /*TITLE*/
     .section5 {
-        width: 280px;
+        position: absolute;
+        left: 630px;
+        width: 300px;
         font-weight: 300;
-        text-align: right;
-        font-size: 16px;
-        line-height: 24px;
-        padding-bottom: 2vh;
+        text-align: left;
+        font-size: 18px;
+        line-height: 32px;
+        margin-top:60px;
     }
     /*CONTAINER*/
     .maps {
         position: absolute;
-        right: 0px;
-        width: 30vw;
-        top: 230vw;
+        left: 150px;
+        width: 100vw;
+        height: 675px;
+        margin-top: -90px;
     }
-    .maps .thumbnail {
-        position: absolute;
-        right: 1vw;
-        padding-right: 1.5vw;
-    }
-    .maps .thumbnail img {
-        width: 25vw;
+    .maps img {
+        width: 580px;
+        height: 675px;
         border-color: black;
         border-width: 1px;
     }
     /***POWERWALL***/
     /*TITLE LEFT*/
     .section6 {
-        width: 645px;
+        width: 750px;
         font-weight: 600;
         text-align: right;
         font-size: 18px;
@@ -289,7 +297,8 @@
         padding-bottom: 20px;
     }
     .powerwall {
-        height:800px;
+        height:1500px;
+        padding-top: 650px;
     }
     
     /*LEFT IMAGE*/
@@ -356,13 +365,19 @@
      @media screen and (max-width: 1530px) {
         .powerwall .imgR {
             right:17px;
+            margin-top: 0;
     }
          .section7 {
-             padding-top: 470px;
+             padding-top:330px;
              right: 90px;
          }
+         .section6 {
+             position: absolute;
+             padding-top: 100px;
+             width: 870px;
+         }
          .powerwall {
-        height:1150px;
+        height:1840px;
     }
     }
     
@@ -516,13 +531,7 @@
     
 </div>
     <!-- ***** MOBILE MAPS ***** -->
-        <div class="maps">
-            <!-- TITLE -->
-            <div class="section5">always mobile version of everything, forever?</div>
-            <!-- LIGHTBOX IMAGES -->
-        <a class="thumbnail" href="assets/intern/maps.jpg" data-lightbox="maps" border="1" data-title="mobile concept for power outage map">
-            <img class="fullImage" src="assets/intern/maps.jpg" alt="image-1" border="1"/></a>
-    </div>
+        
     <!-- ***** RATES VISUALS ***** -->
     <div id="imgRates">
 <!-- LIGHTBOX IMAGE LEFT -->
@@ -556,9 +565,15 @@
     </div>
     
     <!-- ***** MOTION STUDY ***** -->
-        <div class="motion">
+        
     <!-- TITLE -->
-    
+    <div class="maps">
+        
+            <div class="section5">This was an early proposal for exploring a map of power outages on mobile.</div>
+
+        <img src="assets/intern/maps-w580.jpg" alt="image-1" border="1"/>
+    </div>
+            <div class="motion">
     <div class="section4">did a lil motion study <span class="replace">✨</span></div>
             
     <iframe id="vimeo_player" src="https://player.vimeo.com/video/208433861?&autoplay=1&loop=1" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -566,9 +581,10 @@
     
     <!-- ***** POWERWALL ***** -->
     <!-- TITLE LEFT -->
+    <div class="powerwall">
     <div class="section6">I turned this picture...</div>
     
-    <div class="powerwall">
+    
             <img src="assets/intern/powerwall-1_w664.png" class="imgL" alt="image-1" />
         <!-- TITLE RIGHT -->
         <div class="section7"><span class="title">...into this asset <span class="replace">🤘</span></span></div>
