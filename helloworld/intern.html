@@ -65,7 +65,7 @@
         padding-bottom: 15vh;
     }
     /*EYEYS CURSOR ON IMAGES YOU CAN CLICK TO ENLARGE*/
-    .thumbnail:hover {
+    a:hover {
         cursor: url('assets/cursors/eyes.png'), auto;
     }
     /**** IDK YET ****/
@@ -106,9 +106,27 @@
         padding-left: 40px;
         height: calc(65vw * 2.92);
     }
+        #imgHome .imgL {
+        float: left;
+        width: 1202px;
+    height: 3453px;
+    background-image: url("./assets/intern/homepage-w1202.jpg");
+    }
+    @media screen and (max-width: 1250px) {
     #imgHome .imgL {
         float: left;
-        width: 65vw;
+        width: 752px;
+        height: 2159px;
+    background-image: url("./assets/intern/homepage-w752.jpg");
+    }
+    }
+    @media screen and (max-width: 1050px) {
+    #imgHome .imgL {
+        float: left;
+        width: 602px;
+    height: 1728px;
+    background-image: url("./assets/intern/homepage-w602.jpg");
+    }
     }
     
     #imgHome .imgL img {
@@ -120,7 +138,7 @@
     #imgHome .imgR {
         position: absolute;
         right: 0px;
-        width: 30vw;
+        width: 600px;
         padding-top: 20vw;
         padding-left: 1vw;
     }
@@ -171,7 +189,7 @@
     /*LEFT IMAGE*/
     #imgRates .imgL {
         float: right;
-        width: 46vw;
+        width: 1202px;
         margin-right: 1vw;
                padding-top: .5vw;
     }
@@ -382,12 +400,10 @@ height: 35vw;
     </div>
     <div id="imgHome">
         <!-- LEFT IMAGE -->
+        <a href="home-full.html" target="_blank">
         <div class="imgL">
-            <!-- FULL PAGE LINK -->
-            <a class="thumbnail" href="home-full.html" target="_blank">
-                <img class="fullImage" src="assets/intern/homepage.jpg" alt="image-1" /></a>
         </div>
-        
+        </a>
 <!-- ***** WIREFRAMES ***** -->
         <div class="imgR">
             <!-- TITLE -->
