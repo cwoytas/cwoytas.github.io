@@ -44,7 +44,7 @@ html {
     overflow-x: hidden;
     width: 1806px;
     height: 1169px;
-    background-image: url("../assets/netronome/netronome-frame-w1806.png");
+    background-size: contain; background-size: contain; background-image: url("../assets/netronome/netronome-frame-w1806.png");
 }
 
 
@@ -64,7 +64,7 @@ position: absolute;
     overflow-x: hidden;
     width: 1869px;
     height: 1155px;
-    background-image: url("../assets/house/house-frame-w1869.png");
+    background-size: contain; background-image: url("../assets/house/house-frame-w1869.png");
 }
 #house_container iframe {
     position: absolute;
@@ -82,7 +82,7 @@ position: absolute;
     overflow-x: hidden;
     width: 1702px;
     height: 1065px;
-    background-image: url("../assets/capstone/capstone-frame-w1702.png");
+    background-size: contain; background-size: contain; background-image: url("../assets/capstone/capstone-frame-w1702.png");
 }
 #capstone_container iframe {
     position: absolute;
@@ -101,7 +101,7 @@ position: absolute;
     overflow-x: hidden;
     width: 1683px;
     height: 1079px;
-    background-image: url("../assets/intern/intern-frame-w1683.png");
+    background-size: contain; background-image: url("../assets/intern/intern-frame-w1683.png");
 }
 
 body {
@@ -109,7 +109,7 @@ body {
     color: #000000;
     font-family: 'Roboto Mono', monospace;
     line-height: 38px;
-    /*background-image: url("assets/netronome/bg-dots.png");
+    /*background-size: contain; background-image: url("assets/netronome/bg-dots.png");
     background-repeat: repeat;*/
 }
 
@@ -157,7 +157,7 @@ h5 {
 }
 
 .box {
-    background-image: url(assets/cursors/pointer-emoji.png);
+    background-size: contain; background-image: url(assets/cursors/pointer-emoji.png);
     width: 25px;
     height: 41px;
     position: relative;
@@ -165,7 +165,7 @@ h5 {
 }
 
 .boxTwo {
-    background-image: url(assets/cursors/pointer-emoji-left.png);
+    background-size: contain; background-image: url(assets/cursors/pointer-emoji-left.png);
     width: 25px;
     height: 41px;
     position: relative;
@@ -314,7 +314,7 @@ h10 {
     margin-right: auto;
     width: 1640px;
     height: 1027px;
-    background-image: url("../assets/house/house-frame-w1640.png");
+    background-size: contain; background-image: url("../assets/house/house-frame-w1640.png");
 }
 
 #house_container iframe {
@@ -332,7 +332,7 @@ h10 {
     overflow-x: hidden;
     width: 1649px;
     height: 1071px;
-    background-image: url("../assets/netronome/netronome-frame-w1649.png");
+    background-size: contain; background-image: url("../assets/netronome/netronome-frame-w1649.png");
 }
 #netronome_container iframe {
 position: absolute;
@@ -348,7 +348,7 @@ position: absolute;
     overflow-x: hidden;
     width: 1683px;
     height: 1079px;
-    background-image: url("../assets/intern/intern-frame-w1683.png");
+    background-size: contain; background-image: url("../assets/intern/intern-frame-w1683.png");
 }
     
 }
@@ -361,7 +361,7 @@ position: absolute;
         margin-right: auto;
     width: 1338px;
     height: 857px;
-    background-image: url("../assets/house/house-frame-w1338.png");
+    background-size: contain; background-image: url("../assets/house/house-frame-w1338.png");
 }
 #house_container iframe {
     position: absolute;
@@ -378,7 +378,7 @@ position: absolute;
     overflow-x: hidden;
     width: 1367px;
     height: 895px;
-    background-image: url("../assets/netronome/netronome-frame-w1367.png");
+    background-size: contain; background-image: url("../assets/netronome/netronome-frame-w1367.png");
 }
 #netronome_container iframe {
 position: absolute;
@@ -394,7 +394,7 @@ position: absolute;
     overflow-x: hidden;
     width: 1384px;
     height: 913px;
-    background-image: url("../assets/intern/intern-frame-w1384.png");
+    background-size: contain; background-image: url("../assets/intern/intern-frame-w1384.png");
 }
 }
 #capstone_container {
@@ -404,7 +404,7 @@ position: absolute;
     overflow-x: hidden;
     width: 1391px;
     height: 890px;
-    background-image: url("../assets/capstone/capstone-frame-w1391.png");
+    background-size: contain; background-image: url("../assets/capstone/capstone-frame-w1391.png");
 }
 #capstone_container iframe {
     position: absolute;
@@ -422,7 +422,7 @@ position: absolute;
         margin-right: auto;
     width: 1338px;
     height: 857px;
-    background-image: url("../assets/house/house-frame-w1338.png");
+    background-size: contain; background-image: url("../assets/house/house-frame-w1338.png");
 }
 #house_container iframe {
     position: absolute;
@@ -439,7 +439,7 @@ position: absolute;
     overflow-x: hidden;
     width: 1367px;
     height: 895px;
-    background-image: url("../assets/netronome/netronome-frame-w1367.png");
+    background-size: contain; background-image: url("../assets/netronome/netronome-frame-w1367.png");
 }
 #netronome_container iframe {
 position: absolute;
@@ -456,7 +456,7 @@ position: absolute;
     overflow-x: hidden;
     width: 1095px;
     height: 723px;
-    background-image: url("../assets/capstone/capstone-frame-w1095.png");
+    background-size: contain; background-image: url("../assets/capstone/capstone-frame-w1095.png");
 }
 #capstone_container iframe {
     position: absolute;
@@ -473,7 +473,7 @@ position: absolute;
     overflow-x: hidden;
     width: 1068px;
     height: 733px;
-    background-image: url("../assets/intern/intern-frame-w1068.png");
+    background-size: contain; background-image: url("../assets/intern/intern-frame-w1068.png");
 }
 }
 
@@ -508,7 +508,7 @@ position: absolute;
         margin-right: auto;
     width: 980px;
     height: 661px;
-    background-image: url("../assets/house/house-frame-w980.png");
+    background-size: contain; background-image: url("../assets/house/house-frame-w980.png");
 }
 #house_container iframe {
     position: absolute;
@@ -525,7 +525,7 @@ position: absolute;
     overflow-x: hidden;
     width: 904px;
     height: 606px;
-    background-image: url("../assets/netronome/netronome-frame-w904.png");
+    background-size: contain; background-image: url("../assets/netronome/netronome-frame-w904.png");
 }
 #netronome_container iframe {
 position: absolute;
@@ -541,7 +541,7 @@ position: absolute;
     overflow-x: hidden;
     width: 935px;
     height: 633px;
-    background-image: url("../assets/capstone/capstone-frame-w935.png");
+    background-size: contain; background-image: url("../assets/capstone/capstone-frame-w935.png");
 }
 #capstone_container iframe {
     position: absolute;
@@ -558,7 +558,7 @@ position: absolute;
     overflow-x: hidden;
     width: 912px;
     height: 646px;
-    background-image: url("../assets/intern/intern-frame-w912.png");
+    background-size: contain; background-image: url("../assets/intern/intern-frame-w912.png");
 }
 }
 
