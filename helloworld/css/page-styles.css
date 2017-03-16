@@ -62,9 +62,10 @@ position: absolute;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    width: 1869px;
+    width: 1868px;
     height: 1155px;
-    background-size: contain; background-image: url("../assets/house/house-frame-w1869.png");
+    background-size: contain; background-image: url("../assets/house/house-frame-w3736.png");
+    background-size: 1868px 1155px;
 }
 #house_container iframe {
     position: absolute;
@@ -313,8 +314,9 @@ h10 {
     margin-left: auto;
     margin-right: auto;
     width: 1640px;
-    height: 1027px;
-    background-size: contain; background-image: url("../assets/house/house-frame-w1640.png");
+    height: 1029px;
+    background-size: contain; background-image: url("../assets/house/house-frame-w3280.png");
+    background-size: 1640px 1029px;
 }
 
 #house_container iframe {
@@ -361,7 +363,8 @@ position: absolute;
         margin-right: auto;
     width: 1338px;
     height: 857px;
-    background-size: contain; background-image: url("../assets/house/house-frame-w1338.png");
+    background-size: contain; background-image: url("../assets/house/house-frame-w2676.png");
+    background-size: 1338px 857px;
 }
 #house_container iframe {
     position: absolute;
@@ -420,9 +423,10 @@ position: absolute;
     #house_container {
         margin-left: auto;
         margin-right: auto;
-    width: 1338px;
-    height: 857px;
-    background-size: contain; background-image: url("../assets/house/house-frame-w1338.png");
+    width: 1025px;
+    height: 697px;
+        background-image:url("/assets/house/house-frame-w2050.png");
+        background-size: 1025px 697px;
 }
 #house_container iframe {
     position: absolute;
@@ -506,9 +510,10 @@ position: absolute;
         #house_container {
         margin-left: auto;
         margin-right: auto;
-    width: 980px;
+    width: 979px;
     height: 661px;
-    background-size: contain; background-image: url("../assets/house/house-frame-w980.png");
+    background-size: contain; background-image: url("../assets/house/house-frame-w1958.png");
+    background-size: 979px 661px;
 }
 #house_container iframe {
     position: absolute;

@@ -419,9 +419,10 @@ h7 {
     z-index: 2;
     bottom: -10vh;
     left: 28vw;
-    height: 450px;
-    width: 664px;
-    background-size: contain; background-image: url("../assets/house/contents-h450.png");
+    width: 935px;
+    height: 637px;
+    background-image: url("../assets/house/contents-h787.png");
+    background-size: 935px 637px;
 }
 .deck-cover {
     position: absolute;
@@ -430,16 +431,18 @@ h7 {
     left: 0vw;
     height: 415px;
     width: 664px;
-    background-size: contain; background-image: url("../assets/house/deck-cover-h-415.png");
+    background-size: cover; background-image: url("../assets/house/deck-cover-h830.png");
+    background-size: 415px 644px;
 }
 .video {
     position: absolute;
     z-index: 3;
     top: -50px;
     left: 5vw;
-    height: 250px;
-    width: 945px;
-    background-size: contain; background-image: url("../assets/house/video-h250.png");
+    width: 920px;
+    height: 300px;
+    background-size: contain; background-image: url("../assets/house/video-h600.png");
+    background-size: 920px 300px;
 }
 
 /*netronome*/
@@ -653,16 +656,18 @@ bottom: 3vh;
     .contents {
         bottom: -10vh;
         left: 28vw;
-        height: 637px;
-        width: 935px;
-        background-size: contain; background-image: url("../assets/house/contents-h637.png");
+        width: 664px;
+        height: 451px;
+        background-image: url("../assets/house/contents-h902.png");
+        background-size: 664px 451px;
     }
     .deck-cover {
         bottom: 0vh;
         left: 0vw;
+        width: 696px;
         height: 497px;
-        width: 681px;
-        background-size: contain; background-image: url("../assets/house/deck-cover-h-497.png");
+        background-image: url("../assets/house/deck-cover-h994.png");
+        background-size: 696px 497px;
     }
     .video {
         left: 38vw;
