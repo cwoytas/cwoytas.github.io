@@ -26,8 +26,8 @@
     z-index: 1000;
 }
 
-@media screen and (max-width: 900px),
-screen and (max-height: 580px) {
+@media screen and (max-width: 960px),
+screen and (max-height: 700px) {
     #mobileCover {
         visibility: visible;
     }
@@ -36,6 +36,7 @@ screen and (max-height: 580px) {
         overflow-y: hidden;
     }
 }
+
 
 #Style,
 #Style2,
@@ -346,61 +347,56 @@ h7 {
     z-index: 10;
     bottom: -2vh;
     left: -1vw;
-    height: 411px;
     width: 664px;
-    background-size: contain; background-image: url("../assets/netronome/info-arch-h411.png");
+    height: 447px;
+    background-image: url("../assets/netronome/info-arch-h894.png");
+    background-size: 664px 447px;
 }
 
-.rainbow {
-    position: absolute;
-    z-index: 1;
-    top: 1vh;
-    right: 10vw;
-    height: 311px;
-    width: 304px;
-    background-size: contain; background-image: url("../assets/netronome/rainbow-h311.png");
-}
 
 .stats {
     position: absolute;
     z-index: 10;
-    top: 0vh;
+    top: -70px;
     left: 10vw;
-    height: 238px;
-    width: 548px;
-    background-size: contain; background-image: url("../assets/netronome/stats-h238.png");
+    width: 630px;
+    height: 300px;
+    background-image: url("../assets/netronome/stats-h600.png"); background-size: 630px 300px; 
+    
 }
 
 .video2 {
     position: absolute;
     right: -2vw;
     bottom: 0px;
-    height: 734px;
     width: 1053px;
-    background-size: contain; background-image: url("../assets/netronome/video2-w1053.png");
+        height: 734px;
+        background-image: url("../assets/netronome/video2-w2106.png");
+        background-size: 1053px 734px;
 }
 
 
-}
 
 /*history*/
 .stick-small {
     position: absolute;
     z-index: 10;
     top: 60px;
-    right: 22vw;
-    height: 180px;
-    width: 297px;
-    background-size: contain; background-image: url("../assets/history/stick-small-w297.png");
+    right: 400px;
+    width: 303px;
+    height: 198px;
+    background-image: url("../assets/history/stick-small-w606.png");
+    background-size: 303px 198px; 
 }
 .wip {
     position: absolute;
     z-index: 8;
     bottom: 5px;
     right: 10px;
-    height: 653px;
-    width: 1076px;
-    background-size: contain; background-image: url("../assets/history/wip-w1076.png");
+    width: 1075px;
+        height: 651px;
+        background-image: url("../assets/history/wip-w2150.png");
+        background-size: 1075px 651px; 
 }
 
 /******MEDIUM 650-880******/
@@ -417,31 +413,31 @@ h7 {
 .contents {
     position: absolute;
     z-index: 2;
-    bottom: -10vh;
+    bottom: 2vh;
     left: 28vw;
-    width: 935px;
-    height: 637px;
-    background-image: url("../assets/house/contents-h787.png");
-    background-size: 935px 637px;
+    width: 664px;
+        height: 451px;
+        background-image: url("../assets/house/contents-h902.png");
+        background-size: 664px 451px;
 }
 .deck-cover {
     position: absolute;
     z-index: 1;
     bottom: 0vh;
     left: 0vw;
-    height: 415px;
     width: 664px;
-    background-size: cover; background-image: url("../assets/house/deck-cover-h830.png");
-    background-size: 415px 644px;
+    height: 415px;
+    background-image: url("../assets/house/deck-cover-h830.png");
+    background-size: 644px 415px;
 }
 .video {
     position: absolute;
     z-index: 3;
-    top: -50px;
+    top: -100px;
     left: 5vw;
     width: 920px;
     height: 300px;
-    background-size: contain; background-image: url("../assets/house/video-h600.png");
+    background-image: url("../assets/house/video-h600.png");
     background-size: 920px 300px;
 }
 
@@ -449,29 +445,21 @@ h7 {
 .info-arch {
     position: absolute;
     z-index: 10;
-    bottom: -2vh;
+    bottom: -6vh;
     left: -1vw;
-    height: 411px;
     width: 664px;
-    background-size: contain; background-image: url("../assets/netronome/info-arch-h411.png");
+    height: 447px;
+    background-image: url("../assets/netronome/info-arch-h894.png");
+    background-size: 664px 447px;
 }
 .rainbow {
     position: absolute;
     z-index: 1;
     top: 1vh;
-    right: 10vw;
-    height: 311px;
-    width: 304px;
-    background-size: contain; background-image: url("../assets/netronome/rainbow-h311.png");
-}
-.stats {
-    position: absolute;
-    z-index: 10;
-    top: 0vh;
-    left: 10vw;
-    height: 238px;
-    width: 548px;
-    background-size: contain; background-image: url("../assets/netronome/stats-h238.png");
+    right: 20vw;
+    width: 478px;
+    height: 504px;
+    background-image: url("../assets/netronome/rainbow-h1008.png"); background-size: 478px 504px; 
 }
 
 /*intern*/
@@ -480,27 +468,30 @@ h7 {
     z-index: 25;
     bottom: 13vh;
     right: 70px;
-    width: 677px;
-    height: 548px;
-    background-size: contain; background-image: url("../assets/intern/pw3-h548.png");
+    width: 742px;
+        height: 547px;
+        background-image: url("../assets/intern/pw3-h1094.png");
+        background-size: 742px 547px; 
 }
 .pw2 {
     position: absolute;
     z-index: 50;
     top: 0vh;
     right: 0vw;
-    width: 478px;
-    height: 369px;
-    background-size: contain; background-image: url("../assets/intern/pw2-h369.png");
+    width: 664px;
+        height: 501px;
+        background-image: url("../assets/intern/pw2-h1002.png");
+        background-size: 664px 501px; 
 }
 .hovering {
     position: absolute;
     z-index: 5;
     top: 5px;
     right: 45vw;
-    height: 356px;
-    width: 724px;
-    background-size: contain; background-image: url("../assets/intern/hovering-h356.png");
+    width: 610px;
+    height: 300px;
+    background-image: url("../assets/intern/hovering-h600.png");
+    background-size: 610px 300px;
 }
 
 /*intern*/
@@ -509,45 +500,50 @@ h7 {
     position: absolute;
     bottom: 0px;
     left: 20px;
-    height: 299px;
-    width: 1028px;
-    background-size: contain; background-image: url("../assets/intern/maps-h299.jpg");
+    width: 1135px;
+    height: 336px;
+    background-image: url("../assets/intern/maps-h672.jpg");
+    background-size: 1135px 336px;
 }
 .pitch {
     position: absolute;
     z-index: 10;
     bottom: 10vh;
     right: 8vw;
-    height: 490px;
-    width: 839px;
-    background-size: contain; background-image: url("../assets/capstone/pitch-h490.png");
+    width: 882px;
+    height: 519px;
+    background-image: url("../assets/capstone/pitch-h1038.png");
+    background-size: 882px 519px; 
 }
 .textblock {
     position: absolute;
     z-index: 10;
     right: 55vw;
     bottom: 10vh;
-    width: 162px;
-    height: 165px;
-    background-size: contain; background-image: url("../assets/capstone/textblock-h165.png");
+    width: 271px;
+    height: 300px;
+    background-image: url("../assets/capstone/textblock-h600.png");
+    background-size: 271px 300px; 
 }
 .users {
     position: absolute;
     z-index: 4;
-    top: 20px;
+    top: 0px;
     left: 20px;
-    height: 310px;
-    width: 787px;
-    background-size: contain; background-image: url("../assets/capstone/users-h310.png");
+    width: 1102px;
+    height: 234px;
+    background-image: url("../assets/capstone/users-h468.png");
+    background-size: 1102px 234px; 
 }
 
 }
 .watch {
     z-index: 5;
     right: 0px;
-    height: 310px;
-    width: 520px;
-    background-size: contain; background-image: url("../assets/capstone/watch-h310.jpg");
+    width: 722px;
+    height: 450px;
+    background-image: url("../assets/capstone/watch-h900.jpg");
+    background-size: 722px 450px;  
 }
 
 /*farmhand*/
@@ -556,18 +552,20 @@ h7 {
     z-index: 8;
     top: 20px;
     right: 10px;
-    height: 468px;
-    width: 889px;
-    background-size: contain; background-image: url("../assets/farmhand/farm-h468.png");
+    width: 833px;
+        height: 459px;
+        background-image: url("../assets/farmhand/farm-h947.png");
+        background-size: 833px 459px; 
 }
 .stick-big {
     position: absolute;
     z-index: 10;
     bottom: 3vh;
     right: 20vw;
-    height: 228px;
-    width: 328px;
-    background-size: contain; background-image: url("../assets/farmhand/stick-big-h328.png");
+    width: 461px;
+    height: 289px;
+    background-image: url("../assets/farmhand/stick-big-h578.png");
+    background-size: 461px 289px; 
 }
 
 /*LOOSIES*/
@@ -584,24 +582,26 @@ h7 {
     z-index: 10;
 bottom: 3vh;
     right: 0vw;
-    width: 897px;
-    height: 612px;
-    background-size: contain; background-image: url("../assets/loosies/bmw-hover.png");
+    width: 948px;
+    height: 606px;
+    background-image: url("../assets/loosies/bmw-h1212.png");
+    background-size: 984px 606px; 
 }
 .obama {
     position: absolute;
     z-index: 10;
     right: 3vw;
     top: 2vh;
-    height: 603px;
-        width: 853px;
-        background-size: contain; background-image: url("../assets/loosies/obama-w853.jpg");
+    width: 787px;
+    height: 556px;
+        background-image: url("../assets/loosies/obama-w1574.png");
+    background-size: 787px 556px; 
 }
 .cutVideo {
     position: absolute;
     width: 1258px;
     height: auto;
-    z-index: 10;
+    z-index: 10; 
     right: 10%;
     top: -10px;
 }
@@ -624,25 +624,21 @@ bottom: 3vh;
         left: 0vw;
     }
     .video {
-        left: 45vw;
-        height: 200px;
-        width: 820px;
-        background-size: contain; background-image: url("../assets/house/video-h200.png");
+        left: 5vw;
+        top: -80px;
+        width: 920px;
+    height: 300px;
+    background-image: url("../assets/house/video-h600.png");
+    background-size: 920px 300px;
     }
     /*netronome*/
     .info-arch {
         bottom: -2.5vh;
         left: 0vw;
-        height: 342px;
-        width: 842px;
-        background-size: contain; background-image: url("../assets/netronome/info-arch-h342.png");
-    }
-    .stats {
-        top: 0vh;
-        left: 10vw;
-        height: 238px;
-        width: 548px;
-        background-size: contain; background-image: url("../assets/netronome/stats-h238.png");
+        width: 845px;
+    height: 549px;
+    background-image: url("../assets/netronome/info-arch-h1098.png");
+    background-size: 845px 549px;
     }
 }
 
@@ -654,12 +650,12 @@ bottom: 3vh;
         width: auto;
     }
     .contents {
-        bottom: -10vh;
+        bottom: 6vh;
         left: 28vw;
-        width: 664px;
-        height: 451px;
-        background-image: url("../assets/house/contents-h902.png");
-        background-size: 664px 451px;
+        width: 935px;
+    height: 637px;
+    background-image: url("../assets/house/contents-h1274.png");
+    background-size: 935px 637px;
     }
     .deck-cover {
         bottom: 0vh;
@@ -670,107 +666,115 @@ bottom: 3vh;
         background-size: 696px 497px;
     }
     .video {
-        left: 38vw;
-        height: 300px;
+        left: 5vw;
+        top: 0px;
         width: 920px;
-        background-size: contain; background-image: url("../assets/house/video-h300.png");
+    height: 300px;
+    background-image: url("../assets/house/video-h600.png");
+    background-size: 920px 300px;
     }
     /*netronome*/
     .info-arch {
         bottom: -2vh;
         left: 0vw;
-        height: 549px;
         width: 832px;
-        background-size: contain; background-image: url("../assets/netronome/info-arch-h549.png");
-    }
-    .rainbow {
-        top: 0vh;
-        right: 10vw;
-        height: 311px;
-        width: 304px;
-        background-size: contain; background-image: url("../assets/netronome/rainbow-h311.png");
+        height: 549px;
+        background-image: url("../assets/netronome/info-arch-h1098.png");
+        background-size: 832px 549px;
     }
     .stats {
         top: 0vh;
         left: 10vw;
-        height: 297px;
-        width: 688px;
-        background-size: contain; background-image: url("../assets/netronome/stats-h297.png");
+        width: 630px;
+    height: 300px;
+    background-image: url("../assets/netronome/stats-h600.png"); background-size: 630px 300px; 
     }
     .video2 {
         bottom: 0px;
-        right: -1vw;
+        right: 3vw;
         width: 1053px;
         height: 734px;
-        background-size: contain; background-image: url("../assets/netronome/video2-w1053.png");
+        background-image: url("../assets/netronome/video2-w2106.png");
+        background-size: 1053px 734px;
     }
     /*intern*/
     .pw2 {
-        top: 0vh;
+        top:60px;
         right: 0vw;
-        width: 478px;
-        height: 369px;
-        background-size: contain; background-image: url("../assets/intern/pw2-h369.png");
+        width: 664px;
+        height: 501px;
+        background-image: url("../assets/intern/pw2-h1002.png");
+        background-size: 664px 501px; 
     }
     /*intern*/
     .maps {
         bottom: 20px;
         left: 20px;
-        height: 388px;
-        width: 1332px;
-        background-size: contain; background-image: url("../assets/intern/maps-h388.jpg");
+        width: 1135px;
+    height: 336px;
+    background-image: url("../assets/intern/maps-h672.jpg");
+    background-size: 1135px 336px;
     }
     /*capstone*/
     .pitch {
         position: absolute;
         z-index: 10;
-        bottom: -5vh;
+        bottom: 5vh;
         right: 8vw;
-        height: 490px;
-        width: 839px;
-        background-size: contain; background-image: url("../assets/capstone/pitch-h490.png");
+        width: 882px;
+    height: 519px;
+    background-image: url("../assets/capstone/pitch-h1038.png");
+    background-size: 882px 519px; 
     }
     .textblock {
         position: absolute;
         z-index: 10;
         right: 55vw;
         bottom: 10vh;
-        width: 162px;
-        height: 165px;
-        background-size: contain; background-image: url("../assets/capstone/textblock-h165.png");
+        width: 271px;
+    height: 300px;
+    background-image: url("../assets/capstone/textblock-h600.png");
+    background-size: 271px 300px; 
     }
     .users {
         position: absolute;
         z-index: 1;
         top: 20px;
         left: 20px;
-        height: 310px;
-        width: 787px;
-        background-size: contain; background-image: url("../assets/capstone/users-h310.png");
+        width: 1102px;
+    height: 234px;
+    background-image: url("../assets/capstone/users-h468.png");
+    background-size: 1102px 234px; 
     }
     .watch {
         position: absolute;
         top: 0vh;
         z-index: 5;
         right: 0vw;
-        height: 600px;
-        width: 1006px;
-        background-size: contain; background-image: url("../assets/capstone/watch-h600.jpg");
+        width: 722px;
+    height: 450px;
+    background-image: url("../assets/capstone/watch-h900.jpg");
+    background-size: 722px 450px;  
     }
 }
 
 /*WIDTHS*/
-@media screen and (max-height: 850px) {
+@media screen and (max-height: 1050px) {
     .pw2 {
         top: 0vh;
-        right: -10vh;
-        width: 478px;
+        right: 50px;
+        width: 479px;
         height: 369px;
-        background-size: contain; background-image: url("../assets/intern/pw2-h369.png");
+        background-image: url("../assets/intern/pw2-h738.png");
+        background-size: 479px 369px; 
     }
     .pw3 {
         z-index: 25;
-        bottom: 13vh;
+        bottom: 50px;
+    }
+        .textblock {
+        left:450px;
+        bottom: 10px;
     }
 }
 @media screen and (max-width: 1660px) {
@@ -778,82 +782,114 @@ bottom: 3vh;
         z-index: 30;
         bottom: 0px;
         right: -4vw;
-        height: 632px;
         width: 865px;
-        background-size: contain; background-image: url("../assets/netronome/video2-w865.png");
+        height: 633px;
+        background-image: url("../assets/netronome/video2-w1730.png");
+        background-size: 865px 633px;
     }
     .watch {
         z-index: 5;
         position: absolute;
         right: 0vw;
         top: 0vh;
-        height: 455px;
-        width: 763px;
-        background-size: contain; background-image: url("../assets/capstone/watch-h455.jpg");
-    }
-    .textblock {
-        right: 55vw;
-        bottom: 10vh;
+        width: 722px;
+    height: 450px;
+    background-image: url("../assets/capstone/watch-h900.jpg");
+    background-size: 722px 450px;  
     }
 }
 @media screen and (max-width: 1440px) {
     .pw3 {
         bottom: 8vh;
         right: 15px;
-        width: 677px;
-        height: 548px;
-        background-size: contain; background-image: url("../assets/intern/pw3-h548.png");
+        width: 742px;
+        height: 547px;
+        background-image: url("../assets/intern/pw3-h1094.png");
+        background-size: 742px 547px; 
     }
     .pw2 {
-        width: 478px;
+
+        width: 479px;
         height: 369px;
-        background-size: contain; background-image: url("../assets/intern/pw2-h369.png");
+        background-image: url("../assets/intern/pw2-h738.png");
+        background-size: 479px 369px; 
     }
-    .pitch {
-        bottom: 2vh;
-        right: -15vw;
-        height: 490px;
-        width: 839px;
-        background-size: contain; background-image: url("../assets/capstone/pitch-h490.png");
+        .pitch {
+        bottom: -9vh;
+        right: -420px;
+        width: 882px;
+    height: 519px;
+    background-image: url("../assets/capstone/pitch-h1038.png");
+    background-size: 882px 519px; 
     }
     .bmw {
         position: absolute;
 bottom:3vh;
     right: -10vw;
-        width: 897px;
-        height: 612px;
-        background-size: contain; background-image: url("../assets/loosies/bmw-hover.png");
+        width: 948px;
+    height: 606px;
+    background-image: url("../assets/loosies/bmw-h1212.png");
+    background-size: 984px 606px; 
     }
     .wip {
         bottom: 5px;
         right: -60px;
-        height: 683px;
-        width: 687px;
-        background-size: contain; background-image: url("../assets/history/wip-w687.png");
+        width: 632px;
+        height: 513px;
+        background-image: url("../assets/history/wip-w1285.png");
+        background-size: 632px 513px; 
     }
 }
+
 @media screen and (max-width: 1480px) and (max-height: 930px) {
     .video2 {
-        right: -25vw;
-        bottom: opx;
-        height: 632px;
+        right: -15vw;
+        bottom: 0px;
         width: 865px;
-        background-size: contain; background-image: url("../assets/netronome/video2-w865.png");
+        height: 633px;
+        background-image: url("../assets/netronome/video2-w1730.png");
+        background-size: 865px 633px;
     }
     .users {
-        height: 220px;
-        width: 543px;
-        background-size: contain; background-image: url("../assets/capstone/users-h220.png");
+        top: 20px;
+        width: 1102px;
+    height: 234px;
+    background-image: url("../assets/capstone/users-h468.png");
+    background-size: 1102px 234px; 
     }
 }
-@media screen and (max-width: 1150px) and (max-height: 660px) {}
-
+@media screen and (max-width: 1600px) {
+    .wip {
+        bottom: 20px;
+        right: 5px;
+        width: 632px;
+        height: 513px;
+        background-image: url("../assets/history/wip-w1285.png");
+        background-size: 632px 513px; 
+    }
+        .rainbow {
+        top: 0vh;
+        right: 10vw;
+         width: 478px;
+    height: 504px;
+    background-image: url("../assets/netronome/rainbow-h1008.png"); background-size: 478px 504px; 
+    }
+        .pitch {
+        bottom: -9vh;
+        right: -420px;
+        width: 882px;
+    height: 519px;
+    background-image: url("../assets/capstone/pitch-h1038.png");
+    background-size: 882px 519px; 
+    }
+}
 @media screen and (max-width: 1290px) {
     .rainbow {
-        right: 20px;
-        height: 311px;
-        width: 304px;
-        background-size: contain; background-image: url("../assets/netronome/rainbow-h311.png");
+        right: -50px;
+        top:-25px;
+         width: 478px;
+    height: 504px;
+    background-image: url("../assets/netronome/rainbow-h1008.png"); background-size: 478px 504px; 
     }
     .hand {
         width: 500px;
@@ -861,23 +897,25 @@ bottom:3vh;
     }
     .pw3 {
         z-index: 150;
-        bottom: 0vh;
+        bottom: -30px;
         right: -1vw;
-        width: 665px;
-        height: 440px;
-        background-size: contain; background-image: url("../assets/intern/pw3-h440.png");
+        width: 666px;
+        height: 445px;
+        background-image: url("../assets/intern/pw3-h890.png");
+         background-size: 666px 445px;
+    }
+    .video2 {
+        right: 1vw;
+        bottom: 12vh;
+         width: 492px;
+        height: 408px;
+        background-image: url("../assets/netronome/video2-w984.png");
+        background-size: 492px 408px;
     }
 }
 .deck-cover {
-    left: -10vw;
 }
 @media screen and (max-width: 1150px) {
-    .rainbow {
-        top: 1vh;
-        height: 311px;
-        width: 304px;
-        background-size: contain; background-image: url("../assets/netronome/rainbow-h311.png");
-    }
     .hand {
         width: 420px;
         height: auto;
@@ -889,29 +927,23 @@ bottom:3vh;
         height: auto;
     }
 }
-@media screen and (max-width: 1600px) {
-    .wip {
-        bottom: -60px;
-        right: 5px;
-        height: 683px;
-        width: 687px;
-        background-size: contain; background-image: url("../assets/history/wip-w687.png");
-    }
-}
+
 @media screen and (max-width: 1200px) {
     .wip {
-        bottom: -60px;
-        right: -310px;
-        height: 683px;
-        width: 687px;
-        background-size: contain; background-image: url("../assets/history/wip-w687.png");
+        bottom: 20px;
+        right: -260px;
+        width: 632px;
+        height: 513px;
+        background-image: url("../assets/history/wip-w1285.png");
+        background-size: 632px 513px; 
     }
     .video2 {
         right: 1vw;
         bottom: 2vh;
-        height: 409px;
         width: 492px;
-        background-size: contain; background-image: url("../assets/netronome/video2-h409.png");
+        height: 408px;
+        background-image: url("../assets/netronome/video2-w984.png");
+        background-size: 492px 408px;
     }
 }
 @media screen and (max-width: 1180px) and (max-height:850px) {
@@ -919,46 +951,67 @@ bottom:3vh;
         bottom: 60px;
         right: 30px;
     }
-    .pitch {
-        bottom: -9vh;
-        right: -420px;
-        height: 490px;
-        width: 839px;
-        background-size: contain; background-image: url("../assets/capstone/pitch-h490.png");
-    }
     .video2 {
         right: 1vw;
         bottom: -4vh;
-        height: 409px;
-        width: 492px;
-        background-size: contain; background-image: url("../assets/netronome/video2-h409.png");
+         width: 492px;
+        height: 408px;
+        background-image: url("../assets/netronome/video2-w984.png");
+        background-size: 492px 408px;
     }
+}
+@media screen and (max-width: 2200px) and (max-height: 1035px) {
+.contents {
+        bottom: -10vh;
+        left: 28vw;
+        width: 935px;
+    height: 637px;
+    background-image: url("../assets/house/contents-h1274.png");
+    background-size: 935px 637px;
+    }
+}
+@media screen and (max-width: 2000px) and (max-height: 880px) {
+.contents {
+    position: absolute;
+    z-index: 2;
+    bottom: -10vh;
+    left: 28vw;
+    width: 664px;
+        height: 451px;
+        background-image: url("../assets/house/contents-h902.png");
+        background-size: 664px 451px;
+}
 }
 @media screen and (max-width: 1305px) and (max-height: 800px) {
     .watch {
         z-index: 5;
         right: 0px;
-        height: 310px;
-        width: 687px;
-        background-size: contain; background-image: url("../assets/capstone/watch-h455.jpg");
+        width: 722px;
+    height: 450px;
+    background-image: url("../assets/capstone/watch-h900.jpg");
+    background-size: 722px 450px;  
     }
     .farm {
-        height: 358px;
-        width: 689px;
-        background-size: contain; background-image: url("../assets/farmhand/farm-h358.png");
+        width: 833px;
+        height: 459px;
+        background-image: url("../assets/farmhand/farm-h947.png");
+        background-size: 833px 459px; 
     }
     .obama {
-        right: 4vw;
-        height: 482px;
-        width: 682px;
-        background-size: contain; background-image: url("../assets/loosies/obama-w682.jpg");
+        right: 30px;
+        top: -40px;
+        width: 787px;
+    height: 556px;
+        background-image: url("../assets/loosies/obama-w1574.png");
+    background-size: 787px 556px; 
     }
     .bmw {
     top:3vh;
     right: -20vw;
-    width: 897px;
-        height: 612px;
-        background-size: contain; background-image: url("../assets/loosies/bmw-hover.png");
+    width: 948px;
+    height: 606px;
+    background-image: url("../assets/loosies/bmw-h1212.png");
+    background-size: 984px 606px; 
 }
     .cutVideo {
         right: 0%;
@@ -966,45 +1019,55 @@ bottom:3vh;
     .video2 {
         right: -2vw;
         bottom: -8vh;
-        height: 409px;
-        width: 492px;
-        background-size: contain; background-image: url("../assets/netronome/video2-h409.png");
+         width: 492px;
+        height: 408px;
+        background-image: url("../assets/netronome/video2-w984.png");
+        background-size: 492px 408px;
     }
 }
 @media screen and (max-width: 1200px) and (max-height: 800px) {
     .pw3 {
-        right: -9vw;
-        bottom: -17vh;
-        width: 665px;
-        height: 440px;
-        background-size: contain; background-image: url("../assets/intern/pw3-h440.png");
+        right: -60px;
+        bottom: -30px;
+        width: 666px;
+        height: 445px;
+        background-image: url("../assets/intern/pw3-h890.png");
+         background-size: 666px 445px;
+    }
+    .pw2 {
+        right:-40px;
     }
     .video {
-        height: 200px;
-        width: 840px;
-        background-size: contain; background-image: url("../assets/house/video-h200.png");
+        top: -100px;
+        width: 920px;
+    height: 300px;
+    background-image: url("../assets/house/video-h600.png");
+    background-size: 920px 300px;
     }
         .bmw {
 top:-120px;
     right: 1vw;
-    width: 897px;
-        height: 612px;
-        background-size: contain; background-image: url("../assets/loosies/bmw-hover.png");
+    width: 948px;
+    height: 606px;
+    background-image: url("../assets/loosies/bmw-h1212.png");
+    background-size: 984px 606px; 
 }
 }
 @media screen and (max-width: 1180px) and (min-height: 800px) {
     .pw3 {
-        bottom: vh;
-        right: -5vw;
-        width: 665px;
-        height: 440px;
-        background-size: contain; background-image: url("../assets/intern/pw3-h440.png");
+        bottom: -40px;
+        right: -70px;
+        width: 666px;
+        height: 445px;
+        background-image: url("../assets/intern/pw3-h890.png");
+         background-size: 666px 445px;
     }
         .bmw {
 top:40px;
     right: 1vw;
-    width: 897px;
-        height: 612px;
-        background-size: contain; background-image: url("../assets/loosies/bmw-hover.png");
+    width: 948px;
+    height: 606px;
+    background-image: url("../assets/loosies/bmw-h1212.png");
+    background-size: 984px 606px; 
 }
 }
