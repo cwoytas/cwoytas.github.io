@@ -29,7 +29,7 @@ html {
     z-index: 150;
 }
 
-@media screen and (max-width: 960px), screen and (max-height: 700px) {
+@media screen and (max-width: 960px), screen and (max-height: 610px) {
     #mobileCover {
         visibility: visible;
     }
