@@ -148,7 +148,7 @@ h1 a:hover {
     text-decoration: none;
 }
 
-#header:hover {
+#Style10_li:hover {
     color: #0000ee;
 }
 
@@ -325,9 +325,9 @@ h7 {
     position: absolute;
     z-index: 1;
     top: 200px;
-    right: 100px;
-    height: 884px;
-    width: 1522px;
+    left: 400px;
+    width: 761px;
+    height: 442px;
 }
 
 .email {
