@@ -82,7 +82,13 @@
         background-color: #0000ee;
         cursor: default;
     }
-    
+    .replace {
+    width: 1.1em;
+    height: 1.1em;
+    padding: 0 0 0 0;
+    vertical-align: -0.05em;
+        text-decoration: none;
+}
     /*********** HOMEPAGE ***********/
     /*title*/
     .section1 {
@@ -100,72 +106,105 @@
     /***BIG WEB IMAGE***/
     /*CONTAINER*/
     #imgHome {
-        padding-left: 40px;
-        height: 3600px;
+        height: 2150px;
     }
         #imgHome .imgL {
-        float: left;
-        width: 1202px;
-    height: 3453px;
-    background-image: url("assets/intern/homepage-w1202.jpg");
+            float: left;
+            margin-left: 10vw;
+        width: 877px;
+    height: 2015px;
+    background-image: url("assets/intern/homepage-w1754.jpg");
+            background-size: 877px 2015px;
     }
-    @media screen and (max-width: 1250px) {
-    #imgHome .imgL {
-        float: left;
-        width: 752px;
-        height: 2159px;
-    background-image: url("assets/intern/homepage-w752.jpg");
-    }
-        #imgHome {
-            height: 2250px;
-        }
-    }
-    @media screen and (max-width: 1050px) {
-    #imgHome .imgL {
-        float: left;
-        width: 602px;
-    height: 1728px;
-    background-image: url("assets/intern/homepage-w602.jpg");
-    }
-        #imgHome {
-            height: 1860px;
-        }
-    }
-    
-    #imgHome .imgL img {
-        width: 100%;
-    }
-    
+     
     /***RIGHT COLUMN***/
     .wireframes {
-        width: 397px;
-        height: 881px;
-        background-image: url("assets/intern/wireframes-w397.png");
+        width: 429px;
+        height: 951px;
+        background-image: url("assets/intern/wireframes-w857.png");
+        background-size: 429px 951px;
     }
     
     #imgHome .imgR {
-        position: absolute;
-        left: 1315px;
-        width: 600px;
-        padding-left: 1vw;
+        float:left;
+        left:58vw;
+        width: 480px;
+        margin-left: 50px;
+        padding-top: 100px;
     }
     /*CARDS THUMBNAILS*/
     #imgHome .imgR .cards img {
         padding: 3px;
         padding-bottom: 15px;
-        width: calc(100% /3);
+        width: 200px;
     }
     /*WIREFRAME AND THUMBNAIL TITLES*/
     #imgHome .imgR .title {
         text-align: left;
         padding-left: 5px;
         padding-bottom: 20px;
-        padding-top: 190px;
+        padding-top: 90px;
         font-size: 14px;
-        font-weight: lighter;
-        text-decoration: underline;
         color: #888888;
     }
+    @media screen and (max-width: 1585px) {
+    #imgHome .imgL {
+        margin-left: 4vw;
+        width: 877px;
+    height: 2015px;
+    background-image: url("assets/intern/homepage-w1754.jpg");
+            background-size: 877px 2015px;
+    }
+        #imgHome {
+            height: 2150px;
+        }
+    }
+    
+    @media screen and (max-width: 1485px) {
+    #imgHome .imgL {
+        width: 702px;
+    height: 2015px;
+    background-image: url("assets/intern/homepage-w1400.jpg");
+            background-size: 702px 2015px;
+    }
+        #imgHome {
+            height: 2150px;
+        }
+    }
+    
+    @media screen and (max-width: 1300px) {
+    #imgHome .imgL {
+        width: 702px;
+    height: 2015px;
+    background-image: url("assets/intern/homepage-w1400.jpg");
+            background-size: 702px 2015px;
+        margin-left: 10px;
+    }
+        #imgHome {
+            height: 2150px;
+        }
+        .wireframes {
+        width: 199px;
+        height: 442px;
+        background-image: url("assets/intern/wireframes-w397.png");
+        background-size: 199px 442px;
+    }
+        #imgHome .imgR {
+            width: 210px;
+            margin-left: 30px;
+        }
+        #imgHome .imgR .cards img {
+        padding: 3px;
+        padding-bottom: 1px;
+        width: 215px;
+    }
+        .title {
+            width: 200px;
+            line-height: 24px;
+        }
+    }
+    
+   
     
     /***RATES VISUALS***/
     /*TITLE*/
@@ -181,16 +220,17 @@
     }
     /*CONTAINER*/
     #imgRates {
-        height:1620px;
+        height:930px;
     }  
     /*LEFT IMAGE*/
     #imgRates .imgL {
         position: absolute;
         right:41.5vw;
         margin-top: 174px;
-        width: 1202px;
-        height:1516px;
-        background-image: url("assets/intern/rates2.png");
+        width:727px;
+        height:820px;
+        background-image: url("assets/intern/rates2-w1454.jpg");
+        background-size: 727px 820px;
     }
     
     
@@ -198,9 +238,10 @@
     #imgRates .imgR {
         position: absolute;
         left: 59.5vw;
-        width:1202px;
-        height:1690px;
-        background-image: url("assets/intern/rates1.png")
+        width:727px;
+        height:902px;
+        background-image: url("assets/intern/rates1-w1454.jpg");
+        background-size: 727px 902px;
     }
     /*BOTTOM POINTER*/
     .emoji-title {
@@ -282,6 +323,11 @@
         border-color: black;
         border-width: 1px;
     }
+    @media screen and (max-width: 1180px) {
+        .maps {
+            left:10px;
+        }
+    }
     /***POWERWALL***/
     /*TITLE LEFT*/
     .section6 {
@@ -299,8 +345,8 @@
         transform: rotate(90deg);
     }
     .powerwall {
-        height:1500px;
-        padding-top: 590px;
+        height:1450px;
+        padding-top: 500px;
     }
     
     /*LEFT IMAGE*/
@@ -334,9 +380,11 @@
         width: 953px;
         height:549px;
         background-image: url("assets/intern/powerwall2-white.jpg");
+        background-size: 953px 549px;
     }
     .powerwall .imgR:hover {
         background-image: url("assets/intern/powerwall2-green.jpg");
+        background-size: 953px 549px;
     }
     
     /*TITLE RIGHT*/
@@ -375,17 +423,20 @@
          }
          .section6 {
              position: absolute;
-             padding-top: 100px;
-             width: 870px;
-             padding-left: 0px;
-             -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
+             margin-top: -350px;
+             width: 750px;
+        padding-left: 0px;
+        font-weight: 600;
+        text-align: right;
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 500px;
          }
          .powerwall {
-        height:1840px;
+        height:1590px;
+    }
+         .motion {
+    height: 750px;
     }
     }
     
@@ -472,14 +523,14 @@
 <!-- ***** WIREFRAMES ***** -->
         <div class="imgR">
             <!-- TITLE -->
-            <div class="title">did a lot of wireframes trust me</div>
+            <div class="title">I did a lot of wireframes, trust me <span class="replace"> 👌</span></div>
             <div class="wireframes">
                 
             </div>
             
             <!-- ***** CARDS ***** -->
             <!-- TITLE -->
-            <div class="title">check out some visual iterations</div>
+            <div class="title">I also made a lot of visual iterations <span class="replace">👀</span></div>
             <!-- LIGHTBOX IMAGES GRID -->
             <div class="cards">
             
@@ -544,7 +595,7 @@
         
             <div class="section5">This was an early proposal for exploring a map of power outages on mobile.</div>
 
-        <img src="assets/intern/maps-w580.jpg" alt="image-1" border="1"/>
+        <img src="assets/intern/maps-w1160.jpg" alt="image-1" border="1"/>
     </div>
             <div class="motion">
     <div class="section4">did a lil motion study <span class="replace">✨</span></div>
@@ -556,9 +607,7 @@
     <!-- TITLE LEFT -->
     <div class="powerwall">
     <div class="section6">I turned this picture...</div>
-    
-    
-            <img src="assets/intern/powerwall-1_w664.png" class="imgL" alt="image-1" />
+            <img src="assets/intern/pw2-w1328.png" width="664px" height="468px" class="imgL" alt="image-1"  />
         <!-- TITLE RIGHT -->
         <div class="section7"><span class="title">...into this asset <span class="replace">🤘</span></span></div>
         <div class="imgR">
