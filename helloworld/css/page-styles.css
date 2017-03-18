@@ -421,10 +421,10 @@ position: absolute;
 }
 #capstone_container iframe {
     position: absolute;
-        width: 91.1%;
-    height: 79.7%;
-    top:60px;
-    left: 62px;
+        width: 91.95%;
+    height: 81%;
+    top:54px;
+    left: 56px;
     z-index: 10;
 }
 
@@ -476,10 +476,10 @@ position: absolute;
 }
 #capstone_container iframe {
     position: absolute;
-        width: 89%;
-    height: 75.5%;
-    top:58px;
-    left: 60px;
+        width: 89.8%;
+    height: 76.6%;
+    top:54px;
+    left: 56px;
     z-index: 10;
 }
     #intern_container {
@@ -565,10 +565,10 @@ position: absolute;
 }
 #capstone_container iframe {
     position: absolute;
-        width: 87.5%;
-    height: 72.5%;
-    top:56px;
-    left: 58px; 
+        width: 88%;
+    height: 73.1%;
+    top:54px;
+    left: 56px; 
     z-index: 10;
 }
 #intern_container {
