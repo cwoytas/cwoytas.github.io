@@ -454,9 +454,9 @@ h7 {
 }
 .rainbow {
     position: absolute;
-    z-index: 2;
-    top: -30px;;
-    right: 20vw;
+    z-index: 40;
+    top: -30px;
+    right: 15vw;
     width: 478px;
     height: 504px;
     background-image: url("../assets/netronome/rainbow-h1008.png"); background-size: 478px 504px; 
