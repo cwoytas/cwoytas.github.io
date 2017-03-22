@@ -9,7 +9,7 @@
 	width: 100%;
     pointer-events: none;
     cursor: default;
-    z-index: 11;
+    z-index: 20;
     background-color: #8f8f8f;
 }
 .deck-grid li {

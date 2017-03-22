@@ -223,17 +223,18 @@ h4 {
     position: fixed;
     top: 40px;
     left: -10px;
-    z-index: 100;
+    z-index: 19;
     padding-top: 0px;
     padding-bottom: 0px;
     font-weight: bold;
     font-size: 24px;
-    line-height: 42px;
+    line-height: 28px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-top: 0px;
     color: #800080;
     text-decoration: none;
+    background-color: white;
 }
 
 .back a:link {
