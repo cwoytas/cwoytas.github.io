@@ -75,15 +75,6 @@
     margin-bottom: 10px;
 }
 
-.cards__item_ambio {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 1rem;
-    width:360px;
-    margin-bottom: 60px;
-}
-
 
 @media screen and (max-width: 510px) {
     .cards {
