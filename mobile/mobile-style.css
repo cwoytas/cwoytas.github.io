@@ -16,8 +16,8 @@ body a {
 
 .intro {
     position: static;
-    margin-top: -10px;
-    margin-left: 0px;
+    top: 0px;
+    left: 0px;
     overflow-x: hidden;
     height: 310px;
     background-color: white;
