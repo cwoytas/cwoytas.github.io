@@ -72,7 +72,7 @@ body a {
     margin-right: auto;
     margin-left: auto;
     padding: 1rem;
-    width: 450px;
+    width: 480px;
     margin-bottom: 10px;
 }
 
@@ -151,8 +151,8 @@ body a {
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
     font-weight: 300;
     margin-top: 12px;
@@ -163,8 +163,8 @@ body a {
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 30px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 54px;
+    padding-right: 54px;
     text-align: center;
     font-weight: 300;
     margin-top: 12px;
@@ -175,8 +175,8 @@ body a {
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 30px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 58px;
+    padding-right: 58px;
     text-align: center;
     font-weight: 300;
     margin-top: 12px;
@@ -191,7 +191,7 @@ body a {
     text-transform: lowercase;
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: 4px;
+    margin-bottom: 33px;
     line-height: 28px;
 }
 
