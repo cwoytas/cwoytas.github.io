@@ -71,7 +71,7 @@
     margin-right: auto;
     margin-left: auto;
     padding: 1rem;
-    width:390px;
+    width:380px;
     margin-bottom: 10px;
 }
 
@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 410px) {
     .cards__item {
-        padding: 9px;
+        padding: 2px;
     }
 }
 
