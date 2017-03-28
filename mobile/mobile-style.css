@@ -149,7 +149,7 @@ body a {
 .card__text {
     flex: 1 1 auto;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.5;
     margin-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
@@ -161,7 +161,7 @@ body a {
 .card__text-netronome {
     flex: 1 1 auto;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.5;
     margin-bottom: 30px;
     padding-left: 54px;
     padding-right: 54px;
@@ -173,7 +173,7 @@ body a {
 .card__text-ambio {
     flex: 1 1 auto;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.5;
     margin-bottom: 30px;
     padding-left: 58px;
     padding-right: 58px;
