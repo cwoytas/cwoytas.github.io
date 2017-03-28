@@ -5,38 +5,6 @@
     vertical-align: -0.12em;
 }
 
-#mobileCover {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    text-align: center;
-    visibility: hidden;
-    padding-left, padding-right: 10vw;
-    
-    padding-top: 42vh;
-    padding-bottom: 35vh;
-    color: white;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 56px;
-    z-index: 300;
-}
-
-@media screen and (max-width: 960px),
-screen and (max-height: 610px) {
-    #mobileCover {
-        visibility: visible;
-    }
-    html {
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
-}
-
-
 #Style,
 #Style2,
 #Style3,

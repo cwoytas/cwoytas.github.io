@@ -12,16 +12,28 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,400i,500,700" rel="stylesheet">
     <!-- MOST PAGE STYLES -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile-style.css">
 
 </head>
     <!-- *********** PAGE STYLES ********** -->
 <style>
+    
     /*LOCKS SCROLLING AND MAKES EMOJI POINTER*/
     html {
         overflow-x: hidden;
         overflow-y: hidden;
         cursor: url('assets/cursors/pointer-emoji.png'), auto;
     }
+    @media screen and (max-width: 960px),
+screen and (max-height: 610px) {
+    #mobileCover {
+        visibility: visible;
+    }
+    html {
+        overflow-x: hidden;
+        overflow-y: visible;
+    }
+}
     /*CREATES BREAKS IN LIST*/
     #Style3_li,
     #Style6_li {
@@ -173,8 +185,66 @@
 <body>
     
     <!-- COVER FOR MOBILE/TABLET SIZES -->
-    <div id="mobileCover">I'M STILL WORKING THE MOBILE VERSION
-        <br />🤘</div>
+    <div id="mobileCover">
+    <div class="intro">
+        <div class="intro_title">Colton Woytas</div>
+        <div class="intro_text">Figuring out where the buttons need to go and how they should look</div>
+        <a href="mobile/ColtonWoytas_Resume.pdf" target="_blank">
+            <button class="btn intro-btn--block card__btn">ColtonWoytas_Resume.pdf</button>
+        </a>
+    </div>
+    <ul class="cards">
+
+        <li class="cards__item">
+            <div class="card">
+                <div class="card__title">🔥 H0USE 🔥</div>
+                <p class="card__text">Naturally adjusting home comfort relative to how you feel</p>
+                <a href="https://vimeo.com/195726115?" target="_blank">
+                    <div class="card__image-house"></div>
+                </a>
+                <div class="card__content">
+                    <a href="mobile/h0use-deck.compressed.pdf" target="_blank">
+                        <button class="btn btn--block card__btn">h0use-deck.pdf</button>
+                    </a>
+                </div>
+
+            </div>
+        </li>
+
+        <li class="cards__item">
+            <div class="card">
+                <div class="card__title">🎵 NETRONOME 🎵</div>
+                <p class="card__text-netronome">Making beats based on the frequency of internet events</p>
+                <a href="https://vimeo.com/202810535?" target="_blank">
+                    <div class="card__image-netronome"></div>
+                </a>
+                <div class="card__content">
+
+                    <a href="mobile/netronome-deck.compressed.pdf" target="_blank">
+                        <button class="btn btn--block card__btn">netronome-deck.pdf</button>
+                    </a>
+                </div>
+            </div>
+        </li>
+
+        <li class="cards__item">
+            <div class="card">
+                <div class="card__title">⌚️ AMBIO ⌚️</div>
+                <p class="card__text-ambio">Using wearables for digital ambient communication</p>
+
+                <a href="https://vimeo.com/202822226?" target="_blank">
+                    <div class="card__image-ambio"></div>
+                </a>
+                <div class="card__content">
+                    <a href="mobile/ambio-process.compressed.pdf" target="_blank">
+                        <button class="btn btn--block card__btn">ambio-process.pdf</button>
+                    </a>
+                </div>
+            </div>
+        </li>
+    </ul>
+        </div>
+    
 
     <!-- *********** HOVER IMAGES ********** -->
     <!-- HOUSE -->

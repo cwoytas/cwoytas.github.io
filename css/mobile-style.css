@@ -1,0 +1,209 @@
+#mobileCover {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    
+    overflow-x: hidden;
+    font-weight: 400;
+    padding-bottom: 40px;
+    margin: 0;
+    background:
+  url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC);
+    background-color: white;
+    
+    visibility: hidden;
+    z-index: 300;
+}
+#mobileCover a {
+    text-decoration: none;
+}
+.intro {
+    position: static;
+    top: 0px;
+    left: 0px;
+    overflow-x: hidden;
+    height: 310px;
+    background-color: white;
+}
+
+.intro_title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 38px;
+    font-weight: 600;
+    color: #0000ee;
+}
+
+.intro_text {
+    flex: 1 1 auto;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 15px;
+    width: 95%;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-btn--block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    padding-top: 8px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.cards__item {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+    width: 409px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 510px) {
+.cards {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .cards__item {
+        padding: 9px;
+    }
+}
+
+.card {
+    left: 0px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card__content {
+    margin-top: -55px;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card__image-house {
+    margin-top: -30px;
+    background-image: url(../mobile/house-frame-w1958.png);
+    background-size: 390px auto;
+    height: 331px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.card__image-netronome {
+    margin-top: -30px;
+    background-image: url(../mobile/netronome-frame-w1810.png);
+    background-size: 390px auto;
+    height: 331px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.card__image-ambio {
+    margin-top: -30px;
+    background-image: url(../mobile/capstone-frame-w1870.png);
+    background-size: 390px auto;
+    height: 331px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.card__title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 35px;
+}
+
+.card__text {
+    flex: 1 1 auto;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+.card__text-netronome {
+    flex: 1 1 auto;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding-left: 54px;
+    padding-right: 54px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+.card__text-ambio {
+    flex: 1 1 auto;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding-left: 58px;
+    padding-right: 58px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+.btn {
+    background-color: #0000ee;
+    border: 1px solid #0000ee;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 12px;
+    text-transform: lowercase;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    line-height: 28px;
+}
+
+.btn--block {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 345px;
+}

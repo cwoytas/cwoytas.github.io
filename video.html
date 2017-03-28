@@ -7,6 +7,7 @@
     <title>VIDEO INTERFACE</title>
     <meta name="description" content="Colton Woytas Design Portfolio">
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="css/mobile-style.css">
     <!-- ROBOTO MONO -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,400i,500,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -77,33 +78,14 @@
     text-decoration: none;
 }
 
-#mobileCover {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    text-align: center;
-    visibility: hidden;
-    padding-left, padding-right: 10vw;
-    
-    padding-top: 42vh;
-    padding-bottom: 35vh;
-    color: white;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 56px;
-    z-index: 300;
-}
-
-@media screen and (max-width: 960px), screen and (max-height: 610px) {
+    @media screen and (max-width: 960px),
+screen and (max-height: 610px) {
     #mobileCover {
         visibility: visible;
     }
     html {
-    overflow-x: hidden;
-    overflow-y: hidden;
+        overflow-x: hidden;
+        overflow-y: visible;
     }
 }
         
@@ -173,8 +155,65 @@ $(function() {
     
     <body>
             <!-- COVER FOR MOBILE/TABLET SIZES -->
-    <div id="mobileCover">I'M STILL WORKING THE MOBILE VERSION
-        <br /><span class="replace">🤘</span></div>
+    <div id="mobileCover">
+    <div class="intro">
+        <div class="intro_title">Colton Woytas</div>
+        <div class="intro_text">Figuring out where the buttons need to go and how they should look</div>
+        <a href="mobile/ColtonWoytas_Resume.pdf" target="_blank">
+            <button class="btn intro-btn--block card__btn">ColtonWoytas_Resume.pdf</button>
+        </a>
+    </div>
+    <ul class="cards">
+
+        <li class="cards__item">
+            <div class="card">
+                <div class="card__title">🔥 H0USE 🔥</div>
+                <p class="card__text">Naturally adjusting home comfort relative to how you feel</p>
+                <a href="https://vimeo.com/195726115?" target="_blank">
+                    <div class="card__image-house"></div>
+                </a>
+                <div class="card__content">
+                    <a href="mobile/h0use-deck.compressed.pdf" target="_blank">
+                        <button class="btn btn--block card__btn">h0use-deck.pdf</button>
+                    </a>
+                </div>
+
+            </div>
+        </li>
+
+        <li class="cards__item">
+            <div class="card">
+                <div class="card__title">🎵 NETRONOME 🎵</div>
+                <p class="card__text-netronome">Making beats based on the frequency of internet events</p>
+                <a href="https://vimeo.com/202810535?" target="_blank">
+                    <div class="card__image-netronome"></div>
+                </a>
+                <div class="card__content">
+
+                    <a href="mobile/netronome-deck.compressed.pdf" target="_blank">
+                        <button class="btn btn--block card__btn">netronome-deck.pdf</button>
+                    </a>
+                </div>
+            </div>
+        </li>
+
+        <li class="cards__item">
+            <div class="card">
+                <div class="card__title">⌚️ AMBIO ⌚️</div>
+                <p class="card__text-ambio">Using wearables for digital ambient communication</p>
+
+                <a href="https://vimeo.com/202822226?" target="_blank">
+                    <div class="card__image-ambio"></div>
+                </a>
+                <div class="card__content">
+                    <a href="mobile/ambio-process.compressed.pdf" target="_blank">
+                        <button class="btn btn--block card__btn">ambio-process.pdf</button>
+                    </a>
+                </div>
+            </div>
+        </li>
+    </ul>
+        </div>
          <!-- BACK BUTTON -->
     <a href="index.html" class="back">back</a>
         
