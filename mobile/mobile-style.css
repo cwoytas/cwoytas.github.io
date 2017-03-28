@@ -85,7 +85,7 @@ body a {
 .card {
     left: 0px;
     background-color: white;
-    border-radius: 0.25rem;
+
     display: flex;
     flex-direction: column;
     overflow: hidden;
