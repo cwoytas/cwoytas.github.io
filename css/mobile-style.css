@@ -210,28 +210,5 @@
 
 @media screen and (max-width: 960px),
 screen and (max-height: 610px) {
-    #Style1,
-    #Style2,
-    #Style3,
-    #Style4,
-    #Style5,
-    #Style6,
-    #Style7,
-    #Style8,
-    #Style9,
-    #Style10,
-    #Style11,
-    #Style1_li,
-    #Style2_li,
-    #Style3_li,
-    #Style4_li,
-    #Style5_li,
-    #Style6_li,
-    #Style7_li,
-    #Style8_li,
-    #Style9_li,
-    #Style10_li,
-    #Style11_li {
-        display: none;
-    }
+
 }
