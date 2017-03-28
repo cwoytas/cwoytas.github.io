@@ -18,6 +18,10 @@
     text-decoration: none;
 }
 
+.default-row-spacer{
+    margin-bottom:10px;
+}
+
 .intro {
     position: static;
     top: 0px;
