@@ -1,8 +1,3 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 
 html {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC);
@@ -10,9 +5,9 @@ html {
 
 body {
     overflow-x: hidden;
-    font-style: normal;
     font-weight: 400;
     padding-bottom: 40px;
+    margin: 0;
 }
 
 body a {
@@ -22,10 +17,9 @@ body a {
 .intro {
     position: static;
     margin-top: -10px;
-    margin-left: -10px;
+    margin-left: 0px;
     overflow-x: hidden;
-    width: 101vw;
-    height: 330px;
+    height: 310px;
     background-color: white;
 }
 
@@ -78,7 +72,7 @@ body a {
 
 @media screen and (max-width: 410px) {
     .cards__item {
-        padding: 4px;
+        padding: 9px;
     }
 }
 
@@ -191,7 +185,7 @@ body a {
     text-transform: lowercase;
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: 1px;
+    margin-bottom: 3px;
     line-height: 28px;
 }
 
